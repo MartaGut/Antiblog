@@ -1,0 +1,132 @@
+
+body {font-family: Verdana, sans-serif; margin:0}
+
+.flex-container{
+  display: flex;
+  flex-direction: row;
+  flex-wrap:wrap;
+  justify-content: space-between; 
+  padding: 10px;
+}
+
+.left{
+  flex: 60%;
+  background-color:  rgba(0, 0, 0, 0.7);
+}
+
+.right{
+  flex: 40%;
+   background-color: #f6dba4;
+}
+
+.slideshowContainer{
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+}
+
+.slideshowPic{
+    display: none;
+}
+.oneImage{
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+.previous, .next{
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  color: grey;
+  font-size: 35px;
+  transition: 0.5s ease;
+  z-index: 1;
+  margin: 10px;
+  border-radius: 10%;
+}
+
+.next{
+  right:0;
+}
+
+.previous:hover, .next:hover{
+  background-color: rgba(0, 0, 0, 0.4);
+  font-size: 40px;
+}
+
+.captionText{
+  text-align: center;
+  font-size: 18px;
+  position: absolute;
+  color: #f6dba4;
+  top:90%;
+  width: 100%;
+  z-index: 1;
+  background-color:  rgba(0, 0, 0, 0.7);
+}
+
+.picNumber{
+  position: absolute;
+  font-size: 20px;
+  top: 0;
+}
+
+.dot{
+  cursor: pointer;
+  width:20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color:black;
+  opacity: 0.4;
+  display: inline-block;
+  transition: background-color 0.5s ease;
+}
+.dot:hover, .active {
+  opacity:1;
+}
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+@-webkit-keyframes fade{
+  from {opacity: 0.4}
+  to {opacity: 1}
+}
+
+@keyframes fade{
+  from {opacity: 0.4}
+  to {opacity: 1}
+}
+
+@media only screen and (max-width: 300px) {
+  .prev, .next, .text {
+    font-size: 11px;
+  }
+}
+.oneRow{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around; 
+}
+.columnPic{
+  flex: 33%;
+  padding: 20px;
+}
+
+.cursor{
+  cursor: pointer;
+}
+.sidePic{
+  opacity: 0.4;
+}
+.sidePic:hover, .active{
+  opacity: 1;
+  transition: opacity 0.5s ease;
+}

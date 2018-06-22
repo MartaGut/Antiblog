@@ -1,0 +1,116 @@
+---
+---
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="{{site.baseurl}}/assets/css/main.css">
+<style src="js/post.js"></style>
+</head>
+<body>
+
+{{ content }}
+
+<div class="flex-container">
+  <div class="left">
+  <!-- Slideshow -->
+    <div class="slideshowContainer">
+      <div class="slideshowPic fade">
+        <div class="picNumber">1 / 4</div>
+        <img src="{{ site.baseurl }}/img/Jinan.jpg" class="oneImage" alt="Jinan" style="max-width:300px;height:400px;">
+        <div class="captionText">Me in Jinan</div>
+      </div>
+
+      <div class="slideshowPic fade">
+        <div class="picNumber">1 / 4</div>
+        <img src="{{ site.baseurl }}/img/beijing.jpg" class="oneImage" alt="Jinan" style="max-width:300px;height:400px;">
+        <div class="captionText">Me in Beijing</div>
+      </div>
+
+      <div class="slideshowPic fade">
+        <div class="picNumber">1 / 4</div>
+        <img src="{{ site.baseurl }}/img/shanghai.jpg" class="oneImage" alt="Jinan" style="max-width:300px;height:400px;">
+        <div class="captionText">Me in Jinan</div>
+      </div>
+      <a class="previous" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+
+  
+
+    <div class="dots" style="text-align:center">
+      <span class="dot" onclick="currentSlide(1)"></span>
+      <span class="dot" onclick="currentSlide(2)"></span>
+      <span class="dot" onclick="currentSlide(3)"></span>
+    </div>
+  </div>
+
+  <div class="right">
+    <div class="oneRow">
+      <div class="columnPic cursor">
+        <img class="sidePic" onclick="currentSlide(1)" src="{{ site.baseurl }}/img/Jinan.jpg" style="height:200px" alt="Jinin">
+      </div>
+      <div class="columnPic cursor">
+        <img class="sidePic" onclick="currentSlide(2)" src="{{ site.baseurl }}/img/beijing.jpg" style="height:200px" alt="Jinin">
+      </div>
+      <div class="columnPic cursor">
+        <img class="sidePic" onclick="currentSlide(3)" src="{{ site.baseurl }}/img/shanghai.jpg" style="height:200px" alt="Jinin">
+      </div>
+  </div>
+  </div>
+</div>
+
+<script>
+  // slide index is the position of the picture in the array of pictures
+var slideIndex = 1;
+// show the first image by default when loading the page
+showSlides(slideIndex);
+
+// Next/previous controls
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+// Thumbnail image controls
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("slideshowPic");
+  var dots = document.getElementsByClassName("dot");
+  var sidePicture = document.getElementsByClassName("sidePic");
+  if (n > slides.length) {slideIndex = 1} 
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none"; 
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  for (i = 0; i < sidePicture.length; i++) {
+      sidePicture[i].className = sidePicture[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block"; 
+  dots[slideIndex-1].className += " active";
+  sidePicture[slideIndex-1].className += " active";
+  
+  
+}
+</script>
+
+  
+  <div class="fb-comments" data-href="http://127.0.0.1:4000/?" data-numposts="10"></div>
+
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = 'https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.12';
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+</body>
+</html>
