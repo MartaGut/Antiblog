@@ -70,14 +70,15 @@
  <div class="bigger">
     <div class="blogEntries">
      <!-- Firs Blog entry -->
+
      {% for post in site.posts %}
     <div class="blogEntry">       
         <div class='blogTitle'>
             <a href="{{ post.url }}"><h4 class="tithead">{{ post.name }}</h4></a>
-            <h5 class='titleDesc'>Title description, <span class='light'>{{ post.url | date: "%b %-d, %Y" }}</span> </h5>
+            <h5 class='titleDesc'>{{ title_description }} <span class='light'>{{ post.url | date: "%b %-d, %Y" }}</span> </h5>
         </div>
         <div>
-            <img class="bigPostImage" src="{{ site.baseurl }}/img/{{ post.image }}" alt="beijing">
+            <img class="bigPostImage" src="{{ post.image }}" alt="{{image_name}}">
                 <div>
                     <div class="blogContainer"> 
                      {{ post.excerpt }}
@@ -163,7 +164,7 @@
         {% for post in site.posts %}
             <li><a href="{{ post.url | date: "%b %-d, %Y" }}">{{ post.title }}</a>
             <span>{{ post.date }} </span>
-            <img  width="260" height="260" class="postImg" src="{{ site.baseurl }}/img/{{ post.image }}" alt="beijing"></li>
+            <img  width="260" height="260" class="postImg" src="{{ post.image }}" alt="beijing"></li>
         {% endfor %}
     </ul>
           <li>
@@ -258,5 +259,3 @@
 </div>
 <!-- End of Content div -->
 </div>
-
-

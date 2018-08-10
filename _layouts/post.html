@@ -1,5 +1,4 @@
 ---
-
 ---
 <!DOCTYPE html>
 <html>
@@ -10,23 +9,30 @@
 </head>
 <body>
 
-  
+<div class="postHeading">
+  <h1 class="postTitle">{{ page.blog_title }}</h1>
+</div>  
+
+<div class="postText">
 {{ content }}
+</div>
 
 <div class="flex-container">
   <div class="left">
-  <!-- Slideshow -->
 
+  <!-- Slideshow -->
     <div class="slideshowContainer">
       <ul>
-      {% for image in site.images %}
+      {% for image in site.pages %}
         <div class="slideshowPic fade">
-          <div class="picNumber">{{ image.number }}</div>
-          <img src="{{ image.image_path }}" class="oneImage" alt="Jinan" style="max-width:400px;max-height:500px;">
-          <div class="captionText">Me in Jinan</div>
+          <div class="picNumber">{{ image.image_number }}</div>
+          <img src="{{image.image_path}}" class="oneImage" alt="{{image_name}}" style="max-width:400px;max-height:500px;">
+          <div class="captionText">{{image.text}}</div>
         </div>
       {% endfor %}
       </ul>
+
+      
   
       <a class="previous" onclick="plusSlides(-1)">&#10094;</a>
       <a class="next" onclick="plusSlides(1)">&#10095;</a>
@@ -35,7 +41,7 @@
   
     
     <div class="dots">
-      {% for image in site.images %}
+      {% for image in site.pages %}
       <span class="dot" onclick="currentSlide(1)"></span>
       {% endfor %}
     </div>
@@ -43,7 +49,7 @@
 
   <div class="right">
     <div class="oneRow">
-        {% for image in site.images %}
+        {% for image in site.pages %}
         <div class="columnPic cursor">
           <img class="sidePic" onclick="currentSlide(1)" src="{{ image.image_path }}" style="height:200px" alt="Jinin">
          </div>
@@ -52,6 +58,7 @@
   </div>
   </div>
 </div>
+
 
 <script>
   // slide index is the position of the picture in the array of pictures
