@@ -1,10 +1,23 @@
 
 body {font-family: Verdana, sans-serif; margin:0}
 
+hr { 
+  display: block;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  margin-left: 10px;
+  margin-right: 10px;
+  border-style: inset;
+  border-width: 2px;
+  color: #565e6c;
+  
+}
+
 .postHeading{
-    background: #565e6c; 
-    padding: 10px;
+    background: white; 
     text-align: center;
+    color: #565e6c;
+    font-size: 25px;
 }
 .postText{
   padding: 20px;
@@ -21,12 +34,10 @@ body {font-family: Verdana, sans-serif; margin:0}
 
 .left{
   flex: 60%;
-  background-color:  rgba(0, 0, 0, 0.7);
 }
 
 .right{
-  flex: 40%;
-   background-color: #f6dba4;
+   flex: 40%;
    overflow-y: auto;
    max-height: 600px;
 }
@@ -73,15 +84,20 @@ body {font-family: Verdana, sans-serif; margin:0}
   font-size: 40px;
 }
 
+.captionDiv{
+  background-color:rgba(86,94,108,0.5);
+  top:70%;
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+}
 .captionText{
   text-align: center;
   font-size: 18px;
-  position: absolute;
   color: #f6dba4;
   top:80%;
-  width: 90%;
-  z-index: 1;
-  background-color:  rgba(0, 0, 0, 0.7);
+  
 }
 
 .picNumber{
@@ -93,6 +109,7 @@ body {font-family: Verdana, sans-serif; margin:0}
 .dots{
   text-align: center;
   top: 95%;
+
 }
 
 .dot{

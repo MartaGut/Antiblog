@@ -10,12 +10,25 @@
 <body>
 
 <div class="postHeading">
+    <div>
+        <!-- Nav bar with social medias -->
+        <div class="navBar"> 
+            <a href="#" class="socMed" >{% include icons/facebook.html %}</a>
+            <a href="#" class="socMed" >{% include icons/insta.html %}</a>
+            <a href="#" class="socMed" >{% include icons/twitter.html %}</a>
+            <a href="#" class="socMed" >{% include icons/linkedin.html %}</a>       
+        </div>
+      </div>
+        <!-- end of Nav bar with social medias -->
+    
   <h1 class="postTitle">{{ page.blog_title }}</h1>
 </div>  
 
 <div class="postText">
 {{ content }}
 </div>
+
+<hr>
 
 <div class="flex-container">
   <div class="left">
@@ -27,7 +40,7 @@
         <div class="slideshowPic fade">
           <div class="picNumber">{{ image.image_number }}</div>
           <img src="{{image.image_path}}" class="oneImage" alt="{{image_name}}" style="max-width:400px;max-height:500px;">
-          <div class="captionText">{{image.text}}</div>
+          <div class="captionDiv"><p class="captionText">{{image.text}}</p></div>
         </div>
       {% endfor %}
       </ul>
@@ -41,7 +54,7 @@
   
     
     <div class="dots">
-      {% for image in site.pages %}
+      {% for image in site.pages limit:5 %}
       <span class="dot" onclick="currentSlide(1)"></span>
       {% endfor %}
     </div>
@@ -58,7 +71,7 @@
   </div>
   </div>
 </div>
-
+<hr>
 
 <script>
   // slide index is the position of the picture in the array of pictures
