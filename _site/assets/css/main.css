@@ -166,6 +166,13 @@
   padding: 5px;
   margin: 5px; }
 
+.socMedTwo {
+  padding: 19px;
+  display: inline-block; }
+
+.socMedTwo:hover {
+  background-color: #f6dba4; }
+
 .followMeButt {
   color: #f6dba4;
   padding: 10px; }
@@ -220,6 +227,11 @@ hr {
   padding: 20px;
   text-align: justify; }
 
+.bigPostImage {
+  margin: 0px;
+  width: 100%;
+  height: auto; }
+
 .flex-container {
   display: flex;
   flex-direction: row;
@@ -227,7 +239,9 @@ hr {
   justify-content: space-between; }
 
 .left {
-  flex: 60%; }
+  flex: 59%;
+  border-right: 2px solid #565e6c;
+  background-image: url(/img/OrangePolka.png); }
 
 .right {
   flex: 40%;
@@ -257,7 +271,7 @@ hr {
   position: absolute;
   top: 40%;
   width: auto;
-  color: grey;
+  color: #565e6c;
   font-size: 35px;
   transition: 0.5s ease;
   z-index: 1;
@@ -299,7 +313,7 @@ hr {
   width: 20px;
   height: 20px;
   border-radius: 50%;
-  background-color: black;
+  background-color: #565e6c;
   opacity: 0.4;
   display: inline-block;
   transition: background-color 0.5s ease; }

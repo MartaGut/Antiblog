@@ -3,7 +3,7 @@ layout: post
 name: Teaching In China
 blog_title: Inside the Classroom
 title_description: Inside the Classroom
-image: img/beijing.jpg
+image: /img/class.jpg
 ---
 
 >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;In this article I will only cover the part from the moment I was getting into the classroom till the moment I was leaving it. The problems with the school management and what was happening outside the classroom is simply too complex and that nightmare will have to be described separately in some of my later posts. 

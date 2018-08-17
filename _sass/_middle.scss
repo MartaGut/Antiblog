@@ -5,20 +5,14 @@
     height: 100%;
     width: 100%;
     margin: 0px;
-  
 }
 .bigger {
     flex: 1 1 56%;
-    height: auto;
-   
-    
-    
+    height: auto; 
 }
 .smaller {
     flex: 1 1 32%;
     height: auto;
- 
-    
 }
 .blogEntry {
    text-align: center;
@@ -103,6 +97,13 @@
    background-color: rgba(246, 219, 164,0.2);
    padding: 5px;
    margin: 5px;
+}
+.socMedTwo {
+    padding: 19px;
+   display: inline-block;    
+}
+.socMedTwo:hover {
+    background-color:rgb(246, 219, 164); 
 }
 .followMeButt {
    color: rgb(246, 219, 164);
