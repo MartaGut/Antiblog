@@ -40,7 +40,7 @@ hr {
 .left{
   flex: 59%;
   border-right: 2px solid #565e6c;
-  background-image: url(/img/OrangePolka.png)
+  background-image: url(/img/OrangePolka.png);
 }
 
 .right{
@@ -67,6 +67,13 @@ hr {
   display: block;
   margin:  auto;
   padding: 10px;
+  border: 1px solid #565e6c;
+  border-radius: 4px;
+  background-color: white;
+  box-shadow: 0 0 3px 1px  #565e6c;
+}
+.oneImage:hover{
+  box-shadow: 0 0 8px 3px  #f6dba4;
 }
 
 .previous, .next{
