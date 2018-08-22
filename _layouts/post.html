@@ -39,7 +39,7 @@
   <!-- Slideshow -->
     <div class="slideshowContainer">
       <ul>
-      {% for image in site.pages %}
+      {% for image in page.images %}
         <div class="slideshowPic fade">
           <div class="picNumber">{{ image.image_number }}</div>
           <img src="{{image.image_path}}" class="oneImage" alt="{{image_name}}" style="max-width:400px;max-height:500px;">
@@ -57,7 +57,7 @@
   
     
     <div class="dots">
-      {% for image in site.pages limit:5 %}
+      {% for image in page.images limit:5 %}
       <span class="dot" onclick="currentSlide(1)"></span>
       {% endfor %}
     </div>
@@ -65,7 +65,7 @@
 
   <div class="right">
     <div class="oneRow">
-        {% for image in site.pages %}
+        {% for image in page.images %}
         <div class="columnPic cursor">
           <img class="sidePic" onclick="currentSlide(1)" src="{{ image.image_path }}" style="height:200px" alt="Jinin">
          </div>
