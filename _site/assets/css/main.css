@@ -92,6 +92,13 @@
   margin-top: 20px;
   margin-bottom: 20px; }
 
+.blogLink {
+  text-decoration: none;
+  color: black; }
+
+.blogLink:hover {
+  color: #565e6c; }
+
 .blogTitle {
   padding-bottom: 20px;
   font-family: 'Oswald', sans-serif; }
@@ -113,30 +120,22 @@
   padding-bottom: 30px; }
 
 .blogContainer {
-  text-align: justify; }
+  text-align: justify;
+  padding-bottom: 20px; }
 
-.buttDiv {
-  display: block;
-  padding: 20px; }
+.readMore {
+  background-color: #f6dba4;
+  border: none;
+  border-radius: 15px;
+  font-family: 'Oswald', sans-serif;
+  padding: 10px;
+  text-decoration: none;
+  color: black; }
 
-.thumbButt {
-  display: block; }
-
-.comments {
-  float: right; }
-
-.pplComments {
-  display: block;
-  overflow: hidden; }
-
-.commPic {
-  max-width: 100px;
-  max-height: 120px;
-  float: left; }
-
-.avatarComm {
-  float: left;
-  padding: 10px; }
+.readMore:hover {
+  -webkit-box-shadow: 18px 10px 43px -8px rgba(0, 0, 0, 0.64);
+  -moz-box-shadow: 18px 10px 43px -8px rgba(0, 0, 0, 0.64);
+  box-shadow: 18px 10px 43px -8px rgba(0, 0, 0, 0.64); }
 
 .postDate {
   opacity: 0.5;
@@ -160,6 +159,32 @@
 
 .list {
   list-style: none; }
+
+.postImg {
+  width: 100%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto; }
+
+a {
+  text-decoration: none; }
+
+.smallBlog {
+  margin: 20px;
+  justify-content: center;
+  transition: 0.2s; }
+
+.smallBlog:hover {
+  border: 1px solid #565e6c;
+  background: rgba(246, 219, 164, 0.2);
+  box-shadow: 0 0 8px 3px  #565e6c; }
+
+.smallBlogText {
+  text-decoration: none;
+  color: black;
+  margin: 20px;
+  text-align: center;
+  font-weight: bold; }
 
 .tagBox > span {
   background-color: rgba(246, 219, 164, 0.2);
@@ -206,6 +231,13 @@ label {
 body {
   font-family: Verdana, sans-serif;
   margin: 0; }
+
+.grey {
+  background: #565e6c;
+  padding: 10px;
+  display: block;
+  text-align: center;
+  margin-top: 10px; }
 
 hr {
   display: block;

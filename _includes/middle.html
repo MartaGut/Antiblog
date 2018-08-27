@@ -39,7 +39,10 @@
             { "id": "NL" },
             { "id": "PL" },
             { "id": "RO" },
-            { "id": "RU" },
+            { "id": "RU",
+            "url": "/category/china.html",
+    "urlTarget": "_blank"
+        },
             { "id": "RS" },
             { "id": "FR" },
             { "id": "RS" },
@@ -74,7 +77,7 @@
      {% for post in site.posts %}
     <div class="blogEntry">       
         <div class='blogTitle'>
-            <a href="{{ post.url }}"><h4 class="tithead">{{ post.name }}</h4></a>
+            <a href="{{ post.url }}" class="blogLink"><h4 class="tithead">{{ post.name }}</h4></a>
             <h5 class='titleDesc'>{{ title_description }} <span class='light'>{{ post.url | date: "%b %-d, %Y" }}</span> </h5>
         </div>
         <div>
@@ -84,37 +87,12 @@
                      {{ post.excerpt }}
                     </div>
                     <a href="{{post.url}}"  class="readMore">Read more...</a>
-                </div>     
+                </div>    
          </div>
     </div>
+    <hr>
     {% endfor %}
-
-    <!-- Second Blog entry -->
-     <div class="blogEntry">
-     <div class='blogTitle'>
-         <h4 class="tithead">China</h4>
-         <h5 class='titleDesc'>Title description, <span class='light'>April 14th</span> </h5>
-     </div>
-     <div>
-         <img src="img/ChinaBlog.jpg" alt="WorkinginChina" class="bigPostImage" />
-         <div class="blogContainer"> 
-         <p> I am crazy about hats these days. Some text about
-             this blog entry. Fashion fashion and mauris neque 
-             quam, fermentum ut nisl vitae, convallis maximus nisl. 
-             Sed mattis nunc id lorem euismod placerat. Vivamus porttitor
-            magna enim, ac accumsan tortor cursus at. Phasellus sed ultricies mi non 
-            congue ullam corper. Praesent tincidunt sedtellus ut rutrum. Sed vitae 
-            justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
-         <p>I am crazy about hats these days. Some text about
-             this blog entry. Fashion fashion and mauris neque 
-             quam, fermentum ut nisl vitae, convallis maximus nisl. 
-             Sed mattis nunc id lorem euismod placerat. Vivamus porttitor
-            magna enim, ac accumsan tortor cursus at. Phasellus sed ultricies mi non 
-            congue ullam corper. Praesent tincidunt sedtellus ut rutrum. Sed vitae 
-            justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
-         </div>
-     </div>
-    </div>
+     
  </div>
  <!-- End of Blog entries -->
 </div>
@@ -126,7 +104,7 @@
  <div class="aboutMe">
      <div>
          <h2 class="grey">About Me</h2>
-         <img src="img/aboutMe.jpg" width="300" height="300" alt="aboutMe" class="aboutMePic"/>
+         <img src="img/aboutMe.jpg"  alt="aboutMe" class="aboutMePic"/>
          <div class="whiteBox">
          <p>I own TO DO lists that are more than a couple of months old,
             not because I am lazy but because I can see so far into the future. I write down everything and take 
@@ -146,39 +124,25 @@
         <h4 class="grey">Search on the map</h4>
     </div>
     <div class="whiteBox">
-        <div id="mapdiv" style="width: 300px; height: 200px;"></div>
+        <div id="mapdiv" style="width: 400px; height: 300px;"></div>
     </div>
   </div>
 <!-- End of Map -->  
 
 <!--Popular --> 
-
-
-
 <div class="popular">
   <div>
       <h4 class="grey">Popular Posts</h4>
   </div>
-  <div class="whiteBox">
-    <ul>
-        {% for post in site.posts %}
-            <li><a href="{{ post.url | date: "%b %-d, %Y" }}">{{ post.title }}</a>
-            <span>{{ post.date }} </span>
-            <img  width="260" height="260" class="postImg" src="{{ post.image }}" alt="beijing"></li>
-        {% endfor %}
-    </ul>
-          <li>
-              <img src="img/Jinan.jpg" width="200" height="260" alt="Jinan"/>
-      <h5>Ji'nan</h5>
-      <h6>Tiannamen square and bla bla bla</h6>
-          </li>
-          <li>
-              <img src="img/beijing.jpg" width="200" height="200" alt="beijing"/>
-      <h5>Beijing</h5>
-      <h6>Tiannamen square and bla bla bla</h6>
-          </li>
-      </ul>
-  </div>
+    {% for post in site.posts %}
+    <div class="whiteBox smallBlog">
+        <a  href="{{ post.url }}">
+            <img  class="postImg" src="{{ post.image }}" alt="beijing">
+            <div class="smallBlogText">{{ post.blog_title }}
+            <span class="postDate">{{ post.url | date: "%b %-d, %Y" }} </span></div>
+        </a>
+    </div>
+    {% endfor %}
 </div>
 <!-- Advertisement -->
 <div class="advertisement">

@@ -4,6 +4,7 @@ name: Teaching In China
 blog_title: Inside the Classroom
 title_description: Inside the Classroom
 image: /img/class.jpg
+category: [china, work]
 
 images:
     - image_path: /img/TeachingChina/AnotherDiceGame.jpg
