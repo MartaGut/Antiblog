@@ -1,0 +1,24 @@
+.category-box{
+    flex: 1 1 33%;
+    display: table-cell;
+}
+.table{
+    display: table;
+    width: 100%;
+}
+.categ-img{
+    margin: auto;
+    width: 100%;
+}
+@media (max-width: 700px) {
+    .category-box {   
+        flex: 1 1 100%;
+        display: inline-block;
+        margin: 20px;
+    }
+}
+@media (max-width: 1200px) {
+    .category-box {   
+        vertical-align: middle;
+    }
+}

@@ -4,6 +4,7 @@ name: Desert Night
 blog_title: A Night in a Desert
 title_description: Desert Night
 image: /img/Sunrise.jpg
+category: china
 
 images:
     - image_path: /img/DesertNight/Bonfire.jpg
@@ -63,11 +64,11 @@ images:
       image_number: 14
     - image_path: /img/DesertNight/Music.jpg
       image_name: Playing Music
-      text: Berbers playing music
+      text: Berbers playing music with no skillz at all
       image_number: 15
     - image_path: /img/DesertNight/Music2.jpg
       image_name: Playing Music
-      text: Berbers playing music
+      text: Berbers playing music with no skillz at all
       image_number: 16
     - image_path: /img/DesertNight/Riding.jpg
       image_name: Riding Camels
@@ -92,18 +93,18 @@ images:
     
 ---
 
->&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;What an extraordinary experience. For someone from Europe who never spent a night more than a few kilometres from an inhabited area this was quite exotic. 
+>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;What an extraordinary experience. I was definitely less depressed than usual.  For someone from Europe who never spent a night more than a few kilometres from an inhabited area this was almost exotic. Too bad there were other people as well. 
 
->&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;After a whole day sitting in a van and driving to the depths of a dessert we finally  arrived.  People from Bereber tribe were waiting for us together with two dozens of cammels. Ride on a camel’s back in order to get to our accomodation was a part of the arrangement but I choose not to since I am deeply against animals being exploited this way. They didn’t seem to mind at all and we slowly walked toward the tents. During the one hour walk I tried to show interest in their lifestyle even though being tired, which for asocial person means staying quiet in her mind. I asked about the cammels and wheather they all have their names. “Of course”, said our guide, “this one is Bus Bus, and the other one is Hattush.” 
+>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;After a whole day sitting in a van and driving to the depths of a dessert together with a bunch of people from all over the world, that were annoyingly cheerful the whole time (how are they doing it?), we finally  arrived.  People from Berber tribe were waiting for us together with two dozens of cammels. How majestic, how wonderfully intersting these creatures are. Ride on a camel’s back in order to get to our accomodation was a part of the arrangement but I chose not to since I am deeply against animals being exploited this way. It would be a pleasant walk but of course all these people from our group have ruind it with their questions like 'Heeeeey, why arent you riding the camel? Heeeey since you are here, do you mind taking a picture of us?'. Only Berbers didn’t seem to mind at all and we slowly walked toward the tents. During the one hour walk I tried to show interest in their lifestyle even though being tired, which for asocial person means staying quiet in her mind. I asked about the cammels and wheather they all have their names. “Of course”, said our guide, “this one is Bus Bus, and the other one is Hattush.” 
 
->&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I looked up in the sky, the night was young and I’ve never seen a sky like that. From the place where we live, we can’t see even ten percent of the stars I was able to see that night. It was like those heavily processed long exposure photoshop pictures you can find on travelling blogs. 
+>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I looked up in the sky, the night was young and I’ve never seen a sky like that. From the place where we live, we can’t see even ten percent of the stars I was able to see that night. It was like those heavily processed long exposure photoshop pictures you can find on travelling blogs. Damn people, we are walking on the plank of our destruction with all the light pollution we are causing.
 
->&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I was worried about how much they can understand my eastern-Europian-accented-English and how much English they can speak at all. I was shocked to hear that they are fluent not only in English, but some of them speak Spanish, Arabic, French and of course Berber altogether. One could hear that they were not very literate in all of them since they sounded a bit street thaught, but they were fluent and that is all it matters.
+>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I was worried about how much our hosts can understand my eastern-Europian-accented-English and how much English they can speak at all. I was shocked to hear that they are fluent not only in English, but some of them speak Spanish, Arabic, French and of course Berber altogether. One could hear that they were not very literate in all of them since they sounded a bit street thaught, but they were fluent and that is all it matters. Because of this it was imediately clear to me that they were not Berbers from the tribe (who's gonna teach you all these languages, a goat?) but a bunch of posers working for some agency. We are a bunch of white people, how could we tell the difference? Luckily or unfortunatelly I spent too much time in China, I know what posing is when I see it. 
 
 >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;We arrived at the camp. There was a circle of around ten tents and one big one made for dining purposes. Each tent had four beds with layers and layers of thick blankets which warmed us in the cold January's night. 
 
->&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Of course first thing as everywhere we’ve been to was to drink Berber's tea (green tea with mint and sugar). There were guests from all over the world, dozen of us sitting around the table. Barbers were good icebreakers, they made us all introduce ourselve and kept the conversation flowing. They were extremely witty and positive. They were constantly switching between French, Arabic, English and Spanish. Then they served us dinner. It was a thick chickpea soup made with vegetables and afterwards they served chicken with a lot of vegetable and kuskus, of course in a tagine. They prepared it all themselves. 
+>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Of course first thing as everywhere we’ve been to was to drink Berber's tea (green tea with mint and sugar). There were guests from all over the world, dozen of us sitting around the table. Barbers were good icebreakers, they made us all introduce ourselve and kept the conversation flowing. They were extremely witty and positive. They were constantly switching between French, Arabic, English and Spanish. Then they served us dinner. It was a thick chickpea soup made with vegetables and afterwards they served chicken with a lot of vegetable and kuskus, of course in a tagine. They prepared it all themselves. Too be honest, it was one of the best dishes I've eaten in Morocco where the food is shockingly disappointing.  
 
->&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;After dinner we went outside to make a bonfire. They sang and played instruments. I’m not an expert but they did not show much skills, nevertheless “it was from the bottom of their harts” and it’s all that matters. Soon we went to sleep. 
+>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;After dinner we went outside to make a bonfire. They sang and played instruments. I’m not an expert but they did not show much skills, as I said before, they were posing for our expensive cameras, nevertheless “it was from the bottom of their hearts” and it’s all that matters. Soon we went to sleep. 
 
 >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;They woke us up at six, there was of course no running water so we just wiped our faces with wet wipes and went for a breakfast. We needed the fuel for our return. It was refreshingly cold and every time we stopped for a break the Berbers would put a small dry bush on fire and heat their hands up. Our van was waiting for us. It was time to go back to civilisation. 

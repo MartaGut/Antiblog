@@ -1,8 +1,90 @@
+
 <!-- Footer -->
+<div>
 <footer> 
-    <a href="http://localhost:8383/MyBlog/index.html"><i class="fa fa-chevron-up"></i>To the top</a>
+    <div class="plane" onclick="toTop" id="toTop">  
+    <a href="#">{% include icons/plane.html %}</a>
+    </div>
+    <div class="greyFoot">
+        <div class="motivation">
+            <p onclick="currentWise(1)" class="wisdom">I have panicked unnecessarily in all four corners of the globe. – Jon Ronson</p>
+            <p onclick="currentWise(2)" class="wisdom">He didn’t really like travel, of course. He liked the idea of travel, <br> and the memory of travel, but not travel itself. – Julian Barnes</p>
+            <p></p>
+            <p></p>
+            <p></p>
+            <p></p>
+            <p></p>
+            <p></p>
+            <p></p>
+            <p></p>
+            <p></p>
+        </div>
+        <a class="previousWise" onclick="plusWises(-1)">&#10094;</a>
+        <a class="nextWise" onclick="plusWises(1)">&#10095;</a>
+    </div>
 </footer>
 <!-- End of Footer -->
 </div>
 <!-- End of Content div -->
 
+<script>
+
+
+    
+  $(document).ready(function(){ 
+    $(window).scroll(function(){ 
+        if ($(this).scrollTop() > 100) { 
+            $('.plane').fadeIn(); 
+        } else { 
+            $('.plane').fadeOut(); 
+        } 
+    }); 
+    $('.plane').click(function(){ 
+        $('html, body').animate({ scrollTop: 0 }, 800); 
+        return false; 
+    }); 
+});
+
+// slide index is the position of the picture in the array of pictures
+var slideIndex = 1;
+// show the first image by default when loading the page
+showWises(slideIndex);
+
+// Next/previous controls
+function plusWises(n) {
+  showWises(slideIndex += n);
+}
+
+// Thumbnail image controls
+function currentWise(n) {
+  showWises(slideIndex = n);
+}
+
+function showWises(n) {
+  var i;
+  var wises = document.getElementsByClassName("wisdom");
+  if (n > wises.length) {slideIndex = 1} 
+  if (n < 1) {slideIndex = wises.length}
+  for (i = 0; i < wises.length; i++) {
+      wises[i].style.display = "none"; 
+  }
+  wises[slideIndex-1].style.display = "block";
+}
+   /*  window.onscroll = function() {scrollFunction()};
+    
+    function scrollFunction() {
+        if (document.body.scrollTop > 20 
+        || document.documentElement.scrollTop > 20) {
+            document.getElementById("toTop").style.display = "block";
+        }
+        else {document.getElementById("toTop").style.display = "none";
+        }
+    };
+
+    function toTop() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+    }
+    */
+
+</script>

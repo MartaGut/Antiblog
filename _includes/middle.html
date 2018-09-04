@@ -67,7 +67,7 @@
 		"smallMap": {}
 	  } );</script>
 
-<div class="flex-container">
+<div class="flex-container clearfix">
 
  <!-- Grid system -->
  <div class="bigger">
@@ -75,25 +75,25 @@
      <!-- Firs Blog entry -->
 
      {% for post in site.posts %}
-    <div class="blogEntry">       
-        <div class='blogTitle'>
-            <a href="{{ post.url }}" class="blogLink"><h4 class="tithead">{{ post.name }}</h4></a>
-            <h5 class='titleDesc'>{{ title_description }} <span class='light'>{{ post.url | date: "%b %-d, %Y" }}</span> </h5>
-        </div>
-        <div>
-            <img class="bigPostImage" src="{{ post.image }}" alt="{{image_name}}">
+        <div class="blogEntry">       
+            <div class='blogTitle'>
+                <a href="{{ post.url }}" class="blogLink"><h4 class="tithead">{{ post.name }}</h4></a>
+                <h5 class='titleDesc'>{{ title_description }} <span class='light'>{{ post.url | date: "%b %-d, %Y" }}</span> </h5>
+            </div>
+            <div>
+                <img class="bigPostImage" src="{{ post.image }}" alt="{{image_name}}">
                 <div>
                     <div class="blogContainer"> 
                      {{ post.excerpt }}
                     </div>
                     <a href="{{post.url}}"  class="readMore">Read more...</a>
                 </div>    
-         </div>
-    </div>
+            </div>
+        </div>
     <hr>
     {% endfor %}
      
- </div>
+    </div>
  <!-- End of Blog entries -->
 </div>
 
@@ -126,7 +126,7 @@
     <div class="whiteBox">
         <div id="mapdiv" style="width: 400px; height: 300px;"></div>
     </div>
-  </div>
+</div>
 <!-- End of Map -->  
 
 <!--Popular --> 
@@ -144,6 +144,7 @@
     </div>
     {% endfor %}
 </div>
+
 <!-- Advertisement -->
 <div class="advertisement">
   <div>
@@ -154,16 +155,20 @@
   </div>
 </div>
 <!-- End of Advertisement -->
+
 <!-- Tags -->
 <div class="tags">
   <div>
       <h4 class="grey">Tags</h4>
   </div>
   <div class="whiteBox tagBox">
-      <span>Food</span><span>Beer</span><span>Asia</span><span>Europe</span>
+        {% for category in site.categories %}
+        <span><a href="{{ site.baseurl }}{{ post.url }}">{{ category  | first }}</a></span>
+        {% endfor %}
   </div>
 </div>
 <!-- End of tags -->
+
 <!--Follow me  -->
 <div class="followMe">
   <div>
@@ -181,7 +186,6 @@
 
           <!-- Begin MailChimp Signup Form -->
  <div id="mailchimp">
-        
         <div id="mc_embed_signup">
         <form action="https://127.us18.list-manage.com/subscribe/post?u=18a1deab68d88323607912764&amp;id=dbaea1689b" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
             <div  id="mc_embed_signup_scroll">
@@ -212,11 +216,9 @@
         </form>
         </div>
         <!--End mc_embed_signup-->
-      </form>
-  </div>
-</div>
-</div>
+
 <!--End of Subscribe  -->
-</div>
 <!-- End of Content div -->
+</div>
+</div>
 </div>
