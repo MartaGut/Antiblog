@@ -8,3 +8,11 @@ DEPENDENCIES
 
 BUNDLED WITH
    1.16.1
+
+source 'https://rubygems.org'
+
+gem 'jekyll', '~> 3.6'
+
+ group :jekyll_plugins do
+   gem 'algoliasearch-jekyll'
+ end

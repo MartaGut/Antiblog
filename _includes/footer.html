@@ -5,19 +5,26 @@
     <div class="plane" onclick="toTop" id="toTop">  
     <a href="#">{% include icons/plane.html %}</a>
     </div>
-    <div class="greyFoot">
+    <div class="greyFoot flex-container">
         <div class="motivation">
-            <p onclick="currentWise(1)" class="wisdom">I have panicked unnecessarily in all four corners of the globe. – Jon Ronson</p>
-            <p onclick="currentWise(2)" class="wisdom">He didn’t really like travel, of course. He liked the idea of travel, <br> and the memory of travel, but not travel itself. – Julian Barnes</p>
-            <p></p>
-            <p></p>
-            <p></p>
-            <p></p>
-            <p></p>
-            <p></p>
-            <p></p>
-            <p></p>
-            <p></p>
+            <p class="wisdom">I have panicked unnecessarily in all four corners of the globe. – Jon Ronson</p>
+            <p class="wisdom">He didn’t really like travel, of course. He liked the idea of travel, and the memory of travel, but not travel itself. – Julian Barnes</p>
+            <p class="wisdom">Modern traveling is not traveling at all; it is merely being sent to a place, and very little different from becoming a parcel. – John Ruskin</p>
+            <p class="wisdom">The gentle reader will never, never know what a consummate ass he can become until he goes abroad. I speak now, of course, in the supposition that the gentle reader has not been abroad, and therefore is not already a consummate ass. – Mark Twain</p>
+            <p class="wisdom">In some peculiar way, indeed, the rules were now beginning to seem quite logical.<br> It was then I knew that I had been in India long enough.<br> – Tahir Shah</p>
+            <p class="wisdom">Adventure, yeah. I guess that’s what you call it when everybody comes back alive.<br> – Mercedes Lackey</p>
+            <p class="wisdom">Statuettes of drunken sailors, velvet pictures of island maidens, <br>plastic seashell lamps made in Taiwan.<br> What contempt the people who think up souvenirs have for other people.<br> – Diane Johnson</p>
+            <p class="wisdom">Sometimes the road less traveled is less traveled for a reason. – Jerry Seinfeld</p>
+            <p class="wisdom">It can hardly be a coincidence that no language on earth has ever produced the expression,<br> ‘As pretty as an airport’. – Douglas Adams</p>
+            <p class="wisdom">He has a passport,” my classmates would whisper. “Quick, let’s run before he judges us! – David Sedaris</p>
+            <p class="wisdom">It is the right of a traveler to vent their frustration at every minor inconvenience by writing of it to their friends. – Susanna Clarke</p>
+            <p class="wisdom">Boy, those French. They have a different word for everything. – Steve Martin</p>
+            <p class="wisdom">There are two kinds of travel: first class and with children. – Robert Benchley</p>
+            <p class="wisdom">Airline travel is hours of boredom interrupted by moments of stark terror. – Al Boliska</p>
+            <p class="wisdom"> Airplane travel is nature’s way of making you look like your passport photo. – Al Gore</p>
+            <p class="wisdom">You define a good flight by negatives: you didn’t get hijacked, you didn’t crash, you didn’t throw up, you weren’t late, you weren’t nauseated by the food. So you are grateful. – Paul Theroux</p>
+            <p class="wisdom">The worst thing about being a tourist is having other tourists recognize you as a tourist.” –Russell Baker</p>
+            <p class="wisdom"> One senses that, in these conditions, no amount of wet-wiping could bring true hygiene. – Tahir Shah</p>
         </div>
         <a class="previousWise" onclick="plusWises(-1)">&#10094;</a>
         <a class="nextWise" onclick="plusWises(1)">&#10095;</a>
@@ -50,17 +57,22 @@ var slideIndex = 1;
 // show the first image by default when loading the page
 showWises(slideIndex);
 
-// Next/previous controls
+var wises;
+
+ //var myTimer = null;
+ var myTimer = setTimeout(plusWises(1), 0);
+
 function plusWises(n) {
-  showWises(slideIndex += n);
-}
+    clearInterval(myTimer);
+    this.showWises(slideIndex += n);
+    if (n = -1){
+        myTimer = setInterval(() => {this.plusWises(n+2);}, 4000);
+    } else {
+        myTimer = setInterval(() => {this.plusWises(n+1);}, 4000);
+    }
+ }
 
-// Thumbnail image controls
-function currentWise(n) {
-  showWises(slideIndex = n);
-}
-
-function showWises(n) {
+    function showWises(n) {
   var i;
   var wises = document.getElementsByClassName("wisdom");
   if (n > wises.length) {slideIndex = 1} 
@@ -70,6 +82,14 @@ function showWises(n) {
   }
   wises[slideIndex-1].style.display = "block";
 }
+
+
+    function mount() {
+        this.showWises(slideIndex);
+        myTimer = setInterval(() => {this.plusWises(1);}, 4000);
+    }
+
+
    /*  window.onscroll = function() {scrollFunction()};
     
     function scrollFunction() {

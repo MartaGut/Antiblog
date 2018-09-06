@@ -4,3 +4,9 @@ sass:
 url: http://locahost:4000
 
 future: true
+
+algolia:
+  application_id: 'FL9GO11HZ6'
+  index_name: 'Depressed_traveller'
+
+ALGOLIA_API_KEY: FL9GO11HZ6

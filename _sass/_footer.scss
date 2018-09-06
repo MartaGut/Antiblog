@@ -4,7 +4,6 @@
     display: block;
     margin-top: 10px;
     position: relative;
-    height: 100%;
     margin: auto;
   }
   footer{
@@ -23,9 +22,16 @@
       border-radius: 50%;
       background-color: rgba(255,255,255,0.4);
   }
+
+  .flex-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    justify-content: space-between; 
+  }
+
   .previousWise, .nextWise{
     cursor: pointer;
-    position: absolute;
     width: auto;
     color: white;
     font-size: 35px;
@@ -38,6 +44,11 @@
   
   .nextWise{
     right:0;
+    order: 3;
+  }
+  .previousWise{
+    left: 0px;
+    order: 1;
   }
   
   .previousWise:hover, .nextWise:hover{
@@ -46,13 +57,15 @@
   }
 
   .motivation{
-      position: absolute;
       text-align: center;
       margin: auto;
-      width: 100%;
-      height: 100%;
       padding-top: 25px;
+      order: 2;
+      height: 150px;
+      width: 600px;
+      color: white;
   }
+
   
 
   

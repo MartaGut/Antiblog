@@ -7,7 +7,13 @@
         <a href="#" class="socMed" >{% include icons/insta.html %}</a>
         <a href="#" class="socMed" >{% include icons/twitter.html %}</a>
         <a href="#" class="socMed" >{% include icons/linkedin.html %}</a>
-        <a href="#" class="searchRight socMed"><i>{% include icons/search.html %}</i></a>       
+        <a href="#" class="searchRight socMed"><i>{% include icons/search.html %}
+                <form action="/search.html" method="get">
+                    <label for="search-box">Search</label>
+                    <input type="text" id="search-box" name="query">
+                    <input type="submit" value="search">
+                  </form>
+        </i></a>       
     </div>
     <!-- end of Nav bar with social medias -->
 

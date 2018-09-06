@@ -124,9 +124,14 @@ a{
    padding: 5px;
    margin: 5px;
 }
+.tagBox > span:hover{
+    background-color: rgba(246, 219, 164,0.6);
+}
+
 .socMedTwo {
     padding: 19px;
    display: inline-block;    
+   fill: #565e6c;
 }
 .socMedTwo:hover {
     background-color:rgb(246, 219, 164); 
