@@ -49,6 +49,7 @@ hr {
   flex: 59%;
   border-right: 2px solid #565e6c;
   background-image: url(/img/OrangePolka.png);
+  position: relative;
 }
 
 .right{
@@ -59,19 +60,21 @@ hr {
 
 .slideshowContainer{
     max-width: 1000px;
-    position: relative;
     margin: auto;
+    height: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 .slideshowPic{
     display: none;
     height: 500px;
+    width: auto;
     margin-top: auto;
     margin-bottom: auto;
 }
 .oneImage{
-  max-width: 100%;
-  height: auto;
+  height: 100%;
   display: block;
   margin:  auto;
   padding: 10px;
@@ -79,6 +82,18 @@ hr {
   border-radius: 4px;
   background-color: white;
   box-shadow: 0 0 3px 1px  #565e6c;
+  max-width: 600px;
+  max-height: 550px;
+}
+
+@media 
+  (max-width: 800px) 
+  and (orientation: portrait)
+  and (-webkit-min-device-pixel-ratio: 2) { 
+.oneImage{
+  max-width: 400px;
+  max-height: 350px;
+}
 }
 .oneImage:hover{
   box-shadow: 0 0 8px 3px  #f6dba4;
@@ -108,17 +123,17 @@ hr {
 
 .captionDiv{
   background-color:rgba(86,94,108,0.5);
-  top:70%;
   position: absolute;
-  bottom: 0px;
   left: 0px;
   right: 0px;
+  bottom: 0px;
+  top: 99%;
 }
+
 .captionText{
   text-align: center;
   font-size: 18px;
   color: #f6dba4;
-  top:80%;
   
 }
 
@@ -129,9 +144,11 @@ hr {
 }
 
 .dots{
+  position: absolute;
+  bottom: 10px;
+  margin: auto;
+  width: 100%;
   text-align: center;
-  top: 95%;
-
 }
 
 .dot{
@@ -143,6 +160,7 @@ hr {
   opacity: 0.4;
   display: inline-block;
   transition: background-color 0.5s ease;
+  z-index: 10;
 }
 
 .dot:hover, .active {
@@ -164,11 +182,26 @@ hr {
   to {opacity: 1}
 }
 
-@media only screen and (max-width: 300px) {
-  .prev, .next, .text {
-    font-size: 11px;
-  }
+.goUp {
+  -webkit-animation-name: goUp;
+  -webkit-animation-duration: 1.5s;
+  animation-name: goUp;
+  animation-duration: 1.5s;
 }
+
+@keyframes goUp{
+  from {top:99%;
+  opacity: 0;}
+  to {top: 70%;
+  opacity:1}
+}
+@-webkit-keyframes goUp{
+  from {top:99%;
+    opacity: 0;}
+    to {top: 70%;
+    opacity:1}
+}
+
 .oneRow{
   display: flex;
   flex-direction: row;
@@ -189,4 +222,32 @@ hr {
 .sidePic:hover, .active{
   opacity: 1;
   transition: opacity 0.5s ease;
+}
+
+
+@media only screen and (min-width : 768px) and (max-width : 1024px) {
+  .oneImage{
+    max-width: 400px;
+    max-height: 350px;
+  }
+  .flex-container{
+    flex-direction: column;
+  }
+  .slideshowPic{
+    height: 400px;
+  }
+}
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-width : 320px) and (max-width : 480px) {
+  .prev, .next, .text {
+    font-size: 11px;
+  }
+  .flex-container{
+    flex-direction: column;
+  }
+    .slideshowPic{
+      height: 400px;
+    }
+
 }

@@ -1,14 +1,24 @@
 .category-box{
     flex: 1 1 33%;
     display: table-cell;
+    margin: 10px;
 }
 .table{
-    display: table;
     width: 100%;
+}
+.smallCategBlog {
+    margin: 20px;
+    justify-content: center;
+    transition: 0.2s;
 }
 .categ-img{
     margin: auto;
     width: 100%;
+}
+.category-box:hover{
+    border: 1px solid #565e6c;
+    background: rgba(246, 219, 164,0.2);
+    box-shadow: 0 0 8px 3px  #565e6c;
 }
 @media (max-width: 700px) {
     .category-box {   

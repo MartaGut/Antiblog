@@ -8,5 +8,12 @@ future: true
 algolia:
   application_id: 'FL9GO11HZ6'
   index_name: 'Depressed_traveller'
-
-ALGOLIA_API_KEY: FL9GO11HZ6
+  search_only_api_key: 3e7d65dbef7e7a30e38f11111b6a2dc5
+  files_to_exclude:
+    - index.html
+    - searchAll.html
+    - category/china.html
+    - /searchAll/searchAll.html
+settings:
+    highlightPreTag: '<em class="custom_highlight">'
+    highlightPostTag: '</em>'

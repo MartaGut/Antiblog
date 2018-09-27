@@ -3,8 +3,9 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <link rel="stylesheet" href="{{site.baseurl}}/assets/css/main.css">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <style src="js/post.js"></style>
 </head>
 <body>
@@ -13,10 +14,10 @@
     <div>
         <!-- Nav bar with social medias -->
         <div class="navBar"> 
-            <a href="#" class="socMed" >{% include icons/facebook.html %}</a>
-            <a href="#" class="socMed" >{% include icons/insta.html %}</a>
-            <a href="#" class="socMed" >{% include icons/twitter.html %}</a>
-            <a href="#" class="socMed" >{% include icons/linkedin.html %}</a>       
+          <a href="https://www.facebook.com/mali.princ2" target="_blank" class="socMed" >{% include icons/facebook.html %}</a>
+          <a href="https://www.instagram.com/marljiva_marta/" target="_blank" class="socMed" >{% include icons/insta.html %}</a>
+          <a href="https://twitter.com/Marta_Guth" target="_blank" class="socMed" >{% include icons/twitter.html %}</a>
+          <a href="https://www.linkedin.com/feed/?trk=" target="_blank" class="socMed" >{% include icons/linkedin.html %}</a> 
         </div>
       </div>
         <!-- end of Nav bar with social medias -->
@@ -34,33 +35,28 @@
 <div class="grey">
   <h1>Gallery</h1>
 </div>
-<div class="flex-container">
-  <div class="left">
 
+<div class="flex-container">
+  
+  <div class="left">
   <!-- Slideshow -->
     <div class="slideshowContainer">
-      <ul>
       {% for image in page.images %}
         <div class="slideshowPic fade">
           <div class="picNumber">{{ image.image_number }}</div>
-          <img src="{{image.image_path}}" class="oneImage" alt="{{image_name}}" style="max-width:600px;max-height:550px;">
-          <div class="captionDiv"><p class="captionText">{{image.text}}</p></div>
+          <img src="{{image.image_path}}" class="oneImage" alt="{{image_name}}">
+          <div class="captionDiv goUp"><p class="captionText">{{image.text}}</p></div>
         </div>
       {% endfor %}
-      </ul>
-
-      
   
       <a class="previous" onclick="plusSlides(-1)">&#10094;</a>
       <a class="next" onclick="plusSlides(1)">&#10095;</a>
-    </div>
 
-  
-    
-    <div class="dots">
-      {% for image in page.images limit:5 %}
-      <span class="dot" onclick="currentSlide(1)"></span>
-      {% endfor %}
+      <div class="dots">
+          {% for image in page.images limit:5 %}
+          <span class="dot" onclick="currentSlide({{image.image_number}})"></span>
+          {% endfor %}
+      </div>
     </div>
   </div>
 
@@ -68,7 +64,7 @@
     <div class="oneRow">
         {% for image in page.images %}
         <div class="columnPic cursor">
-          <img class="sidePic" onclick="currentSlide(1)" src="{{ image.image_path }}" style="height:200px" alt="Jinin">
+          <img class="sidePic" onclick="currentSlide({{image.image_number}})" src="{{ image.image_path }}" style="height:200px" alt="Jinin">
          </div>
         {% endfor %}
       
@@ -80,6 +76,8 @@
 </div>
 
 <script>
+
+
   // slide index is the position of the picture in the array of pictures
 var slideIndex = 1;
 // show the first image by default when loading the page
@@ -114,9 +112,11 @@ function showSlides(n) {
   slides[slideIndex-1].style.display = "block"; 
   dots[slideIndex-1].className += " active";
   sidePicture[slideIndex-1].className += " active";
-  
-  
 }
+
+ $(function(){
+$('.captionDiv').animate({'top': '70%'}, 1000);
+});
 </script>
 
   

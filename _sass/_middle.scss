@@ -82,6 +82,11 @@
   width: 100%;
   height: auto;
 }
+#mapdiv{
+    width: 400px;
+    height: 300px;
+    margin: auto;
+}
 .grey {
    background-color: #565e6c;
    padding: 15px; 
@@ -89,17 +94,19 @@
 }
 .whiteBox{
    padding: 15px;
+   text-align: center;
 }
 .list{
    list-style: none;
 }
 .postImg{
-    width: 100%;
+   width: 100%;
    height: auto;
    margin-left: auto;
    margin-right: auto;
 }
-a{
+
+a {
     text-decoration: none;
 }
 .smallBlog {
@@ -119,15 +126,20 @@ a{
     text-align: center;
     font-weight: bold;
 }
+.tagBox{
+    text-align: center;
+    width: 100%;
+    margin: auto;
+}
 .tagBox > span {
    background-color: rgba(246, 219, 164,0.2);
    padding: 5px;
    margin: 5px;
+   display: inline-block;
 }
 .tagBox > span:hover{
     background-color: rgba(246, 219, 164,0.6);
 }
-
 .socMedTwo {
     padding: 19px;
    display: inline-block;    
@@ -158,8 +170,17 @@ a{
     .bigger, .smaller {   
         flex-direction: column;
     }
+    #mapdiv{
+        max-width: 500px;
+        max-height: 400px;
+    }
 }
-
+@media (max-width: 500px){
+    #mapdiv{
+        max-width: 300px;
+        max-height: 200px;
+    }
+}
 .indicates-required{
     font-size: 10px;
 }
