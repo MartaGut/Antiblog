@@ -1,6 +1,6 @@
 .navBar {
   background: #565e6c;
-  padding: 20px;
+  padding: 2%;
   margin: 0px;
   display: block; }
 
@@ -8,11 +8,16 @@
   float: right; }
 
 .socMed {
-  padding: 19px;
+  padding: 2%;
   display: inline-block; }
 
 .socMed:hover {
   background-color: white; }
+
+.mainrow {
+  display: block;
+  margin: 0;
+  padding: 0; }
 
 .main {
   font-family: 'Oswald', sans-serif;
@@ -24,64 +29,105 @@
 
 .underMain {
   font-family: 'Oswald', sans-serif;
-  font-size: 2vw;
+  font-size: 3vw;
   font-weight: bold;
   text-align: center;
   color: #565e6c;
   display: block; }
 
 .imgContainer {
-  position: relative;
-  display: block;
-  color: #565e6c;
-  padding: 0; }
+  display: flex;
+  background-color: #565e6c;
+  padding: 0;
+  width: 100%;
+  height: auto;
+  flex-direction: row;
+  clear: both; }
+
+.image {
+  margin: 0;
+  padding: 0;
+  flex: 1 1 55%;
+  height: auto; }
+
+.imgText {
+  z-index: 100;
+  color: black;
+  padding-top: 5%;
+  padding-left: 5%;
+  flex: 1 1 40%;
+  height: auto; }
+
+.title {
+  font-size: 5vw; }
 
 .subscribebutt {
   background-color: #f6dba4;
   border: none;
+  color: #565e6c;
   border-radius: 15px;
   font-family: 'Oswald', sans-serif;
-  font-size: 3vw; }
+  font-size: 4vw;
+  padding: 2%; }
 
 .subscribebutt:hover {
   -webkit-box-shadow: 18px 10px 43px -8px rgba(0, 0, 0, 0.64);
   -moz-box-shadow: 18px 10px 43px -8px rgba(0, 0, 0, 0.64);
   box-shadow: 18px 10px 43px -8px rgba(0, 0, 0, 0.64); }
 
-.mainrow {
-  display: block;
-  margin: 0;
-  padding: 0; }
+@media (max-width: 1100px) {
+  .imgContainer {
+    position: relative;
+    display: block;
+    color: #565e6c;
+    padding: 0; }
 
-.image {
-  float: left;
-  display: block;
-  margin: 0;
-  padding: 0;
-  width: 100%;
-  height: auto; }
+  .mainrow {
+    display: block;
+    margin: 0;
+    padding: 0; }
 
-.imgText {
-  z-index: 100;
-  position: absolute;
-  padding-top: 50px;
-  padding-left: 50px;
-  font-size: 30px;
-  text-shadow: 2px 2px 1px #f6dba4; }
-
-.title {
-  font-size: 5vw; }
-
-@media (max-width: 800px) {
-  .subscribebutt {
-    float: right;
-    margin: 20px; }
+  .image {
+    float: left;
+    display: block;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: auto; }
 
   .imgText {
-    padding: 40px; }
+    z-index: 100;
+    position: absolute;
+    display: block;
+    text-shadow: 4px 2px 5px #f6dba4;
+    padding-top: 5%;
+    padding-left: 5%; }
 
-  .searchRight {
-    display: block; } }
+  .title {
+    font-size: 5vw; }
+
+  .subscribebutt {
+    background-color: #f6dba4;
+    border: none;
+    color: #565e6c;
+    border-radius: 15px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 4vw;
+    padding: 2%; }
+
+  .subscribebutt:hover {
+    -webkit-box-shadow: 18px 10px 43px -8px rgba(0, 0, 0, 0.64);
+    -moz-box-shadow: 18px 10px 43px -8px rgba(0, 0, 0, 0.64);
+    box-shadow: 18px 10px 43px -8px rgba(0, 0, 0, 0.64); } }
+@media (max-width: 768px) {
+  .imgText {
+    margin-right: 5%; }
+
+  .title {
+    text-align: right; }
+
+  .subscribebutt {
+    float: right; } }
 .flex-container {
   display: flex;
   flex-wrap: wrap;
@@ -93,7 +139,8 @@
 
 .bigger {
   flex: 1 1 56%;
-  height: auto; }
+  height: auto;
+  padding-right: 4%; }
 
 .smaller {
   flex: 1 1 32%;
@@ -208,7 +255,6 @@ a {
 
 .tagBox {
   text-align: center;
-  width: 100%;
   margin: auto; }
 
 .tagBox > span {

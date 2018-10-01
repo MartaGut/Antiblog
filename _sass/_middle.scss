@@ -11,6 +11,7 @@
 .bigger {
     flex: 1 1 56%;
     height: auto; 
+    padding-right: 4%;
 }
 .smaller {
     flex: 1 1 32%;
@@ -128,7 +129,6 @@ a {
 }
 .tagBox{
     text-align: center;
-    width: 100%;
     margin: auto;
 }
 .tagBox > span {
