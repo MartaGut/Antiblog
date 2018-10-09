@@ -17,3 +17,5 @@ algolia:
 settings:
     highlightPreTag: '<em class="custom_highlight">'
     highlightPostTag: '</em>'
+
+baseurl: "Antiblog"
