@@ -79,10 +79,10 @@
          </div>
          <!-- Big Image Header -->
          <div class="imgContainer">
-             <div class="image"><img src="img\imageHeader.jpg"  alt="imageHeader"/></div>
+             <img class="image" src="img\imageHeader2.jpg"  alt="imageHeader"/>
              <div class="imgText">
                    <h1 class="title"><span>Why I Should Have Stayed At Home</span></h1>
-                   <button class="subscribebutt" type="button" value="button text" onclick="subClick();">Subscribe</button>
+                   <span><button class="subscribebutt" type="button" value="button text" onclick="subClick();">Subscribe</button></span>
              </div>
          </div>
         </div>
@@ -166,7 +166,13 @@
 
  <!-- Grid system -->
  <div class="bigger">
+     <div class="grey" id="readBlogs">
+         <h2>Read Blogs</h2>
+     </div>
+     
+      <!-- two columns -->
     <div class="blogEntries">
+        <div class="Twoflex-container">
      <!-- Firs Blog entry -->
 
      
@@ -186,7 +192,6 @@
                 </div>    
             </div>
         </div>
-    <hr>
     
         <div class="blogEntry">       
             <div class='blogTitle'>
@@ -207,7 +212,6 @@
                 </div>    
             </div>
         </div>
-    <hr>
     
         <div class="blogEntry">       
             <div class='blogTitle'>
@@ -228,9 +232,9 @@
                 </div>    
             </div>
         </div>
-    <hr>
     
      
+    </div>
     </div>
  <!-- End of Blog entries -->
 </div>
@@ -243,7 +247,7 @@
      <div>
          <h2 class="grey">About Me</h2>
          <img src="img/aboutMe.jpg"  alt="aboutMe" class="aboutMePic"/>
-         <div class="whiteBox">
+         <div style="text-align: justify;" class="whiteBox">
          <p>I own TO DO lists that are more than a couple of months old,
             not because I am lazy but because I can see so far into the future. I write down everything and take 
             a screenshot 'just in case' because I forget huge parts of everyday but still can't get over my
@@ -450,8 +454,8 @@
             <p class="wisdom fade">The worst thing about being a tourist is having other tourists recognize you as a tourist.” –Russell Baker</p>
             <p class="wisdom fade"> One senses that, in these conditions, no amount of wet-wiping could bring true hygiene. – Tahir Shah</p>
         </div>
-        <a class="previousWise" onclick="plusWises(-1)">&#10094;</a>
-        <a class="nextWise" onclick="plusWises(1)">&#10095;</a>
+        <a class="previousWise" id="prev" onclick="plusWises(-1)">&#10094;</a>
+        <a class="nextWise" id="next" onclick="plusWises(1)">&#10095;</a>
     </div>
 </footer>
 <!-- End of Footer -->
@@ -459,9 +463,14 @@
 <!-- End of Content div -->
 
 <script>
+ 
+ if (window.innerWidth < 700) {
+    var old = document.getElementById("prev");
+    old.innerHTML = "&#x2303;";
+    var old = document.getElementById("next");
+    old.innerHTML = "&#8964;";
+}
 
-
-    
   $(document).ready(function(){ 
     $(window).scroll(function(){ 
         if ($(this).scrollTop() > 100) { 

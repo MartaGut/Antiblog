@@ -9,20 +9,33 @@
     clear: both;
 }
 .bigger {
-    flex: 1 1 56%;
+    flex: 1 1 59%;
     height: auto; 
-    padding-right: 4%;
+    padding-right: 3%;
+}
+.Twoflex-container{
+    display: flex; 
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 100%;
+    margin: 0px;
+    clear: both;
 }
 .smaller {
-    flex: 1 1 32%;
+    flex: 1 1 26%;
     height: auto;
+}
+#readBlogs{
+    margin-left: 2%;
 }
 .blogEntry {
    text-align: center;
    background-color: white;
-   padding: 10px;
-    margin-top: 20px; 
-    margin-bottom: 20px;
+   padding-left: 2%;
+   padding-right: 2%;
+   padding-bottom: 4%;
+   display: inline-block;
+   flex: 1 1 45%;
 
 }
 .blogLink {
@@ -33,28 +46,29 @@
     color:  #565e6c;
 }
 .blogTitle {
-   padding-bottom: 20px;
+   padding-bottom: 1%;
    font-family: 'Oswald', sans-serif;
 }
 .tithead {
-   font-size: 35px;
+   font-size: 2vw;
    font-family: 'Oswald', sans-serif;
 }
 .titleDesc {
-   font-size: 20px;
+   font-size: 1vw;
    font-family: 'Oswald', sans-serif;
 }
 .light {
    opacity: 0.5; 
+   font-size: 1vw;
 }
 .bigPostImage{
    width: 100%;
    height: auto;
-   padding-bottom: 30px;
+   padding-bottom: 4%;
 }
 .blogContainer {
    text-align: justify; 
-   padding-bottom: 20px;
+   padding-bottom: 3%;
 }
 .readMore{
     background-color: #f6dba4;
@@ -84,7 +98,7 @@
   height: auto;
 }
 #mapdiv{
-    width: 400px;
+    width: 100%;
     height: 300px;
     margin: auto;
 }
@@ -92,6 +106,7 @@
    background-color: #565e6c;
    padding: 15px; 
    margin: 0px;
+   color: white;
 }
 .whiteBox{
    padding: 15px;
@@ -174,6 +189,9 @@ a {
         max-width: 500px;
         max-height: 400px;
     }
+    #readBlogs{
+        display: none;
+    }
 }
 @media (max-width: 500px){
     #mapdiv{
@@ -191,3 +209,31 @@ a {
 label {
     display: block;
 }
+
+@media (max-width: 768px) {
+    .bigger {
+        padding-right: 0;
+    }
+    #readBlogs{
+        margin-left: 0%;
+    }
+    .Twoflex-container{
+        flex-direction: column;
+    }
+    .blogEntry{
+        flex: 1 1 100%
+    }
+    .tithead {
+        font-size: 3vw;
+     }
+     .titleDesc {
+        font-size: 2vw;
+     }
+     .light {
+        font-size: 2vw;
+     }
+    
+   }
+   @media (max-width: 321px){
+     
+   }

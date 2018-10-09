@@ -33,7 +33,7 @@
 </div>
 
 <div class="grey">
-  <h1>Gallery</h1>
+  <h2>Gallery</h2>
 </div>
 
 <div class="flex-container">
@@ -54,7 +54,7 @@
 
       <div class="dots">
           {% for image in page.images limit:5 %}
-          <span class="dot" onclick="currentSlide({{image.image_number}})"></span>
+          <span class="dot"  onclick="currentSlide({{image.image_number}})"></span>
           {% endfor %}
       </div>
     </div>
@@ -71,10 +71,79 @@
   </div>
   </div>
 </div>
-<div class="grey">
-  <h2>Comments</h2>
+
+<hr>
+
+<div class="flex-container">
+
+    <div class="comments" style="padding-right: 2%">
+        <div class="grey">
+          <h3>Comments</h3>
+        </div>
+        
+        <div class="fb-comments" data-href="http://127.0.0.1:4000/?" data-numposts="10" data-width="400px"> </div>
+        
+        <div id="fb-root"></div>
+        </div>
+
+
+<div class="pageNavigation">
+    <div class="grey" style="padding-left: 2%">
+        <h3>Read More</h3>
+      </div>
+    {% if page.previous.url %}
+      <a class="prevBlog" href="{{page.previous.url}}">
+      <div class="whiteBox smallBlog">
+              <h4>&laquo; Read Previous Blog</h4>
+              <img  class="postImg" src="{{ page.previous.image }}" alt="beijing">
+              <div class="smallBlogText">{{ page.previous.blog_title }}
+              <span class="postDate">{{ page.previous.url | date: "%b %-d, %Y" }} </span></div>
+      </div>
+      </a>
+    {% endif %}
+    {% if page.next.url %}
+      <a class="nextBlog" href="{{page.next.url}}">
+      <div class="whiteBox smallBlog">
+              <h4>Read Next Blog &raquo;</h4>
+              <img  class="postImg" src="{{ page.next.image }}" alt="beijing">
+              <div class="smallBlogText">{{ page.next.blog_title }}
+              <span class="postDate">{{ page.next.url | date: "%b %-d, %Y" }} </span></div>
+      </div>
+      </a>
+    {% endif %}
+  
+
+  <div class="readMoreCategory">
+      {% unless page.category == null %}
+      {% capture pageCategory %}{{ page.category }}{% endcapture %}
+      {% unless site.categories[pageCategory].size == 1 %}
+        <div>
+            <div class="grey" style="padding-left: 2%">
+                <h3>Read More about {{ page.category }}</h3>
+            </div>
+          <div>
+            {% for post in site.categories[pageCategory] limit:6 %}
+              {% unless post.title == page.title %}
+              <div class="whiteBox smallBlog">
+                  <a  href="{{ post.url }}">
+                      <img  class="postImg" src="{{ post.image }}" alt="beijing">
+                      <div class="smallBlogText">{{ post.blog_title }}
+                      <span class="postDate">{{ post.url | date: "%b %-d, %Y" }} </span></div>
+                  </a>
+              </div>
+              {% endunless %}
+            {% endfor %}
+          </div>
+        </div>
+      {% endunless %}
+    {% endunless %}
+
+  </div>
 </div>
 
+</div>
+
+{% include footer.html %}
 <script>
 
 
@@ -119,10 +188,6 @@ $('.captionDiv').animate({'top': '70%'}, 1000);
 });
 </script>
 
-  
-  <div class="fb-comments" data-href="http://127.0.0.1:4000/?" data-numposts="10"></div>
-
-<div id="fb-root"></div>
 <script>(function(d, s, id) {
   var js, fjs = d.getElementsByTagName(s)[0];
   if (d.getElementById(id)) return;

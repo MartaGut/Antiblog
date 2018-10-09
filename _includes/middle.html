@@ -71,10 +71,16 @@
 
  <!-- Grid system -->
  <div class="bigger">
+     <div class="grey" id="readBlogs">
+         <h2>Read Blogs</h2>
+     </div>
+     
+      <!-- two columns -->
     <div class="blogEntries">
+        <div class="Twoflex-container">
      <!-- Firs Blog entry -->
 
-     {% for post in site.posts %}
+     {% for post in site.posts limit 4 %}
         <div class="blogEntry">       
             <div class='blogTitle'>
                 <a href="{{ post.url }}" class="blogLink"><h4 class="tithead">{{ post.name }}</h4></a>
@@ -90,9 +96,9 @@
                 </div>    
             </div>
         </div>
-    <hr>
     {% endfor %}
      
+    </div>
     </div>
  <!-- End of Blog entries -->
 </div>
@@ -105,7 +111,7 @@
      <div>
          <h2 class="grey">About Me</h2>
          <img src="img/aboutMe.jpg"  alt="aboutMe" class="aboutMePic"/>
-         <div class="whiteBox">
+         <div style="text-align: justify;" class="whiteBox">
          <p>I own TO DO lists that are more than a couple of months old,
             not because I am lazy but because I can see so far into the future. I write down everything and take 
             a screenshot 'just in case' because I forget huge parts of everyday but still can't get over my

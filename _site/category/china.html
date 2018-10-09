@@ -136,8 +136,8 @@
             <p class="wisdom fade">The worst thing about being a tourist is having other tourists recognize you as a tourist.” –Russell Baker</p>
             <p class="wisdom fade"> One senses that, in these conditions, no amount of wet-wiping could bring true hygiene. – Tahir Shah</p>
         </div>
-        <a class="previousWise" onclick="plusWises(-1)">&#10094;</a>
-        <a class="nextWise" onclick="plusWises(1)">&#10095;</a>
+        <a class="previousWise" id="prev" onclick="plusWises(-1)">&#10094;</a>
+        <a class="nextWise" id="next" onclick="plusWises(1)">&#10095;</a>
     </div>
 </footer>
 <!-- End of Footer -->
@@ -145,9 +145,14 @@
 <!-- End of Content div -->
 
 <script>
+ 
+ if (window.innerWidth < 700) {
+    var old = document.getElementById("prev");
+    old.innerHTML = "&#x2303;";
+    var old = document.getElementById("next");
+    old.innerHTML = "&#8964;";
+}
 
-
-    
   $(document).ready(function(){ 
     $(window).scroll(function(){ 
         if ($(this).scrollTop() > 100) { 

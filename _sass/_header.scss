@@ -36,40 +36,45 @@
     color: #565e6c; 
     display: block; 
     }
-.imgContainer {
-    display: flex;
-    background-color: #565e6c;
-    padding: 0; 
-    width: 100%;
-    height: auto;
-    flex-direction: row;
-    clear: both;
-    }
-.image {
-    margin: 0;
-    padding: 0;
-    flex: 1 1 55%;
-    height: auto;
-    }
-.imgText {
-    z-index: 100;
-    color: black;
-    padding-top: 5%;
-    padding-left: 5%;
-    flex: 1 1 40%;
-    height: auto;
-    }
-.title{
-        font-size: 5vw;
-    }
+    
+    .imgContainer {
+        position: relative;
+        display: block;
+        padding: 0; 
+        }
+    .image {
+        display: block;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        height: auto;
+        float: left;
+        }
+    .imgText {
+        display: block;
+        position: absolute;
+        }
+    .title{
+        z-index: 100;
+        text-shadow: 4px 2px 5px #565e6c;
+        padding: 1%;
+            font-size: 6vw; 
+            font-weight: 1000;
+            color: #f6dba4;
+            margin: 0;
+        }
 .subscribebutt {
     background-color: #f6dba4;
     border: none; 
     color: #565e6c;
-    border-radius: 15px;
+    border-radius: 30px;
     font-family: 'Oswald', sans-serif;
-    font-size: 4vw;
-    padding: 2%;
+    font-size: 3vw;
+    padding: 1%;
+    position: absolute;
+    right: 10%;
+    font-weight: bold;
+    font-variant: small-caps;
         }
 .subscribebutt:hover {
         -webkit-box-shadow: 18px 10px 43px -8px rgba(0,0,0,0.64);
@@ -127,12 +132,7 @@
     @media (max-width: 768px) {
      .imgText {
          margin-right: 5%;
-     }
-     .title {
-        text-align: right;
-     }
-     .subscribebutt {
-         float: right;
+
      }
     }
     @media (max-width: 321px){
