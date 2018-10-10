@@ -19,3 +19,5 @@ settings:
     highlightPostTag: '</em>'
 
 baseurl: "Antiblog"
+baseurl: https://martagut.github.io/Antiblog/
+url: https://github.com/MartaGut.io
