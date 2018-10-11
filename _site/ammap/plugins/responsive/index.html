@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- Begin Jekyll SEO tag v2.5.0 -->
+<title>amCharts Responsive | Antiblog</title>
+<meta name="generator" content="Jekyll v3.7.4" />
+<meta property="og:title" content="amCharts Responsive" />
+<meta property="og:locale" content="en_US" />
+<link rel="canonical" href="http://localhost:4000/https://martagut.github.io/Antiblog/ammap/plugins/responsive/" />
+<meta property="og:url" content="http://localhost:4000/https://martagut.github.io/Antiblog/ammap/plugins/responsive/" />
+<meta property="og:site_name" content="Antiblog" />
+<script type="application/ld+json">
+{"@type":"WebPage","url":"http://localhost:4000/https://martagut.github.io/Antiblog/ammap/plugins/responsive/","headline":"amCharts Responsive","@context":"http://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+    <link rel="stylesheet" href="/https://martagut.github.io/Antiblog/assets/css/style.css?v=">
+  </head>
+  <body>
+    <div class="container-lg px-3 my-5 markdown-body">
+      
+      <h1><a href="http://localhost:4000/https://martagut.github.io/Antiblog/">Antiblog</a></h1>
+      
+
+      <h1 id="amcharts-responsive">amCharts Responsive</h1>
+
+<p>Version: 1.0.5</p>
+
+<h2 id="description">Description</h2>
+
+<p>Use this plugin to enable “responsive” features for amCharts’ JavaScript Charts,
+JavaScript Stock Chart, or JavaScript Maps.</p>
+
+<p>“Responsive” chart or map will modify it’s features dynamically (even as you
+resize the container) based on the available area. For example: a full fledged 
+line chart with legend guides, labels, titles and other elements will be 
+displayed in all its glory if container is big enough.</p>
+
+<p>If the container shrinks (i.e. you resize a browser window or view it on an
+iPad), it starts “compacting” the chart. First the legend is removed. Shrink it
+even further, axis titles are removed and its value labels are moved inside the
+plot area. Going even smaller, bullets, labels gone. All the way to the
+sparkline representation of the chart.</p>
+
+<p>Plugin brings a universal set of pre-defined rules that you can use to instantly
+enable responsiveness. Those are custom-tailored for each chart/map type and
+will probably fit your requirements out-of the-box. All you need to do is to
+enable “responsive” plugin for your chart instance.</p>
+
+<p>You can modify those defaults rules, or make your own list. The plugin allows
+that. (see further down this file for instructions)</p>
+
+<h2 id="usage">Usage</h2>
+
+<ol>
+  <li>Include the minified version of file of this plugin. I.e.:</li>
+</ol>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;script src="amcharts/plugins/responsive/responsive.min.js" type="text/javascript"&gt;&lt;/script&gt;
+</code></pre></div></div>
+
+<p>(this needs to go after all the other amCharts includes)</p>
+
+<ol>
+  <li>Add the following setting to your chart configuration:</li>
+</ol>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>AmCharts.makeChart( "chartdiv", {
+  ...,
+  "responsive": {
+    "enabled": true
+  }
+} );
+</code></pre></div></div>
+
+<p>Or if you are using non-JSON setup:</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>chart.responsive = {
+  "enabled": true
+};
+</code></pre></div></div>
+
+<p>That’s it.</p>
+
+<h2 id="advanced-use">Advanced use</h2>
+
+<h3 id="rules">Rules</h3>
+
+<p>You can modify (or completely overwrite) the default responsive rules used by
+the plugin.</p>
+
+<p>A plugin works by checking chart area dimensions after each resize. (or after
+initial build / mobile device orientation change) It then overrides particular
+settings suitable for these particular dimensions.</p>
+
+<p>Override rules are implemented by defining chart rules, or just “rules” moving
+forward. Each rule has two things:</p>
+
+<ol>
+  <li>Dimension conditions;</li>
+  <li>Overrides. (a set of properties to override for this particular rule)</li>
+</ol>
+
+<p>A rule is an object, for example:</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>{
+  "minWidth": 200,
+  "maxWidth": 400,
+  "maxHeight": 400,
+  "minHeight": 200,
+  "overrides": {
+    "precision": 2,
+    "legend": {
+      "enabled": false
+    },
+    "valueAxes": {
+      "inside": true
+    }
+  }
+}
+</code></pre></div></div>
+
+<p>The above rule will be applicable to a chart that is between 200px and 400px in
+width and height.</p>
+
+<p>It is not necessary to add all of the dimensional properties. You just neat at
+least one.</p>
+
+<p>So for example to make the rule apply to all charts with width 400px or lower,
+you would do something like this:</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>{
+  "maxWidth": 400,
+  "overrides": {
+    "precision": 2,
+    "legend": {
+      "enabled": false
+    },
+    "valueAxes": {
+      "inside": true
+    }
+  }
+}
+</code></pre></div></div>
+
+<p>Please note that there are several other conditional properties besides the ones
+that deal with chart’s dimensions:</p>
+
+<ul>
+  <li>
+    <p>“rotate” (true|false) - set this property if you want to make this rule
+applicable to rotated serial chart only (i.e. bar chart)</p>
+  </li>
+  <li>
+    <p>“legendPosition” (“top|bottom|left|right”) - set this property if you want the
+rule applied only when the chart legend is set to particular position.
+Please note that this does not check whether the legend is enabled at all.</p>
+  </li>
+</ul>
+
+<p>Now, on to explaining “overrides”. It’s an object, that contains properties that
+you want to override the chart’s initial ones with.</p>
+
+<p>It can be either simple properties, like “fontSize” or “precision”, or complext
+types like object, or array.</p>
+
+<p>To override a property of a child object, such as “legend”, you would simply go
+with JSON representation of the properties you need to override. I.e.:</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>"legend": {
+  "enabled": false
+}
+</code></pre></div></div>
+
+<p>This will look for a “legend” property in chart object, then change it’s
+“enabled” property to false.</p>
+
+<h3 id="overriding-arrays-of-objects">Overriding arrays of objects</h3>
+
+<p>Some objects in charts are collected in arrays, i.e. “graphs”, “valueAxes”, etc.</p>
+
+<p>There are some ways to override their properties as well.</p>
+
+<p>To override properties for ALL objects in the array, you would provide an
+override instruction as an object. I.e.:</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>"graphs": {
+  "bullet": "round",
+  "lineThickness": 5
+}
+</code></pre></div></div>
+
+<p>The above will add a round bullet and set line thickness to all of the graphs on
+the chart.</p>
+
+<p>You can also target individual items in the array. There are two ways to do
+that:</p>
+
+<p>a) Use “id” property;
+b) Apply using the same index.</p>
+
+<p>To individually apply property overrides, you will need to supply override
+instructions as an array:</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>"graphs": [
+  {
+    "id": "g1",
+    "bullet": "round",
+    "lineThickness": 5
+  }
+]
+</code></pre></div></div>
+
+<p>The above will apply the same properties for the graph with an id of “g1” only.
+It will not touch the rest of the graphs.</p>
+
+<p>Please note that original graph definition in your chart settings needs to have
+the “id” property set so this plugin can target it.</p>
+
+<p>Or you can omit the “id” and just apply overrides in the same order as you have
+them defined. I.e.:</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>"graphs": [
+  {
+    "bullet": "round"
+  },
+  {
+    "bullet": "square"
+  }
+]
+</code></pre></div></div>
+
+<p>The above will apply round bullets to the first defined graph, and square
+bullets to the second graph.</p>
+
+<h3 id="chaining-multiple-rules">Chaining multiple rules</h3>
+
+<p>The cool pat is that you can daisy-chain the override rules, much like in CSS.</p>
+
+<p>The plugin will examine all of the rules if their dimensional conditions match
+current chart condition and will apply their overrides in the same order they
+are defined.</p>
+
+<p>Consider this rule set:</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>"responsive": {
+  "enabled": true,
+  "rules": [
+    // at 400px wide, we hide legend
+    {
+      "maxWidth": 400,
+      "overrides": {
+        "legend": {
+          "enabled"
+        }
+      }
+    },
+
+    // at 300px or less, we move value axis labels inside plot area
+    // the legend is still hidden because the above rule is still applicable
+    {
+      "maxWidth": 300,
+      "overrides": {
+        "valueAxes": {
+          "inside": true
+        }
+      }
+    },
+
+    // at 200 px we hide value axis labels altogether
+    {
+      "maxWidth": 200,
+      "overrides": {
+        "valueAxes": {
+          "labelsEnabled": false
+        }
+      }
+    }
+
+  ]
+}
+</code></pre></div></div>
+
+<p>In case several rules modify the same property, the last one will always “win”.</p>
+
+<h3 id="combining-custom-rules-with-pre-defined-ones">Combining custom rules with pre-defined ones</h3>
+
+<p>The plugin will combine your custom rules with pre-defined ones automatically.</p>
+
+<p>In case you want to go pure and set only your own responsive rules, you can set
+property “addDefaultRules” to false. I.e.:</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>"responsive": {
+  "enabled": true,
+  "addDefaultRules": false,
+  "rules": [
+    {
+      "maxWidth": 400,
+      "overrides": {
+        "legend": {
+          "enabled"
+        }
+      }
+    }
+  ]
+}
+</code></pre></div></div>
+
+<p>When your custom rules are combined with pre-defined ones, yours are appended at
+the end of the list. This means that your rules will always have the “last
+word”.</p>
+
+<h2 id="requirements">Requirements</h2>
+
+<p>This plugin requires at least 3.13 version of JavaScript Charts, JavaScript
+Stock Chart or JavaScript Maps.</p>
+
+<p>Any older versions will be ignored by this plugin. The charts will function but
+no responsive rules will be applied to them.</p>
+
+<h2 id="demos">Demos</h2>
+
+<p>Run the index.html in the subdirectory /examples. It will allow viewing misc
+chart types at various resolutions.</p>
+
+<h2 id="extending-this-plugin">Extending this plugin</h2>
+
+<p>You’re encouraged to modify, extend and make derivative plugins out of this
+plugin.</p>
+
+<p>You can modify files, included in this archive or, better yet, fork this project
+on GitHub:</p>
+
+<p>https://github.com/amcharts/responsive</p>
+
+<p>We’re curious types. Please let us know (contact@amcharts.com) if you do create
+something new out of this plugin.</p>
+
+<h2 id="license">License</h2>
+
+<p>This plugin is licensed under Apache License 2.0.</p>
+
+<p>This basically means you’re free to use or modify this plugin, even make your
+own versions or completely different products out of it.</p>
+
+<p>Please see attached file “license.txt” for the complete license or online here:</p>
+
+<p>http://www.apache.org/licenses/LICENSE-2.0</p>
+
+<h2 id="contact-us">Contact us</h2>
+
+<ul>
+  <li>Email:contact@amcharts.com</li>
+  <li>Web: http://www.amcharts.com/</li>
+  <li>Facebook: https://www.facebook.com/amcharts</li>
+  <li>Twitter: https://twitter.com/amcharts</li>
+</ul>
+
+<h2 id="changelog">Changelog</h2>
+
+<h3 id="105">1.0.5</h3>
+<ul>
+  <li>Fixed an issue where Responsive plugin was disabling initial animations.</li>
+</ul>
+
+<h3 id="104">1.0.4</h3>
+<ul>
+  <li>Fixed errors when legend was <code class="highlighter-rouge">null</code> (thanks Hasan Akgün)</li>
+</ul>
+
+<h3 id="103">1.0.3</h3>
+<ul>
+  <li>Fixed issue with Stock Chart when Period Selector and Data Set Selector were turned off</li>
+</ul>
+
+<h3 id="102">1.0.2</h3>
+<ul>
+  <li>Fixed a bug where the plugin was causing an error when chart/map container was being hidden</li>
+</ul>
+
+<h3 id="101">1.0.1</h3>
+<ul>
+  <li>Fixed bug with overrides being overwritten with chart object in some cases</li>
+  <li>V3.14 compatibility</li>
+</ul>
+
+<h3 id="10">1.0</h3>
+<ul>
+  <li>Added support for GANTT chart type (available sin JavaScript Charts V3.14)</li>
+</ul>
+
+<h3 id="092">0.9.2</h3>
+<ul>
+  <li>Fixed a custom rules being applied in the wrong order</li>
+</ul>
+
+<h3 id="091">0.9.1</h3>
+<ul>
+  <li>Made all examples use minified version of the plugin</li>
+  <li>Introduced removal of grid lines on micro charts</li>
+  <li>Tweaked legend hiding dimensions for pie chart</li>
+</ul>
+
+<h3 id="09">0.9</h3>
+<ul>
+  <li>Initial release</li>
+</ul>
+
+
+      
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/4.1.0/anchor.min.js" integrity="sha256-lZaRhKri35AyJSypXXs4o6OPFTbTmUoltBbDCbdzegg=" crossorigin="anonymous"></script>
+    <script>anchors.add();</script>
+    
+  </body>
+</html>
