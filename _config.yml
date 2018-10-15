@@ -18,7 +18,7 @@ settings:
     highlightPreTag: '<em class="custom_highlight">'
     highlightPostTag: '</em>'
 
-baseurl: 'https://martagut.github.io/Antiblog/'
+baseurl: ''
 url: 'https://github.com/MartaGut.io'
 
 github: [metadata]
