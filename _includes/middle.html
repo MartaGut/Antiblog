@@ -83,7 +83,7 @@
      {% for post in site.posts limit 4 %}
         <div class="blogEntry">       
             <div class='blogTitle'>
-                <a href="{{ post.url }}" class="blogLink"><h4 class="tithead">{{ post.name }}</h4></a>
+                <a href="{{ site.url }}" class="blogLink"><h4 class="tithead">{{ post.name }}</h4></a>
                 <h5 class='titleDesc'>{{ title_description }} <span class='light'>{{ post.url | date: "%b %-d, %Y" }}</span> </h5>
             </div>
             <div>
