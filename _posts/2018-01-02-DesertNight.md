@@ -3,7 +3,7 @@ layout: post
 name: Desert Night
 blog_title: A Night in a Desert
 title_description: Desert Night
-image: img/shanghai.jpg
+one_path: img/shanghai.jpg
 
 images:
     - image_path: /img/DesertNight/Bonfire.jpg
