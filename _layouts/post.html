@@ -44,7 +44,7 @@
       {% for image in page.images %}
         <div class="slideshowPic fade">
           <div class="picNumber">{{ image.image_number }}</div>
-          <img src="{{site.baseurl}}{{image.image_path}}" class="oneImage" alt="{{image_name}}">
+          <img src="{{image_path}}" class="oneImage" alt="{{image_name}}">
           <div class="captionDiv goUp"><p class="captionText">{{image.text}}</p></div>
         </div>
       {% endfor %}
