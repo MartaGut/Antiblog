@@ -24,7 +24,7 @@
     
   <h1 class="postTitle">{{ page.blog_title }}</h1>
   <div>
-      <img class="bigPostImage" src="{{ page.image }}" alt="Picture">
+      <img class="bigPostImage" src="{{ image_path }}" alt="Picture">
     </div>
 </div>  
 
@@ -44,7 +44,7 @@
       {% for image in page.images %}
         <div class="slideshowPic fade">
           <div class="picNumber">{{ image.image_number }}</div>
-          <img src="{{post.image_path}}" class="oneImage" alt="{{image_name}}">
+          <img src="{{image_path}}" class="oneImage" alt="{{image_name}}">
           <div class="captionDiv goUp"><p class="captionText">{{image.text}}</p></div>
         </div>
       {% endfor %}
