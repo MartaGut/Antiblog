@@ -3,89 +3,89 @@ layout: post
 name: Desert Night
 blog_title: A Night in a Desert
 title_description: Desert Night
-one_path: img/shanghai.jpg
+one_path: img/Sunrise.JPG
 
 images:
-    - image_path: /img/DesertNight/Bonfire.jpg
+    - image_path: /img/DesertNight/Bonfire.JPG
       image_name: Bonfire
       text: After dinner we gathered around the fire. 
       image_number: 1
-    - image_path: /img/DesertNight/Beds.jpg
+    - image_path: /img/DesertNight/Beds.JPG
       image_name: Beds
       text: This is where we slept during the night. It was warm and cozy.  
       image_number: 2
-    - image_path: /img/DesertNight/BerberSoup.jpg
+    - image_path: /img/DesertNight/BerberSoup.JPG
       image_name: The Soup
       text: First thing on the menu was the Berber's soup, a thick chickpea and vegetable soup. 
       image_number: 3
-    - image_path: /img/DesertNight/Bonfire2.jpg
+    - image_path: /img/DesertNight/Bonfire2.JPG
       image_name: Bonfire
       image_number: 4
-    - image_path: /img/DesertNight/Breakfast.jpg
+    - image_path: /img/DesertNight/Breakfast.JPG
       image_name: Eating breakfast in the morning
       text: Breakfast was really simple and westernized - Moroccan bread bun, butter and jam, coffee, milk or tea. 
       image_number: 5
-    - image_path: /img/DesertNight/Camel5.jpg
+    - image_path: /img/DesertNight/Camel5.JPG
       image_name: Camels
       text: This was on the way back, since I did not want to ride, the Berber's let  me lead the camels, they said I'm a natural talent. 
       image_number: 6
-    - image_path: /img/DesertNight/Camels3.jpg
+    - image_path: /img/DesertNight/Camels3.JPG
       image_name: Camels
       text: Camels still sleepy in the morning. 
       image_number: 7
-    - image_path: /img/DesertNight/Camels4.jpg
+    - image_path: /img/DesertNight/Camels4.JPG
       image_name: Camels
       text: The young camel in the picture was feisty that morning, he was about to fight with the alpha male so the Berbers are trying to tame him. 
       image_number: 8
-    - image_path: /img/DesertNight/Dawn.jpg
+    - image_path: /img/DesertNight/Dawn.JPG
       image_name: Dawn
       text: Before the Sun.
       image_number: 9
-    - image_path: /img/DesertNight/DiningTent.jpg
+    - image_path: /img/DesertNight/DiningTent.JPG
       image_name: Dining
       text: The big tent where we ate dinner. 
       image_number: 10
-    - image_path: /img/DesertNight/DiningTent2.jpg
+    - image_path: /img/DesertNight/DiningTent2.JPG
       image_name: Dining
       text:  The big tent where we ate dinner. 
       image_number: 11
-    - image_path: /img/DesertNight/DrinkingTea.jpg
+    - image_path: /img/DesertNight/DrinkingTea.JPG
       image_name: Drinking tea
       text: After a long ride, we were offered with tea, a typical mix of green tea and mint. 
       image_number: 12
-    - image_path: /img/DesertNight/EatingDinner.jpg
+    - image_path: /img/DesertNight/EatingDinner.JPG
       image_name: Eating Diner
       text: Chicken, vegetables and couscous in a tagine - a North African dish, a shallow earthenware cooking dish with a tall, conical lid.
       image_number: 13
-    - image_path: /img/DesertNight/EnteringDesert.jpg
+    - image_path: /img/DesertNight/EnteringDesert.JPG
       image_name: Before the desert
       text: Before entering the desert there are hours of drive in a rocky wasteland. 
       image_number: 14
-    - image_path: /img/DesertNight/Music.jpg
+    - image_path: /img/DesertNight/Music.JPG
       image_name: Playing Music
       text: Berbers playing music with no skillz at all
       image_number: 15
-    - image_path: /img/DesertNight/Music2.jpg
+    - image_path: /img/DesertNight/Music2.JPG
       image_name: Playing Music
       text: Berbers playing music with no skillz at all
       image_number: 16
-    - image_path: /img/DesertNight/Riding.jpg
+    - image_path: /img/DesertNight/Riding.JPG
       image_name: Riding Camels
       text: People from our group riding camels. 
       image_number: 17
-    - image_path: /img/DesertNight/Sunrise.jpg
+    - image_path: /img/DesertNight/Sunrise.JPG
       image_name: Sunrise
       text: Sunrise, taking a break. 
       image_number: 18
-    - image_path: /img/DesertNight/Tents.jpg
+    - image_path: /img/DesertNight/Tents.JPG
       image_name: The camp 
       text: The tents in which we slept.
       image_number: 19
-    - image_path: /img/DesertNight/Tents2.jpg
+    - image_path: /img/DesertNight/Tents2.JPG
       image_name: The camp
       text: The tents in which we slept.
       image_number: 20
-    - image_path: /img/DesertNight/Camels.jpg
+    - image_path: /img/DesertNight/Camels.JPG
       image_name: Arriving
       text: This is where our van drop us off, there was an hour of ride ahead of us. 
       image_number: 20
