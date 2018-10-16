@@ -3,7 +3,7 @@ layout: post
 name: Weird Things
 blog_title: Weird Things That Only Happen in China
 title_description: Weird Things
-image: img/SquareDance.JPG
+one_path: img/SquareDance.JPG
 category: China
 
 images:
