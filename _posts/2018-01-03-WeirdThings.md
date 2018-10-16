@@ -7,27 +7,27 @@ image: img/SquareDance.jpg
 category: China
 
 images:
-    - image_path: /img/WeirdThings/Manicure2.jpg
+    - image_path: /img/WeirdThings/Manicure2.JPG
       image_name: Manicure
       text: Their manicured dogs.  
       image_number: 1
-    - image_path: /img/WeirdThings/Manicure.jpg
+    - image_path: /img/WeirdThings/Manicure.JPG
       image_name: Manicure
       text: Their manicured dogs.   
       image_number: 2
-    - image_path: /img/WeirdThings/Poodles.jpg
+    - image_path: /img/WeirdThings/Poodles.JPG
       image_name: Poodles
       text: Well their poodles in general.  
       image_number: 3
-    - image_path: /img/WeirdThings/Apple.jpg
+    - image_path: /img/WeirdThings/Apple.JPG
       image_name: Apple
       text: Damn Apple logo on everything.
       image_number: 4
-    - image_path: /img/WeirdThings/FaceBrush.jpg
+    - image_path: /img/WeirdThings/FaceBrush.JPG
       image_name: Face Brush
       text: Buying a face brush but ending up with a vibratior in disguise. 
       image_number: 5
-    - image_path: /img/WeirdThings/FaceBrush2.jpg
+    - image_path: /img/WeirdThings/FaceBrush2.JPG
       image_name: Face Brush
       text: Buying a face brush but ending up with a vibratior in disguise.
       image_number: 6
@@ -59,23 +59,23 @@ images:
       image_name: Chick crossing the road
       text: Why is this chicken crossing the road? Anyway, there is a huga amount of farm animals inside of the city. If you don't mind being woken up by a cock from the restaurant nearby then you should definitely visit China. 
       image_number: 13
-    - image_path: /img/WeirdThings/NotAdog.jpg
+    - image_path: /img/WeirdThings/NotAdog.JPG
       image_name: Not a dog
       text: These things you find in the street. They are not from a doggo.  
       image_number: 14
-    - image_path: /img/WeirdThings/Naive.jpg
+    - image_path: /img/WeirdThings/Naive.JPG
       image_name: Naive Art
       text: Naive art in their kindergartens. 
       image_number: 15
-    - image_path: /img/WeirdThings/Rice.jpg
+    - image_path: /img/WeirdThings/Rice.JPG
       image_name: Rice
       text: You get a bowl of rice even with a KFC vegetarian hamburger. 
       image_number: 16
-    - image_path: /img/WeirdThings/Aesthetic.jpg
+    - image_path: /img/WeirdThings/Aesthetic.JPG
       image_name: Chinese Aesthetic
       text: Chinese aesthetic - the flashier colors the better. 
       image_number: 17
-    - image_path: /img/WeirdThings/Naive2.jpg
+    - image_path: /img/WeirdThings/Naive2.JPG
       image_name: Naive Art
       text: Naive art in their kindergartens. 
       image_number: 18
@@ -119,7 +119,7 @@ images:
       image_name: Jinglish - Chinese English, also known as Engrish. 
       text: Jinglish - Chinese English, also known as Engrish. 
       image_number: 28
-    - image_path: /img/WeirdThings/Jinglish2.jpg
+    - image_path: /img/WeirdThings/Jinglish2.JPG
       image_name: Jinglish - Chinese English, also known as Engrish. 
       text: Jinglish - Chinese English, also known as Engrish. 
       image_number: 29
