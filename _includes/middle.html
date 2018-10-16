@@ -142,7 +142,7 @@
   </div>
     {% for post in site.posts %}
     <div class="whiteBox smallBlog">
-        <a  href="{{ post.url | relative_url }}">
+        <a  href="{{site.baseurl}}{{post.url}}">
             <img  class="postImg" src="{{ post.one_path }}" alt="{{post.title_description}}">
             <div class="smallBlogText">{{ post.blog_title }}
             <span class="postDate">{{ post.url | date: "%b %-d, %Y" }} </span></div>
