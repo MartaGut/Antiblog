@@ -10,7 +10,7 @@ const hitTemplate = function(hit) {
   if (hit.date) {
     date = moment.unix(hit.date).format('MMM D, YYYY');
   }
-  let url = `{{ site.baseurl }}${hit.baseurl}#${hit.anchor}`;
+  let url = `{{ site.baseurl }}${hit.url}#${hit.anchor}`;
   const title = `{{ site.baseurl }}${hit.blog_title}`
   const image = `{{ site.baseurl }}${hit.post.one_path}`;
   let breadcrumbs = '';
