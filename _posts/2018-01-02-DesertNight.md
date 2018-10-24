@@ -4,6 +4,7 @@ name: Desert Night
 blog_title: A Night in a Desert
 title_description: Desert Night
 one_path: img/Sunrise.JPG
+category: [Desert, Africa, Sahara]  
 
 images:
     - image_path: /img/DesertNight/Bonfire.JPG

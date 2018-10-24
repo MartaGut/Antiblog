@@ -4,7 +4,7 @@ name: Weird Things
 blog_title: Weird Things That Only Happen in China
 title_description: Weird Things
 one_path: img/SquareDance.JPG
-category: China
+category: China 
 
 images:
     - image_path: /img/WeirdThings/Manicure2.JPG
