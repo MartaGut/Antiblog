@@ -10,9 +10,9 @@ const hitTemplate = function(hit) {
   if (hit.date) {
     date = moment.unix(hit.date).format('MMM D, YYYY');
   }
-  let url = `${hit.url}#${hit.anchor}`;
+  let url = `{{ site.baseurl }}${hit.baseurl}#${hit.anchor}`;
   const title = `{{ site.baseurl }}${hit.blog_title}`
-  const image = `{{ site.baseurl }}${hit.one_path}`;
+  const image = `{{ site.baseurl }}${hit.post.one_path}`;
   let breadcrumbs = '';
   if (hit._highlightResult.headings) {
     breadcrumbs = hit._highlightResult.headings.map(match => {
