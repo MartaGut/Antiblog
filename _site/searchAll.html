@@ -127,7 +127,7 @@ const hitTemplate = function(hit) {
   }
   let url = `https://martagut.github.io/Antiblog/${hit.url}#${hit.anchor}`;
   const title = `https://martagut.github.io/Antiblog/${hit.blog_title}`
-  const image = `https://martagut.github.io/Antiblog/${hit.image}`;
+  const image = `https://martagut.github.io/Antiblog/${hit.one_path}`;
   let breadcrumbs = '';
   if (hit._highlightResult.headings) {
     breadcrumbs = hit._highlightResult.headings.map(match => {

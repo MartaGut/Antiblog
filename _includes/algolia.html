@@ -12,7 +12,7 @@ const hitTemplate = function(hit) {
   }
   let url = `{{ site.baseurl }}${hit.url}#${hit.anchor}`;
   const title = `{{ site.baseurl }}${hit.blog_title}`
-  const image = `{{ site.baseurl }}${hit.image}`;
+  const image = `{{ site.baseurl }}${hit.one_path}`;
   let breadcrumbs = '';
   if (hit._highlightResult.headings) {
     breadcrumbs = hit._highlightResult.headings.map(match => {
