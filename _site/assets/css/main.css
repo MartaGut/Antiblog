@@ -69,7 +69,7 @@ body { background-color: #f6f5f3; }
 
 #mapdiv { width: 100%; height: 300px; margin: auto; }
 
-.grey { background-color: #565e6c; margin: 0px; color: white; padding: 1%; text-align: center; }
+.grey { background-color: #565e6c; margin: 0px; color: white; padding: 10px; text-align: center; }
 
 .whiteBox { padding: 15px; text-align: center; }
 
