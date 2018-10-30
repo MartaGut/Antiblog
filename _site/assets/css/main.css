@@ -20,7 +20,7 @@
 
 .imgText { display: block; position: absolute; }
 
-.title { z-index: 100; text-shadow: 4px 2px 5px #565e6c; padding: 1%; font-size: 6vw; font-weight: 1000; color: white; margin: 0; }
+.title { z-index: 100; padding: 1%; font-size: 6vw; font-weight: 1000; color: white; margin: 0; text-align: center; }
 
 .subscribebutt { background-color: #f6dba4; border: none; color: #565e6c; border-radius: 30px; font-family: 'Oswald', sans-serif; font-size: 3vw; padding: 1%; position: absolute; right: 10%; font-weight: bold; font-variant: small-caps; }
 
