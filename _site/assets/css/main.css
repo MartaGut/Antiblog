@@ -105,20 +105,23 @@ a { text-decoration: none; }
 @media (max-width: 700px) { .bigger, .smaller { flex-direction: column; }
   #mapdiv { max-width: 500px; max-height: 400px; }
   #readBlogs { display: none; } }
-@media (max-width: 500px) { #mapdiv { max-width: 300px; max-height: 200px; } }
+@media (max-width: 500px) { .bigger, .smaller { flex-direction: column; }
+  #mapdiv { max-width: 300px; max-height: 200px; } }
 .indicates-required { font-size: 10px; }
 
 .mc-field-group { display: block; padding: 10px; }
 
 label { display: block; }
 
-@media (max-width: 768px) { .bigger { padding-right: 0; }
+@media (max-width: 768px) { .bigger, .smaller { flex-direction: column; }
+  .bigger { padding-right: 0; }
   #readBlogs { margin-left: 0%; }
   .Twoflex-container { flex-direction: column; }
   .blogEntry { flex: 1 1 100%; }
   .tithead { font-size: 3vw; }
   .titleDesc { font-size: 2vw; }
   .light { font-size: 2vw; } }
+@media (max-width: 321px) { .bigger, .smaller { flex-direction: column; } }
 .greyFoot { background: #565e6c; display: block; margin-top: 10px; position: relative; margin: auto; padding-bottom: 2%; }
 
 footer { bottom: 0px; clear: both; }

@@ -195,6 +195,9 @@ a {
     }
 }
 @media (max-width: 500px){
+    .bigger, .smaller {   
+        flex-direction: column;
+    }
     #mapdiv{
         max-width: 300px;
         max-height: 200px;
@@ -212,6 +215,9 @@ label {
 }
 
 @media (max-width: 768px) {
+    .bigger, .smaller {   
+        flex-direction: column;
+    }
     .bigger {
         padding-right: 0;
     }
@@ -236,5 +242,7 @@ label {
     
    }
    @media (max-width: 321px){
-     
+    .bigger, .smaller {   
+        flex-direction: column;
+    }
    }
