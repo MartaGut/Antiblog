@@ -117,7 +117,10 @@ label { display: block; }
   #readBlogs { margin-left: 0%; }
   .Twoflex-container { flex-direction: column; }
   .blogEntry { flex: 1 1 100%; } }
-@media (max-width: 321px) { .bigger, .smaller { flex-direction: column; } }
+/*
+@media (max-width: 321px){ .bigger, .smaller {    flex-direction: column; }
+}
+*/
 .greyFoot { background: #565e6c; display: block; margin-top: 10px; position: relative; margin: auto; padding-bottom: 2%; }
 
 footer { bottom: 0px; clear: both; }
