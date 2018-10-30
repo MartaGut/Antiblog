@@ -103,8 +103,7 @@ a { text-decoration: none; }
 
 /* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
 @media (max-width: 700px) { .bigger, .smaller { flex-direction: column; }
-  #mapdiv { max-width: 500px; max-height: 400px; }
-  #readBlogs { display: none; } }
+  #mapdiv { max-width: 500px; max-height: 400px; } }
 @media (max-width: 500px) { .bigger, .smaller { flex-direction: column; }
   #mapdiv { max-width: 300px; max-height: 200px; } }
 .indicates-required { font-size: 10px; }
