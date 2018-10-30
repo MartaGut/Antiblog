@@ -10,9 +10,9 @@ body { background-color: #f6f5f3; }
 
 .mainrow { display: block; margin: 0; padding: 0; }
 
-.main { font-family: 'Oswald', sans-serif; font-size: 5vw; font-weight: bold; text-align: center; color: #565e6c; display: block; }
+.main { font-family: 'Oswald', sans-serif; font-weight: bold; text-align: center; color: #565e6c; display: block; }
 
-.underMain { font-family: 'Oswald', sans-serif; font-size: 3vw; font-weight: bold; text-align: center; color: #565e6c; display: block; }
+.underMain { font-family: 'Oswald', sans-serif; font-weight: bold; text-align: center; color: #565e6c; display: block; }
 
 .imgContainer { position: relative; display: block; padding: 0; }
 
