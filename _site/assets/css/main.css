@@ -150,7 +150,7 @@ body { font-family: Verdana, sans-serif; margin: 0; }
 
 .home { float: left; }
 
-.grey { background: #565e6c; padding: 1%; display: block; text-align: center; margin-top: 5px; margin-bottom: 1%; }
+.greyPost { background: #565e6c; padding: 1%; display: block; text-align: center; margin-top: 5px; margin-bottom: 1%; }
 
 .postHeading { background: white; text-align: center; color: #565e6c; font-size: 2vw; }
 
