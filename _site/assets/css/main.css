@@ -49,9 +49,9 @@ body { background-color: #f6f5f3; }
 
 .tithead { font-size: 2vw; font-family: 'Oswald', sans-serif; }
 
-.titleDesc { font-size: 1vw; font-family: 'Oswald', sans-serif; }
+.titleDesc { font-family: 'Oswald', sans-serif; }
 
-.light { opacity: 0.5; font-size: 1vw; }
+.light { opacity: 0.5; }
 
 .bigPostImage { width: 100%; height: auto; padding-bottom: 4%; }
 
