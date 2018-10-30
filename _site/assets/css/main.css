@@ -111,7 +111,6 @@ a { text-decoration: none; }
 label { display: block; }
 
 @media (max-width: 768px) { .bigger { padding-right: 0; }
-  #readBlogs { margin-left: 0%; }
   .Twoflex-container { flex-direction: column; }
   .blogEntry { flex: 1 1 100%; } }
 /*
