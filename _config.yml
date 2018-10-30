@@ -24,3 +24,5 @@ url: 'https://github.com/MartaGut.io'
 github: [metadata]
 
 repository: 'MartaGut/Antiblog'
+
+localhost: 'http://127.0.0.1:4000'
