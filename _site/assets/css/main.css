@@ -4,7 +4,7 @@ body { background-color: #f6f5f3; }
 
 .searchRight { float: right; }
 
-.socMed { padding: 2%; display: inline-block; }
+.socMed { padding: 10px; display: inline-block; }
 
 .socMed:hover { background-color: #f6f5f3; }
 
