@@ -218,7 +218,7 @@ body { font-family: Verdana, sans-serif; margin: 0; }
 /* Smartphones (portrait and landscape) ----------- */
 @media (min-width: 320px) and (max-width: 480px) { .prev, .next, .text { font-size: 11px; }
   .flex-container { flex-direction: column; }
-  .oneImage { max-width: 400px; max-height: 350px; }
+  .oneImage { max-width: 350px; max-height: 300px; }
   .sidePic { height: 70px; } }
 .pageNavigation { flex: 1 1 45%; width: auto; display: block; height: 100%; clear: both; }
 
