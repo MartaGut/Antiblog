@@ -116,7 +116,7 @@
 
   <div class="readMoreCategory">
       {% unless page.category == null %}
-      {% capture pageCategory %}{{ page.category }}{% endcapture %}
+      {% capture pageCategory %}{{ page.category | split:&nbsp; }}{% endcapture %}
       {% unless site.categories[pageCategory].size == 1 %}
         <div>
             <div class="greyPost" style="padding-left: 2%">
