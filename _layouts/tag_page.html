@@ -1,0 +1,53 @@
+---
+layout: page
+---
+<head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="{{site.baseurl}}/assets/css/main.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+
+<body>
+<div class="postHeading">
+    <div>
+        <!-- Nav bar with social medias -->
+        <div class="navBar">
+            <a href="#" class="home socMed" >{% include icons/home.html %}</a>
+            <a href="#" class="socMed" >{% include icons/facebook.html %}</a>
+            <a href="#" class="socMed" >{% include icons/insta.html %}</a>
+            <a href="#" class="socMed" >{% include icons/twitter.html %}</a>
+            <a href="#" class="socMed" >{% include icons/linkedin.html %}</a>       
+        </div>
+      </div>
+        <!-- end of Nav bar with social medias -->
+    
+        <div>
+            <h1>Why you shouldn't go to {{ page.category }}</h1>
+        </div>
+</div>
+
+
+<div class="flex-container table">
+{% for post in site.categories[page.category] %}
+<div class="category-box">
+        <div class="whiteBox smallCategBlog">
+                <a  href="{{ post.url }}">
+                    <img class="categ-img" src="{{ post.image }}" alt="beijing">
+                    <div class="smallBlogText">{{ post.blog_title }}
+                    <span class="postDate">{{ post.url | date: "%b %-d, %Y" }} </span></div>
+                </a>
+                <div>
+                     <div class="blogContainer"> 
+                         {{ post.excerpt }}
+                    </div>
+                </div>    
+        </div>
+</div>
+{% endfor %}
+</div>
+
+<div>
+{% include footer.html %}
+</div>
+<script href="{{site.baseurl}}/js/footer.js"></script>
+</body>
