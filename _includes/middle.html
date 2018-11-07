@@ -36,7 +36,8 @@
             { "id": "MK" },
             { "id": "MC" },
             { "id": "ME" },
-            { "id": "MA" },
+            { "id": "MA", "{{site.baseurl}}/category/morocco.html",
+    "urlTarget": "_blank" },
             { "id": "NL" },
             { "id": "PL" },
             { "id": "RO" },
@@ -174,6 +175,14 @@
         {% for post in site.categories[pageCategory] %}
         <span><a href="{{site.baseurl}}{{ post.url }}" target="_blank">{{ category  | first }}</a></span>
         {% endfor %}
+
+        {% for post in site.categories[pageCategory] limit:6 %}
+        <div>
+            <a  href="{{site.baseurl}}{{ post.url }}">{{page.category | first}}
+            </a>
+        </div>
+      {% endfor %}
+
   </div>
 </div>
 <!-- End of tags -->
