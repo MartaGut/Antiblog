@@ -23,8 +23,7 @@
     "urlTarget": "_blank" },
             { "id": "BA" },
             { "id": "BG" },
-            { "id": "CN", "{{site.baseurl}}/category/china.html",
-    "urlTarget": "_blank" },
+            { "id": "CN" },
             { "id": "HR" },
             { "id": "CZ" },
             { "id": "DE" },
@@ -36,20 +35,18 @@
             { "id": "MK" },
             { "id": "MC" },
             { "id": "ME" },
-            { "id": "MA", "{{site.baseurl}}/category/morocco.html",
-    "urlTarget": "_blank" },
+            { "id": "MA" },
             { "id": "NL" },
             { "id": "PL" },
             { "id": "RO" },
             { "id": "RU",
-            "url": "{{site.baseurl}}/category/russia.html",
+            "url": "{{site.baseurl}}/category/china.html",
     "urlTarget": "_blank"
         },
             { "id": "RS" },
             { "id": "FR" },
             { "id": "RS" },
-            { "id": "US", "{{site.baseurl}}/category/us.html",
-    "urlTarget": "_blank" },
+            { "id": "US" },
             { "id": "SK" },
             { "id": "SI" },
             { "id": "ES" },
@@ -170,18 +167,11 @@
   </div>
   <div class="whiteBox tagBox">
         {% for post in site.categories[pageCategory] %}
-        <a href="{{site.baseurl}}{{ post.url }}">{{ post.title }}</a> ({{ post.date | date_to_string }} | Tags: {{ post | tags }})
+        <a href="{{ post.url }}">{{ post.title }}</a> ({{ post.date | date_to_string }} | Tags: {{ post | tags }})
       {% endfor %}
-        {% for post in site.categories[pageCategory] %}
-        <span><a href="{{site.baseurl}}{{ post.url }}" target="_blank">{{ category  | first }}</a></span>
+        {% for category in site.categories %}
+        <span><a href="{{site.baseurl}}/category/{{post.url}}" target="_blank">{{ category  | first }}</a></span>
         {% endfor %}
-
-        {% for post in site.categories[pageCategory] limit:6 %}
-        <div>
-            <a  href="{{site.baseurl}}{{ post.url }}">{{page.category | first}}
-            </a>
-        </div>
-      {% endfor %}
 
   </div>
 </div>
