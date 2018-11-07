@@ -171,7 +171,7 @@
       {% endfor %}
 
         {% for category in site.categories %}
-        <span><a href="/category/#{{ category[0] }}" target="_blank">{{ category  | first }}</a></span>
+        <span><a href="{{ site.category[0] }}" target="_blank">{{ category  | first }}</a></span>
         {% endfor %}
 
   </div>
