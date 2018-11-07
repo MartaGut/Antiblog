@@ -170,7 +170,7 @@
         <a href="{{ post.url }}">{{ post.title }}</a> ({{ post.date | date_to_string }} | Tags: {{ post | tags }})
       {% endfor %}
         {% for category in site.categories %}
-        <span><a href="{{post.url}}" target="_blank">{{ category  | first }}</a></span>
+        <span><a href="{{page.category.url}}" target="_blank">{{ category  | first }}</a></span>
         {% endfor %}
 
   </div>
