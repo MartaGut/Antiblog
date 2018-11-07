@@ -171,13 +171,6 @@
         <span><a href="{{ site.category }}" target="_blank">{{ category  | first }}</a></span>
         {% endfor %}
 
-
-        <h2>{{ page.tag }}</h2>
-<ul>
-{% for post in page.posts %}
-  <li><a href="{{ post.url }}">{{ post.title }}</a> ({{ post.date  }} | Tags: {{ post | tags }})</li>
-{% endfor %}
-</ul>
   </div>
 </div>
 <!-- End of tags -->
