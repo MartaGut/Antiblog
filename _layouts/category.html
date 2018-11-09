@@ -31,7 +31,7 @@ layout: page
 {% for post in site.categories[page.category] %}
 <div class="category-box">
         <div class="whiteBox smallCategBlog">
-                <a  href="{{ post.url }}">
+                <a  href="{{site.baseurl}}{{ post.url }}">
                     <img class="categ-img" src="{{site.baseurl}}{{ post.one_path }}" alt="beijing">
                     <div class="smallBlogText">{{ post.blog_title }}
                     <span class="postDate">{{ post.url | date: "%b %-d, %Y" }} </span></div>
