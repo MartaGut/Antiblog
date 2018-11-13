@@ -6,7 +6,6 @@ title_description: Weird Things
 one_path: img/SquareDance.JPG
 category: China 
 categories: China 
-permalink: /category/
 
 images:
     - image_path: /img/WeirdThings/Manicure2.JPG

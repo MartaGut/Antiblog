@@ -7,7 +7,6 @@ one_path: img/Sunrise.JPG
 category: [Desert, Africa, Sahara]  
 categories: [Desert, Africa, Sahara]
 tags: [Desert, Africa, Sahara]
-permalink: /category/
 
 images:
     - image_path: /img/DesertNight/Bonfire.JPG

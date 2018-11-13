@@ -7,7 +7,6 @@ one_path: img/class.jpeg
 category: [China, Work in China]
 tags: [China, Work in China]
 categories: [China, Work in China]
-permalink: /category/
 
 images:
     - image_path: /img/TeachingChina/AnotherDiceGame.jpeg
