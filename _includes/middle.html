@@ -172,7 +172,7 @@
         {% endfor %}
 
         {% for tag in tags %}
-        <a href="#{{ tag | slugify }}"> {{ tag }} </a>
+        <a href="{{ tag | slugify }}" target="_blank"> {{ tag }} </a>
     {% endfor %}
 
     <div class="post-categories">
