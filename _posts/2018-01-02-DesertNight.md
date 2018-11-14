@@ -6,7 +6,7 @@ title_description: Desert Night
 one_path: img/Sunrise.JPG
 category: [Desert, Africa, Sahara]  
 categories: [Desert, Africa, Sahara]
-tags: [Desert, Africa, Sahara]
+tags: [Desert, Africa, Sahara, desert]
 
 images:
     - image_path: /img/DesertNight/Bonfire.JPG
