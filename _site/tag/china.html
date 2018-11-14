@@ -93,17 +93,31 @@
 
 </ul>
 
-<h2><%=t 'Posts tagged with', 'Posts mit dem Tag' %>: <%= page.tag %></h2>
-<ul>
-<% for post in page.posts -%>
-  <li>
-    <a href="<%=r post.url %>"><%= post.title %></a>
-    <span class="post-meta">
-      (<%=t 'Written by', 'Geschrieben von' %> <%= author(post) %> <%=t 'at', 'am' %> <%= date_to_long_string(post.date) %>)
-    </span>
-  </li>
-<% end -%>
-</ul>
+
+<div class="post">
+  <h1 class="tag-title">Tag: china</h1>
+  <ul>
+  
+    
+    <li>
+    
+      <a href="/china/2018/01/03/WeirdThings.html">Weirdthings</a> (03 Jan 2018)<br>
+      
+      <!-- Tags: china -->
+    </li>
+  
+    
+    <li>
+    
+      <a href="/china/work%20in%20china/2018/01/01/china-blog.html">China Blog</a> (01 Jan 2018)<br>
+      
+      <!-- Tags: china -->
+    </li>
+  
+  </ul>
+  </div>
+  
+  <hr>
 
 <div>
 

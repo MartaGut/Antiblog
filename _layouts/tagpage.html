@@ -54,17 +54,25 @@ layout: default
 {% endfor %}
 </ul>
 
-<h2><%=t 'Posts tagged with', 'Posts mit dem Tag' %>: <%= page.tag %></h2>
-<ul>
-<% for post in page.posts -%>
-  <li>
-    <a href="<%=r post.url %>"><%= post.title %></a>
-    <span class="post-meta">
-      (<%=t 'Written by', 'Geschrieben von' %> <%= author(post) %> <%=t 'at', 'am' %> <%= date_to_long_string(post.date) %>)
-    </span>
-  </li>
-<% end -%>
-</ul>
+
+<div class="post">
+  <h1 class="tag-title">Tag: {{ page.tag }}</h1>
+  <ul>
+  {% for post in site.tags[page.tag] %}
+    {% if post.lang %}
+    <li lang="{{post.lang}}">
+    {% else %}
+    <li>
+    {% endif %}
+      <a href="{{ post.url }}">{{ post.title }}</a> ({{ post.date | date_to_string }})<br>
+      {{ post.description }}
+      <!-- Tags: {{ post.tags | join: ", " }} -->
+    </li>
+  {% endfor %}
+  </ul>
+  </div>
+  
+  <hr>
 
 <div>
 {% include footer.html %}
