@@ -10,6 +10,14 @@
     </div>
     <!-- end of Nav bar with social medias -->
 
+    {% if site.tags != "" %}
+  {% include collecttags.html %}
+{% endif %}
+
+{% if site.tags == "" %}
+    {% include collecttags.html %}
+  {% endif %}
+
     <!-- Content div -->
      <div> 
         <div class="mainrow">
