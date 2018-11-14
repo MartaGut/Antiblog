@@ -168,11 +168,11 @@
   <div class="whiteBox tagBox">
         
         {% for category in site.categories %}
-        <span><a href="{{ page.categories.url }}" target="_blank">{{ category  | first }}</a></span>
+        <span><a href="#{{ category  | slugify}}" target="_blank">{{ category  | first }}</a></span>
         {% endfor %}
 
         {% for tag in tags %}
-        <a href="{{ tag | slugify }}" target="_blank"> {{ tag }} </a>
+        <a href="#{{ tag | slugify }}" target="_blank"> {{ tag }} </a>
     {% endfor %}
 
     <div class="post-categories">
