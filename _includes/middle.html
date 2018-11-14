@@ -191,6 +191,10 @@
   {% include collecttags.html %}
 {% endif %}
 
+{% if site.tags == "" %}
+    {% include collecttags.html %}
+  {% endif %}
+
           {% for tag in page.tags %}
   <li><a href="{{ site.baseurl }}/{{ site.tag_page_dir }}/{{ tag | slugify }}.html">{{ tag }}</a></li>
 {% endfor %}
