@@ -172,7 +172,7 @@
         {% endfor %}
 
         {% for tag in tags %}
-        <a href="tag/{{ tag | slugify }}" target="_blank"> {{ tag  | first }} </a>
+        <a href="tag/{{ tag | slugify }}" target="_blank"> {{ page.tag }} </a>
     {% endfor %}
 
 </div>
