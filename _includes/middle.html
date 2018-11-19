@@ -167,10 +167,6 @@
   </div>
   <div class="whiteBox tagBox">
         
-        {% for category in site.categories %}
-        <span><a href="category/{{ category  }}" target="_blank">{{ category  | first }}</a></span>
-        {% endfor %}
-
         {% for tag in tags %}
         <a href="tag/{{ tag | slugify }}" target="_blank"> {{ name }} </a>
     {% endfor %}
