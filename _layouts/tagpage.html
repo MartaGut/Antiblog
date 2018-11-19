@@ -31,8 +31,8 @@ layout: default
 {% for post in site.tags[page.tag] %}
 <div class="category-box">
         <div class="whiteBox smallCategBlog">
-                <a  href="{{ post.url }}">
-                    <img class="categ-img" src="{{ post.image }}" alt="beijing">
+                <a  href="{{site.baseurl}}{{ post.url }}">
+                    <img class="categ-img" src="{{site.baseurl}}{{ post.image }}" alt="beijing">
                     <div class="smallBlogText">{{ post.blog_title }}
                     <span class="postDate">{{ post.url | date: "%b %-d, %Y" }} </span></div>
                 </a>
@@ -45,15 +45,6 @@ layout: default
 </div>
 {% endfor %}
 </div>
-
-
-<h2>{{ page.tag }}</h2>
-<ul>
-{% for post in page.posts %}
-  <li><a href="{{ post.url }}">{{ post.title }}</a> ({{ post.date | date_to_string }} | Tags: {{ post | tags }})</li>
-{% endfor %}
-</ul>
-
 
 <div class="post">
   <h1 class="tag-title">Tag: {{ page.tag }}</h1>
