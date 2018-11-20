@@ -44,3 +44,9 @@ defaults:
       type: category
     values:
       layout: "category"
+
+highlighter: true
+markdown: kramdown
+permalink: pretty
+
+highlighter: rouge
