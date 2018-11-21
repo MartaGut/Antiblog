@@ -18,6 +18,10 @@
     {% include collecttags.html %}
   {% endif %}
 
+  {% if site.google_analytics %}
+  {% include google-analytics.html %}
+{% endif %}
+
     <!-- Content div -->
      <div> 
         <div class="mainrow">
