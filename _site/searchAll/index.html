@@ -86,7 +86,7 @@
             <div class="category-box">
                 <div class="whiteBox smallCategBlog">
                     <a  class="post-link" href="https://martagut.github.io/Antiblog//china/2018/01/03/WeirdThings/">
-                    <img class="categ-img" src="img/SquareDance.JPG" alt="beijing">
+                    <img class="categ-img" src="https://martagut.github.io/Antiblog/img/SquareDance.JPG" alt="beijing">
                      <div class="smallBlogText">Weird Things That Only Happen in China
                     <span class="postDate">Jan 3, 2018 </span></div></a>
                     <div class="post-snippet blogContainer"> 
@@ -101,7 +101,7 @@
             <div class="category-box">
                 <div class="whiteBox smallCategBlog">
                     <a  class="post-link" href="https://martagut.github.io/Antiblog//desert/africa/sahara/2018/01/02/desertnight/">
-                    <img class="categ-img" src="img/Sunrise.JPG" alt="beijing">
+                    <img class="categ-img" src="https://martagut.github.io/Antiblog/img/Sunrise.JPG" alt="beijing">
                      <div class="smallBlogText">A Night in a Desert
                     <span class="postDate">Jan 2, 2018 </span></div></a>
                     <div class="post-snippet blogContainer"> 
@@ -119,7 +119,7 @@
             <div class="category-box">
                 <div class="whiteBox smallCategBlog">
                     <a  class="post-link" href="https://martagut.github.io/Antiblog//china/work%20in%20china/2018/01/01/china-blog/">
-                    <img class="categ-img" src="img/class.jpeg" alt="beijing">
+                    <img class="categ-img" src="https://martagut.github.io/Antiblog/img/class.jpeg" alt="beijing">
                      <div class="smallBlogText">Inside the Classroom
                     <span class="postDate">Jan 1, 2018 </span></div></a>
                     <div class="post-snippet blogContainer"> 
@@ -148,7 +148,7 @@
           <span class="post-meta">Jan 3, 2018</span>
   
           <h2>
-            <a class="post-link" href="/https://martagut.github.io/Antiblog/china/2018/01/03/WeirdThings/">
+            <a class="post-link" href="https://martagut.github.io/Antiblog//china/2018/01/03/WeirdThings/">
               something
             </a>
           </h2>
@@ -162,7 +162,7 @@
           <span class="post-meta">Jan 2, 2018</span>
   
           <h2>
-            <a class="post-link" href="/https://martagut.github.io/Antiblog/desert/africa/sahara/2018/01/02/desertnight/">
+            <a class="post-link" href="https://martagut.github.io/Antiblog//desert/africa/sahara/2018/01/02/desertnight/">
               something
             </a>
           </h2>
@@ -179,7 +179,7 @@
           <span class="post-meta">Jan 1, 2018</span>
   
           <h2>
-            <a class="post-link" href="/https://martagut.github.io/Antiblog/china/work%20in%20china/2018/01/01/china-blog/">
+            <a class="post-link" href="https://martagut.github.io/Antiblog//china/work%20in%20china/2018/01/01/china-blog/">
               something
             </a>
           </h2>
@@ -193,8 +193,16 @@
       
     </div>
   
-    
+    <script src="https://cdn.jsdelivr.net/npm/instantsearch.js@2.6.0/dist/instantsearch.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.20.1/moment.min.js"></script>
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/instantsearch.js@2.6.0/dist/instantsearch.min.css">
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/instantsearch.js@2.6.0/dist/instantsearch-theme-algolia.min.css">
+<base href="https://martagut.github.io/Antiblog/">
+
+
 <script>
+
+  /*
 const search = instantsearch({
   appId: 'FL9GO11HZ6',
   apiKey: '3e7d65dbef7e7a30e38f11111b6a2dc5',
@@ -246,6 +254,63 @@ search.addWidget(
     }
   })
 );
+search.start();
+*/
+
+
+const search = instantsearch({
+  appId: 'FL9GO11HZ6',
+  apiKey: '3e7d65dbef7e7a30e38f11111b6a2dc5',
+  indexName: 'Depressed_traveller'
+});
+
+const hitTemplate = function(hit) {
+  let date = '';
+  if (hit.date) {
+    date = moment.unix(hit.date).format('MMM D, YYYY');
+  }
+
+  let url = `https://martagut.github.io/Antiblog/${hit.url}#${hit.anchor}`;
+
+  const title = hit._highlightResult.title.value;
+
+  let breadcrumbs = '';
+  if (hit._highlightResult.headings) {
+    breadcrumbs = hit._highlightResult.headings.map(match => {
+      return `<span class="post-breadcrumb">${match.value}</span>`
+    }).join(' > ')
+  }
+
+  const content = hit._highlightResult.html.value;
+
+  return `
+    <div class="post-item">
+      <span class="post-meta">${date}</span>
+      <h2><a class="post-link" href="${url}">${title}</a></h2>
+      <a href="${url}" class="post-breadcrumbs">${breadcrumbs}</a>
+      <div class="post-snippet">${content}</div>
+    </div>
+  `;
+}
+
+
+search.addWidget(
+  instantsearch.widgets.searchBox({
+    container: '#search-searchbar',
+    placeholder: 'Search into posts...',
+    poweredBy: true // This is required if you're on the free Community plan
+  })
+);
+
+search.addWidget(
+  instantsearch.widgets.hits({
+    container: '#search-hits',
+    templates: {
+      item: hitTemplate
+    }
+  })
+);
+
 search.start();
 </script>
 
@@ -305,118 +370,6 @@ search.start();
 }
 </style>
 
-    
-  
-<script>
-const search = instantsearch({
-  appId: 'FL9GO11HZ6',
-  apiKey: '3e7d65dbef7e7a30e38f11111b6a2dc5',
-  indexName: 'Depressed_traveller'
-});
-const hitTemplate = function(hit) {
-  let date = '';
-  if (hit.date) {
-    date = moment.unix(hit.date).format('MMM D, YYYY');
-  }
-  let url = `https://martagut.github.io/Antiblog/${hit.url}#${hit.anchor}`;
-  const title = `https://martagut.github.io/Antiblog/${hit.blog_title}`
-  const image = `https://martagut.github.io/Antiblog/${hit.post.one_path}`;
-  let breadcrumbs = '';
-  if (hit._highlightResult.headings) {
-    breadcrumbs = hit._highlightResult.headings.map(match => {
-      return `<span class="post-breadcrumb">${match.value}</span>`
-    }).join(' > ')
-  }
-  
-  const content = hit._highlightResult.html.value;
-  return `
-  <div class="flex-container table">
-      <div class="category-box">
-         <div class="whiteBox smallCategBlog">
-           <a class="post-link" href="${url}">
-             <img class="categ-img" src="${image}" alt="beijing">
-             <div class="smallBlogText">${title}
-             <span class="postDate">${date}</span></div></a>
-             <a href="${url}" class="post-breadcrumbs">${breadcrumbs}</a>
-             <div class="blogContainer">${content}</div>
-         </div>
-       </div>
-    </div>
-  `;
-}
-search.addWidget(
-  instantsearch.widgets.searchBox({
-    container: '#search-searchbar',
-    placeholder: 'The reason you should stay at home...',
-    poweredBy: true
-  })
-);
-search.addWidget(
-  instantsearch.widgets.hits({
-    container: '#search-hits',
-    templates: {
-      item: hitTemplate
-    }
-  })
-);
-search.start();
-</script>
-
-<style>
-
-.ais-search-box {
-  max-width: 100%;
-  margin-bottom: 15px;
-}
-.post-item {
-  margin-bottom: 30px;
-}
-
-
-.category-box{
-    flex: 1 1 30%;
-    display: table-cell;
-    margin: 10px;
-}
-.table{
-    width: 100%;
-}
-.categ-img{
-    margin: auto;
-    width: 100%;
-}
-@media (max-width: 700px) {
-    .category-box {   
-        flex: 1 1 100%;
-        display: inline-block;
-        margin: 20px;
-    }
-}
-@media (max-width: 1200px) {
-    .category-box {   
-        vertical-align: middle;
-    }
-}
-
-
-.smallCategBlog {
-    margin: 20px;
-    justify-content: center;
-    transition: 0.2s;
-}
-.category-box:hover{
-    border: 1px solid #565e6c;
-    background: rgba(246, 219, 164,0.2);
-    box-shadow: 0 0 8px 3px  #565e6c;
-}
-.smallBlogText{
-    text-decoration: none;
-    color: black;
-    margin: 20px;
-    text-align: center;
-    font-weight: bold;
-}
-</style>
   
 <!-- Footer -->
 <div>
