@@ -7,6 +7,8 @@ one_path: img/SquareDance.JPG
 category: China 
 categories: China 
 tags: China
+title: something
+headings: some
 
 images:
     - image_path: /img/WeirdThings/Manicure2.JPG
