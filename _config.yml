@@ -3,7 +3,7 @@ sass:
 
 future: true
 
-exlude: [vendor]
+exclude: [vendor]
 
 algolia:
   application_id: 'FL9GO11HZ6'
