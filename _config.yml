@@ -13,6 +13,7 @@ algolia:
     - category/china.html
     - /searchAll/searchAll.html
     - ammap/*.html
+    
 settings:
     highlightPreTag: '<em class="custom_highlight">'
     highlightPostTag: '</em>'
