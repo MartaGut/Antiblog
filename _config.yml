@@ -3,6 +3,8 @@ sass:
 
 future: true
 
+exlude: [vendor]
+
 algolia:
   application_id: 'FL9GO11HZ6'
   index_name: 'Depressed_traveller'
