@@ -16,4 +16,4 @@ rvm:
 
  matrix:
   exclude:
-    gemfile: Gemfile.lock
+    gemfile: Gemfile
