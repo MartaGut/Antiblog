@@ -4,8 +4,8 @@ name: TEFL in Saint Petersburg
 blog_title: TEFL in Saint Petersburg
 title_description: Saint Petersburg disappointment
 one_path: img/SquareDance.JPG
-categories: [Russia, Saint Petersbug]  
-tags: [Russia, Saint Petersbug]  
+categories: [Russia, TEFL]  
+tags: [Russia, TEFL]  
 title: TEFL in Saint Petersburg
 
 images:
