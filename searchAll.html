@@ -50,8 +50,28 @@
     <h2>Search by tags</h2>
   </div>
 {% for tag in tags %}
-<a href="tag/{{ tag | slugify }}" target="_blank"> {{ tag }} </a>
+<a href=# target="_blank"> {{ tag }} </a>
 {% endfor %}
+
+<div class="flex-container table">
+    {% for post in site.tags[page.tag] %}
+    <div class="category-box">
+            <div class="whiteBox smallCategBlog">
+                    <a  href="{{site.baseurl}}{{ post.url }}">
+                        <img class="categ-img" src="{{site.baseurl}}{{ post.one_path }}" alt="beijing">
+                        <div class="smallBlogText">{{ post.blog_title }}
+                        <span class="postDate">{{ post.url | date: "%b %-d, %Y" }} </span></div>
+                    </a>
+                    <div>
+                         <div class="blogContainer"> 
+                             {{ post.excerpt }}
+                        </div>
+                    </div>    
+            </div>
+    </div>
+    {% endfor %}
+    </div>
+
 </div>
 
 
