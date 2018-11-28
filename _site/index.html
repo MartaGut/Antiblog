@@ -723,7 +723,12 @@ const hitTemplate = function(hit) {
 
   const title = hit._highlightResult.title.value;
 
- 
+  let breadcrumbs = '';
+  if (hit._highlightResult.headings) {
+    breadcrumbs = hit._highlightResult.headings.map(match => {
+      return `<span class="post-breadcrumb">${match.value}</span>`
+    }).join(' > ')
+  }
 
   const content = hit._highlightResult.html.value;
 
