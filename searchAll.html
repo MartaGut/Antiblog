@@ -57,8 +57,6 @@
     <h1 class="page-heading">Posts</h1>
 
     <div id="search-searchbar"></div>
-
-    {% include algolia.html %}
   
     <div class="post-list" id="search-hits">
       {% for post in site.posts %}
@@ -76,7 +74,7 @@
         </div>
       {% endfor %}
     </div>
-  
+    {% include algolia.html %}
 
   {% include footer.html %}
 
