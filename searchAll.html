@@ -29,6 +29,34 @@
     
 </div>
 
+
+
+<!-- All Posts -->
+<div>
+    <div class="greyPost">
+        <h2>All Posts</h2>
+      </div>
+{% for post in site.posts %}
+<div class="whiteBox smallBlog">
+    <a  href="{{site.baseurl}}{{post.url}}">
+        <img  class="postImg" src="{{ post.one_path }}" alt="{{post.title_description}}">
+        <div class="smallBlogText">{{ post.blog_title }}
+        <span class="postDate">{{ post.url | date: "%b %-d, %Y" }} </span></div>
+    </a>
+</div>
+{% endfor %}
+
+<div class="greyPost">
+    <h2>Search by tags</h2>
+  </div>
+{% for tag in tags %}
+<a href="tag/{{ tag | slugify }}" target="_blank"> {{ tag }} </a>
+{% endfor %}
+</div>
+
+
+
+
 <!--
 <div id="search-searchbar"></div>
 
