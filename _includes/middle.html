@@ -78,7 +78,7 @@
         <div class="Twoflex-container">
      <!-- Firs Blog entry -->
 
-     {% for post in site.posts limit 4 %}
+     {% for post in site.posts limit 5 %}
         <div class="blogEntry">       
             <div class='blogTitle'>
                 <a href="{{site.baseurl}}{{post.url}}" class="blogLink"><h3 class="tithead">{{ post.name }}</h3></a>
@@ -168,7 +168,7 @@
   <div class="whiteBox tagBox">
         
         {% for tag in tags %}
-        <a href="tag/{{ tag | slugify }}" target="_blank"> {{ tag }} </a>
+        <a class="tagBox" href="tag/{{ tag | slugify }}" target="_blank"> {{ tag }} </a>
     {% endfor %}
 
 </div>
