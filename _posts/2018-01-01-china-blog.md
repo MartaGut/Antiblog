@@ -5,10 +5,8 @@ blog_title: Inside the Classroom
 title_description: Inside the Classroom
 one_path: img/class.jpeg
 category: [China, Work in China]
-tags: China
-categories: [China, Work in China, china]
-title: something
-headings: some
+tags: [China, Work]
+title: Teaching in China
 
 images:
     - image_path: /img/TeachingChina/AnotherDiceGame.jpeg
