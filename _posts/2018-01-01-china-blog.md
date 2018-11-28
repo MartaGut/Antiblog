@@ -4,7 +4,7 @@ name: Teaching In China
 blog_title: Inside the Classroom
 title_description: Inside the Classroom
 one_path: img/class.jpeg
-category: [China, Work in China]
+categories: [China, Work in China]
 tags: [China, Work]
 title: Teaching in China
 
