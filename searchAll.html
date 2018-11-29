@@ -65,13 +65,6 @@
 {% for tag in tags %}
 <a href=# target="_blank"> {{ tag }} </a>
 {% endfor %}
-
-<div class="flex-container table">
-    {% for post in site.tags[page.tag] %}
-    <a href="tag/{{ tag | slugify }}" target="_blank"> {{ tag }} </a>
-    {% endfor %}
-    </div>
-
 </div>
 </div>
 
