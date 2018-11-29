@@ -56,72 +56,22 @@
       </div>
 {% endfor %}
   </div>
+ </div>
 
 <div class="smaller">
-  <div class="grey">
+   <div class="grey">
     <h2>Search by tags</h2>
-  </div>
-  <div>
-  {% for tag in tags %}
-<a href=# target="_blank"> {{ tag }} </a>
-{% endfor %}
-</div>
-</div>
-
-</div>
-
-
-
-<!--
-<div id="search-searchbar"></div>
-
-    <div class="post-list" id="search-hits">
-
-    <div class="flex-container table">
-      {% for post in site.posts %}
-            <div class="category-box">
-                <div class="whiteBox smallCategBlog">
-                    <a  class="post-link" href="{{site.baseurl}}{{ post.url }}">
-                    <img class="categ-img" src="{{site.baseurl}}{{ post.one_path }}" alt="beijing">
-                     <div class="smallBlogText">{{ post.blog_title }}
-                    <span class="postDate">{{ post.url | date: "%b %-d, %Y" }} </span></div></a>
-                    <div class="post-snippet blogContainer"> 
-                         {{ post.excerpt }}
-                    </div>
-                </div>
-        </div>
-  
-        
+   </div>
+   <div>
+      {% for tag in tags %}
+        <a href=# target="_blank"> {{ tag }} </a>
       {% endfor %}
-    </div>
-    </div>
-  -->
-  <div>
-
-    <h1 class="page-heading">Posts</h1>
-
-    <div id="search-searchbar"></div>
-  
-    <div class="post-list" id="search-hits">
-      {% for post in site.posts %}
-        <div class="post-item">
-          {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
-          <span class="post-meta">{{ post.date | date: date_format }}</span>
-  
-          <h2>
-            <a class="post-link" href="{{site.baseurl}}{{ post.url }}">
-              {{ post.title | escape }}
-            </a>
-          </h2>
-  
-          <div class="post-snippet">{{ post.excerpt }}</div>
-        </div>
-      {% endfor %}
-    </div>
-    {% include algolia.html %}
+   </div>
+</div>
 
 </div>
+<div>
   {% include footer.html %}
-
+<div>
 </body>
 
