@@ -143,7 +143,7 @@
   <div>
       <h4 class="grey">Popular Posts</h4>
   </div>
-    {% for post in site.posts %}
+    {% for post in site.posts limit 3 %}
     <div class="whiteBox smallBlog">
         <a  href="{{site.baseurl}}{{post.url}}">
             <img  class="postImg" src="{{ post.one_path }}" alt="{{post.title_description}}">
