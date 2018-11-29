@@ -38,11 +38,12 @@
     <div class="grey">
         <h2>All Posts</h2>
       </div>
-      <div>
+
+      <divclass="flex-container table">
 {% for post in site.posts %}
 <div class="category-box" style="padding: 0">
     <div class="whiteBox smallCategBlog">
-            <a  href="{{site.baseurl}}{{ post.url }}">
+            <a  style="padding: 0"  href="{{site.baseurl}}{{ post.url }}">
                 <img class="categ-img" src="{{site.baseurl}}{{ post.one_path }}" alt="beijing">
                 <div class="smallBlogText">{{ post.blog_title }}
                 <span class="postDate">{{ post.url | date: "%b %-d, %Y" }} </span></div>
