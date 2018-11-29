@@ -41,18 +41,19 @@
 
       <divclass="flex-container table">
 {% for post in site.posts %}
-<div class="category-box" style="padding: 0">
-    <div class="whiteBox smallCategBlog">
-            <a  style="padding: 0"  href="{{site.baseurl}}{{ post.url }}">
-                <img class="categ-img" src="{{site.baseurl}}{{ post.one_path }}" alt="beijing">
-                <div class="smallBlogText">{{ post.blog_title }}
-                <span class="postDate">{{ post.url | date: "%b %-d, %Y" }} </span></div>
-            </a>
-            <div>
-                 <div class="blogContainer"> 
-                     {{ post.excerpt }}
-                </div>
-            </div>    
+<div class="blogEntry">       
+    <div class='blogTitle'>
+        <a href="{{site.baseurl}}{{post.url}}" class="blogLink"><h3 class="tithead">{{ post.name }}</h3></a>
+        <h4 class='titleDesc'>{{ title_description }} <span class='light'>{{ post.url | date: "%b %-d, %Y" }}</span> </h4>
+    </div>
+    <div>
+        <img class="bigPostImage" src="{{ post.one_path }}" alt="{{post.title_description}}">
+        <div>
+            <div class="blogContainer"> 
+             {{ post.excerpt }}
+            </div>
+            <a href="{{site.baseurl}}{{post.url}}"  class="readMore">Read more...</a>
+        </div>    
     </div>
 </div>
 {% endfor %}
