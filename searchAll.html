@@ -58,11 +58,11 @@
   </div>
  </div>
 
-<div class="smaller" class="margin:20px;">
+<div class="smaller" style="margin:20px;">
    <div class="grey">
     <h2>Search by tags</h2>
    </div>
-   <div>
+   <div class="tagBox whiteBox">
       {% for tag in site.tags %}
         <a href=# target="_blank"> {{ tag | first }} </a>
       {% endfor %}
