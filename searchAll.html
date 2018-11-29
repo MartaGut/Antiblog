@@ -64,7 +64,7 @@
    </div>
    <div>
       {% for tag in site.tags %}
-        <a href=# target="_blank"> {{ tag }} </a>
+        <a href=# target="_blank"> {{ tag | first }}{{ tag.name} </a>
       {% endfor %}
    </div>
 </div>
