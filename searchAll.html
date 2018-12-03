@@ -69,17 +69,26 @@
    <div class="tagBox whiteBox">
       {% for tag in site.tags %}
         <a href=# > {{ tag | first }} </a>
+        {% for post in tag[1] %}
+        <div class="category-box">
+          <div class="whiteBox smallCategBlog">
+                  <a  href="{{site.baseurl}}{{ post.url }}">
+                      <div class="smallBlogText">{{ post.blog_title }}
+                      <span class="postDate">{{ post.url | date: "%b %-d, %Y" }} </span></div>
+                  </a>
+                  <div>
+                       <div class="blogContainer"> 
+                           {{ post.excerpt }}
+                      </div>
+                  </div>    
+          </div>
+  </div>
+      {% endfor %}
       {% endfor %}
    </div>
 </div>
-{% for tag in site.tags %}
-  <h2>{{ tag[0] }}</h2>
-  <ul>
-    {% for post in tag[1] %}
-      <li><a href="{{ post.url }}">{{ post.title }}</a></li>
-    {% endfor %}
-  </ul>
-{% endfor %}
+
+
 
 <div class="flex-container table">
   {% for post in site.tags[page.tag] %}
