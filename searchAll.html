@@ -68,6 +68,7 @@
    </div>
    <div class="tagBox whiteBox">
       {% for tag in tags %}
+      {% if post.tags contains tag %}
         <a href="tag/{{ tag | slugify }}"  > {{ tag }} </a>
         {% for post in site.posts %}
         <div class="category-box">
@@ -78,6 +79,7 @@
                   </a>
           </div>
   </div>
+  {% endif %}
       {% endfor %}
       {% endfor %}
    </div>
