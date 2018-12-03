@@ -12,6 +12,10 @@
 <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/instantsearch.js/dist/instantsearch-theme-algolia.min.css">
 <base href="{{ site.baseurl }}">
 {% include algolia.html %}
+
+{% if site.tags != "" %}
+  {% include collecttags.html %}
+{% endif %}
 </head>
 
 <body>
