@@ -68,7 +68,7 @@
    </div>
    <div class="tagBox whiteBox">
       {% for tag in site.tags %}
-        <a href="tag/{{ tag | slugify }}" target="_blank" > {{ tag | first }} </a>
+        <a href=# target="_blank" > {{ tag | first }} </a>
         {% for post in tag[1] %}
         <div class="category-box">
           <div class="whiteBox smallCategBlog">
@@ -92,13 +92,20 @@
 
 <div class="flex-container table">
   {% for post in site.tags[page.tag] %}
+  <div class="category-box">
           <div class="whiteBox smallCategBlog">
                   <a  href="{{site.baseurl}}{{ post.url }}">
                       <img class="categ-img" src="{{site.baseurl}}{{ post.one_path }}" alt="beijing">
                       <div class="smallBlogText">{{ post.blog_title }}
                       <span class="postDate">{{ post.url | date: "%b %-d, %Y" }} </span></div>
-                  </a> 
+                  </a>
+                  <div>
+                       <div class="blogContainer"> 
+                           {{ post.excerpt }}
+                      </div>
+                  </div>    
           </div>
+  </div>
   {% endfor %}
   </div>
 {% include collecttags.html %}
@@ -106,6 +113,6 @@
 </div>
 <div>
   {% include footer.html %}
-</div>
+<div>
 </body>
 
