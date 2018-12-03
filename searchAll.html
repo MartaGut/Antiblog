@@ -71,7 +71,7 @@
    <div class="whiteBox tagBox">
   <a href="tag/{{ tag | slugify }}" target=_blank >{{ tag }}</a>
   </div>
-	<ul class="tagBox whiteBox">
+	<ul>
 	 {% for post in site.posts %}
 		 {% if post.tags contains tag %}
 		 <li class="category-box"><h3 class="whiteBox smallCategBlog"><a href="{{ post.url }}">
