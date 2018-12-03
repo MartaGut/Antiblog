@@ -67,7 +67,7 @@
     <h2>Search by tags</h2>
    </div>
    <div class="tagBox whiteBox">
-      {% for tag in page.tags %}
+      {% for tag in tags %}
         <a href="tag/{{ tag | slugify }}"  > {{ page.tag | first }} </a>
         {% for post in tag[1] %}
         <div class="category-box">
