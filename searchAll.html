@@ -67,8 +67,8 @@
     <h2>Search by tags</h2>
    </div>
    <div class="tagBox whiteBox">
-      {% for tag in site.tags %}
-        <a href=# target="_blank" > {{ tag | first }} </a>
+      {% for tag in tags %}
+        <a href="tag/{{ tag | slugify }}"  > {{ tag | first }} </a>
         {% for post in tag[1] %}
         <div class="category-box">
           <div class="whiteBox smallCategBlog">
