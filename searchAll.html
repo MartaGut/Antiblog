@@ -85,7 +85,7 @@
 </div>
 
   {% for tag in tags %}
-	<a href="/blog/tag/#{{ tag | slugify }}" target=_blank >{{ tag }}</a>
+	<a href="tag/{{ tag | slugify }}" target=_blank >{{ tag }}</a>
 	<ul class="tagBox whiteBox">
 	 {% for post in site.posts %}
 		 {% if post.tags contains tag %}
