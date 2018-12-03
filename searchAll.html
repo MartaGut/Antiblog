@@ -89,7 +89,7 @@
 	<ul class="tagBox whiteBox">
 	 {% for post in site.posts %}
 		 {% if post.tags contains tag %}
-		 <li class="category-box"><h3><a href="{{ post.url }}">
+		 <li class="category-box"><h3 class="whiteBox smallCategBlog"><a href="{{ post.url }}">
 		 {{ post.title }}
 		 <small>{{ post.date | date_to_string }}</small>
 		 </a></h3></li>
