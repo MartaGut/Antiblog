@@ -68,7 +68,7 @@
    </div>
    <div class="tagBox whiteBox">
       {% for tag in page.tags %}
-        <a href="tag/{{ tag | slugify }}"  > {{ tag | first }} </a>
+        <a href="tag/{{ tag | slugify }}"  > {{ page.tag | first }} </a>
         {% for post in tag[1] %}
         <div class="category-box">
           <div class="whiteBox smallCategBlog">
