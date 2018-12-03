@@ -83,26 +83,18 @@
    </div>
 </div>
 
-
-
-<div class="flex-container table">
+<div class="post">
+  <h1>Tag: {{ page.tag }}</h1>
+  <ul>
   {% for post in site.tags[page.tag] %}
-  <div class="category-box">
-          <div class="whiteBox smallCategBlog">
-                  <a  href="{{site.baseurl}}{{ post.url }}">
-                      <img class="categ-img" src="{{site.baseurl}}{{ post.one_path }}" alt="beijing">
-                      <div class="smallBlogText">{{ post.blog_title }}
-                      <span class="postDate">{{ post.url | date: "%b %-d, %Y" }} </span></div>
-                  </a>
-                  <div>
-                       <div class="blogContainer"> 
-                           {{ post.excerpt }}
-                      </div>
-                  </div>    
-          </div>
-  </div>
+    <li><a href="{{ post.url }}">{{ post.title }}</a> ({{ post.date | date_to_string }})<br>
+      {{ post.description }}
+    </li>
   {% endfor %}
+  </ul>
   </div>
+  <hr>
+  
 {% include collecttags.html %}
 
 </div>
