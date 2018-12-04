@@ -113,7 +113,8 @@ a { text-decoration: none; }
   .mc-field-group { display: block; padding: 10px; }
   label { display: block; }
   blockquote { display: block; margin-block-start: 1em; margin-block-end: 1em; margin-inline-start: 0; margin-inline-end: 0; }
-  .white-box { padding: 0px; margin: 0px; } }
+  .white-box { padding: 0px; margin: 0px; }
+  .tagSearch { font-size: 5vw; } }
 /*
 @media (max-width: 321px){ .bigger, .smaller {    flex-direction: column; }
 }

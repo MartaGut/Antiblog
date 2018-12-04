@@ -216,6 +216,8 @@ a {
     }
     .bigger {
         padding-right: 0;
+        margin: 0;
+        padding: 0;
 }
 .Twoflex-container{
     flex-direction: column;
@@ -240,6 +242,10 @@ blockquote {
 .white-box{
     padding:0px;
     margin:0px;
+
+}
+.tagSearch{
+    font-size: 5vw;
 }
 }
 

@@ -68,7 +68,7 @@
 
    {% for tag in tags %}
    <div class="whiteBox tagBox">
-  <a  style="font-size:5%;" href="tag/{{ tag | slugify }}" target=_blank >{{ tag }}</a>
+  <a class="tagSearch" style="font-size:3wv;" href="tag/{{ tag | slugify }}" target=_blank >{{ tag }}</a>
   </div>
 	<ul>
 	 {% for post in site.posts %}
