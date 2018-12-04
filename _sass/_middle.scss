@@ -201,9 +201,16 @@ a {
         margin-inline-start: 0px;
         margin-inline-end: 0px;
     }
-    .white-box{
+    .whiteBox{
         padding:0px;
         margin:0px;
+    }
+    .bigger{
+        padding:0;
+        margin: 0px;
+    }
+    .category-box{
+        margin: 0;
     }
 }
 @media (max-width: 300px){
@@ -215,9 +222,15 @@ a {
         max-height: 200px;
     }
     .bigger {
-        padding-right: 0;
         margin: 0;
         padding: 0;
+}
+.bigger{
+    padding:0;
+    margin: 0px;
+}
+.category-box{
+    margin: 0;
 }
 .Twoflex-container{
     flex-direction: column;
@@ -239,7 +252,7 @@ blockquote {
     margin-inline-start: 0;
     margin-inline-end: 0;
 }
-.white-box{
+.whiteBox{
     padding:0px;
     margin:0px;
 

@@ -105,15 +105,19 @@ a { text-decoration: none; }
 @media (max-width: 500px) { #mapdiv { max-width: 400px; max-height: 300px; }
   .blogEntry { flex: 1 1 100%; }
   blockquote { display: block; margin-block-start: 1em; margin-block-end: 1em; margin-inline-start: 0px; margin-inline-end: 0px; }
-  .white-box { padding: 0px; margin: 0px; } }
+  .whiteBox { padding: 0px; margin: 0px; }
+  .bigger { padding: 0; margin: 0px; }
+  .category-box { margin: 0; } }
 @media (max-width: 300px) { #mapdiv { max-width: 250px; max-height: 200px; }
-  .bigger { padding-right: 0; margin: 0; padding: 0; }
+  .bigger { margin: 0; padding: 0; }
+  .bigger { padding: 0; margin: 0px; }
+  .category-box { margin: 0; }
   .Twoflex-container { flex-direction: column; }
   .indicates-required { font-size: 10px; }
   .mc-field-group { display: block; padding: 10px; }
   label { display: block; }
   blockquote { display: block; margin-block-start: 1em; margin-block-end: 1em; margin-inline-start: 0; margin-inline-end: 0; }
-  .white-box { padding: 0px; margin: 0px; }
+  .whiteBox { padding: 0px; margin: 0px; }
   .tagSearch { font-size: 5vw; } }
 /*
 @media (max-width: 321px){ .bigger, .smaller {    flex-direction: column; }
