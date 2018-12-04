@@ -107,7 +107,7 @@ a { text-decoration: none; }
   blockquote { display: block; margin-block-start: 1em; margin-block-end: 1em; margin-inline-start: 0px; margin-inline-end: 0px; }
   .white-box { padding: 0px; margin: 0px; } }
 @media (max-width: 300px) { #mapdiv { max-width: 250px; max-height: 200px; }
-  .bigger { padding-right: 0; }
+  .bigger { padding-right: 0; margin: 0; padding: 0; }
   .Twoflex-container { flex-direction: column; }
   .indicates-required { font-size: 10px; }
   .mc-field-group { display: block; padding: 10px; }
