@@ -190,9 +190,7 @@ a {
         max-width: 400px;
         max-height: 300px;
     }
-    .Twoflex-container{
-        flex-direction: column;
-    }
+
     .blogEntry{
         flex: 1 1 100%
     }
@@ -214,6 +212,9 @@ a {
     }
     .bigger {
         padding-right: 0;
+}
+.Twoflex-container{
+    flex-direction: column;
 }
 .indicates-required{
     font-size: 10px;
