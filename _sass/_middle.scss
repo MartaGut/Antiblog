@@ -181,6 +181,17 @@ a {
     box-shadow: 18px 10px 43px -8px rgba(0,0,0,0.64);
 }
 
+.indicates-required{
+    font-size: 10px;
+}
+.mc-field-group {
+    display: block;
+    padding: 10px;
+}
+label {
+    display: block;
+}
+
 /* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
 @media (max-width: 500px) {
     .bigger, .smaller {   
@@ -235,16 +246,7 @@ a {
 .Twoflex-container{
     flex-direction: column;
 }
-.indicates-required{
-    font-size: 10px;
-}
-.mc-field-group {
-    display: block;
-    padding: 10px;
-}
-label {
-    display: block;
-}
+
 blockquote {
     display: block;
     margin-block-start: 1em;
