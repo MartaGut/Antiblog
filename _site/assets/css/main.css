@@ -111,7 +111,8 @@ a { text-decoration: none; }
   .indicates-required { font-size: 10px; }
   .mc-field-group { display: block; padding: 10px; }
   label { display: block; }
-  blockquote { display: block; margin-block-start: 1em; margin-block-end: 1em; margin-inline-start: 10px; margin-inline-end: 10px; } }
+  blockquote { display: block; margin-block-start: 1em; margin-block-end: 1em; margin-inline-start: 10px; margin-inline-end: 10px; }
+  .white-box { padding: 0px; margin: 0px; } }
 /*
 @media (max-width: 321px){ .bigger, .smaller {    flex-direction: column; }
 }
