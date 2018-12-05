@@ -65,118 +65,130 @@ images:
       image_name: Not a dog
       text: These things you find in the street. They are not from a doggo.  
       image_number: 14
-    - image_path: /img/STPete/luxury.jpg
+    - image_path: /img/STPete/luxury14.jpg
       image_name: Naive Art
       text: Naive art in their kindergartens. 
       image_number: 15
-    - image_path: /img/STPete/luxury.jpg
+    - image_path: /img/STPete/luxury15.jpg
       image_name: Rice
       text: You get a bowl of rice even with a KFC vegetarian hamburger. 
       image_number: 16
-    - image_path: /img/STPete/luxury.jpg
+    - image_path: /img/STPete/luxury16.jpg
       image_name: Chinese Aesthetic
       text: Chinese aesthetic - the flashier colors the better. 
       image_number: 17
-    - image_path: /img/STPete/luxury.jpg
+    - image_path: /img/STPete/luxury17.jpg
       image_name: Naive Art
       text: Naive art in their kindergartens. 
       image_number: 18
-    - image_path: /img/STPete/luxury.jpg
+    - image_path: /img/STPete/luxury18.jpg
       image_name: Book
       text: Book about butts?! Weird things they children read in the kindergarten.
       image_number: 19
-    - image_path: /img/STPete/luxury.jpg
+    - image_path: /img/STPete/luxury19.jpg
       image_name: Book
       text: Book about butts?! Weird things they children read in the kindergarten.
       image_number: 20
-    - image_path: /img/STPete/luxury.jpg
+    - image_path: /img/STPete/luxury20.jpg
       image_name: Book
       text: Book about butts?! Weird things they children read in the kindergarten.
       image_number: 21
-    - image_path: /img/STPete/luxury.jpg
+    - image_path: /img/STPete/luxury21.jpg
       image_name: Book
       text: Book about butts?! Weird things they children read in the kindergarten.
       image_number: 22
-    - image_path: /img/STPete/luxury.jpg
+    - image_path: /img/STPete/luxury22.jpg
       image_name: Book
       text: Book about butts?! Weird things they children read in the kindergarten.
       image_number: 23
-    - image_path: /img/STPete/luxury.jpg
+    - image_path: /img/STPete/luxury23.jpg
       image_name: Book
       text: Book about butts?! Weird things they children read in the kindergarten.
       image_number: 24
-    - image_path: /img/STPete/luxury.jpg
+    - image_path: /img/STPete/luxury24.jpg
       image_name: Book
       text: Book about butts?! Weird things they children read in the kindergarten.
       image_number: 25
-    - image_path: /img/STPete/luxury.jpg
+    - image_path: /img/STPete/luxury25.jpg
       image_name: Book
       text: Book about butts?! Weird things they children read in the kindergarten.
       image_number: 26
-    - image_path: /img/STPete/luxury.jpg
+    - image_path: /img/STPete/luxury26.jpg
       image_name: Actors
       text: These actors are hired so that you can take a picture with them, but they ask to have a picture with me instead because I am white. 
       image_number: 27
-    - image_path: /img/STPete/luxury.jpg
+    - image_path: /img/STPete/luxury27.jpg
       image_name: Jinglish - Chinese English, also known as Engrish. 
       text: Jinglish - Chinese English, also known as Engrish. 
       image_number: 28
-    - image_path: /img/STPete/luxury.jpg
+    - image_path: /img/STPete/luxury28.jpg
       image_name: Jinglish - Chinese English, also known as Engrish. 
       text: Jinglish - Chinese English, also known as Engrish. 
       image_number: 29
-    - image_path: /img/STPete/luxury.jpg
+    - image_path: /img/STPete/luxury29.jpg
       image_name: Jinglish - Chinese English, also known as Engrish. 
       text: Jinglish - Chinese English, also known as Engrish. 
       image_number: 30
-      - image_path: /img/STPete/luxury.jpg
+    - image_path: /img/STPete/luxury30.jpg
       image_name: Jinglish - Chinese English, also known as Engrish. 
       text: Jinglish - Chinese English, also known as Engrish. 
-      image_number: 28
-    - image_path: /img/STPete/luxury.jpg
+      image_number: 31
+    - image_path: /img/STPete/luxury31.jpg
       image_name: Jinglish - Chinese English, also known as Engrish. 
       text: Jinglish - Chinese English, also known as Engrish. 
-      image_number: 29
-    - image_path: /img/STPete/luxury.jpg
+      image_number: 32
+    - image_path: /img/STPete/luxury32.jpg
       image_name: Jinglish - Chinese English, also known as Engrish. 
       text: Jinglish - Chinese English, also known as Engrish. 
-      image_number: 30
-      - image_path: /img/STPete/luxury.jpg
+      image_number: 33
+    - image_path: /img/STPete/luxury33.jpg
       image_name: Jinglish - Chinese English, also known as Engrish. 
       text: Jinglish - Chinese English, also known as Engrish. 
-      image_number: 28
-    - image_path: /img/STPete/luxury.jpg
+      image_number: 34
+    - image_path: /img/STPete/luxury34.jpg
       image_name: Jinglish - Chinese English, also known as Engrish. 
       text: Jinglish - Chinese English, also known as Engrish. 
-      image_number: 29
-    - image_path: /img/STPete/luxury.jpg
+      image_number: 35
+    - image_path: /img/STPete/luxury35.jpg
       image_name: Jinglish - Chinese English, also known as Engrish. 
       text: Jinglish - Chinese English, also known as Engrish. 
-      image_number: 30
-      - image_path: /img/STPete/luxury.jpg
+      image_number: 36
+    - image_path: /img/STPete/luxury36.jpg
       image_name: Jinglish - Chinese English, also known as Engrish. 
       text: Jinglish - Chinese English, also known as Engrish. 
-      image_number: 28
-    - image_path: /img/STPete/luxury.jpg
+      image_number: 37
+    - image_path: /img/STPete/luxury37.jpg
       image_name: Jinglish - Chinese English, also known as Engrish. 
       text: Jinglish - Chinese English, also known as Engrish. 
-      image_number: 29
-    - image_path: /img/STPete/luxury.jpg
+      image_number: 38
+    - image_path: /img/STPete/luxury38.jpg
       image_name: Jinglish - Chinese English, also known as Engrish. 
       text: Jinglish - Chinese English, also known as Engrish. 
-      image_number: 30
-      - image_path: /img/STPete/luxury.jpg
+      image_number: 39
+    - image_path: /img/STPete/luxury39.jpg
       image_name: Jinglish - Chinese English, also known as Engrish. 
       text: Jinglish - Chinese English, also known as Engrish. 
-      image_number: 28
-    - image_path: /img/STPete/luxury.jpg
+      image_number: 40
+    - image_path: /img/STPete/luxury40.jpg
       image_name: Jinglish - Chinese English, also known as Engrish. 
       text: Jinglish - Chinese English, also known as Engrish. 
-      image_number: 29
-    - image_path: /img/STPete/luxury.jpg
+      image_number: 41
+    - image_path: /img/STPete/luxury41.jpg
       image_name: Jinglish - Chinese English, also known as Engrish. 
       text: Jinglish - Chinese English, also known as Engrish. 
-      image_number: 30
+      image_number: 42
+    - image_path: /img/STPete/luxury42.jpg
+      image_name: Jinglish - Chinese English, also known as Engrish. 
+      text: Jinglish - Chinese English, also known as Engrish. 
+      image_number: 43
+    - image_path: /img/STPete/luxury43.jpg
+      image_name: Jinglish - Chinese English, also known as Engrish. 
+      text: Jinglish - Chinese English, also known as Engrish. 
+      image_number: 44
+    - image_path: /img/STPete/luxury44.jpg
+      image_name: Jinglish - Chinese English, also known as Engrish. 
+      text: Jinglish - Chinese English, also known as Engrish. 
+      image_number: 45
 
 
 
