@@ -23,15 +23,15 @@ images:
       image_number: 3
     - image_path: /img/STPete/luxury3.jpg
       image_name: Luxury
-      text: Damn Apple logo on everything.
+      text: There are examples of extravagant lifestyles of the Russian richest families, high society with all the concert and dinner halls, but alongside the nobles’ places, lets face it, we all know that the working classes laboured in poverty and I honestly can’t understand how is it possible that this side of story is so rarely told to the tourists enjoying the beauties of the scenery. I felt personally insulted by looking at it.
       image_number: 4
     - image_path: /img/STPete/luxury4.jpg
       image_name: Luxury
-      text: Buying a face brush but ending up with a vibratior in disguise. 
+      text: Probably the least depressing place, The Hermitage, you can actually enjoy some nice art.
       image_number: 5
     - image_path: /img/STPete/luxury5.jpg
       image_name: Luxury
-      text: Buying a face brush but ending up with a vibratior in disguise.
+      text: There are examples of extravagant lifestyles of the Russian richest families, high society with all the concert and dinner halls, but alongside the nobles’ places, lets face it, we all know that the working classes laboured in poverty and I honestly can’t understand how is it possible that this side of story is so rarely told to the tourists enjoying the beauties of the scenery. I felt personally insulted by looking at it.
       image_number: 6
     - image_path: /img/STPete/luxury6.jpg
       image_name: Luxury
