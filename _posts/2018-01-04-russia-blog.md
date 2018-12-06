@@ -35,7 +35,7 @@ images:
       image_number: 6
     - image_path: /img/STPete/luxury6.jpg
       image_name: Luxury
-      text: These vending machines everywhere.  
+      text: The rise of the Russian Orthodox Church:/ President Vladimir Putin, a former KGB agent of the atheist Soviet Union, now embraces his Orthodox Christianity. The Russian leader is often shown on national television broadcasts attending church services and paying respect to the church leadership. The most dazzling places are of course - Churches. 
       image_number: 7
     - image_path: /img/STPete/luxury7.jpg
       image_name: Luxury
@@ -43,23 +43,23 @@ images:
       image_number: 8
     - image_path: /img/STPete/luxury8.jpg
       image_name: Luxury
-      text: This is something really upsetting, the way animals are treated by majority of people, it's like they make no difference between a living and a non living thing. 
+      text: There are examples of extravagant lifestyles of the Russian richest families, high society with all the concert and dinner halls, but alongside the nobles’ places, lets face it, we all know that the working classes laboured in poverty and I honestly can’t understand how is it possible that this side of story is so rarely told to the tourists enjoying the beauties of the scenery. I felt personally insulted by looking at it. 
       image_number: 9
     - image_path: /img/STPete/luxury9.jpg
       image_name: Luxury
-      text: Another really depressing thing. Locals told me these chicks don't live longer than a couple of days, they die from the intoxication of the chemicals in the dye. 
+      text: There are examples of extravagant lifestyles of the Russian richest families, high society with all the concert and dinner halls, but alongside the nobles’ places, lets face it, we all know that the working classes laboured in poverty and I honestly can’t understand how is it possible that this side of story is so rarely told to the tourists enjoying the beauties of the scenery. I felt personally insulted by looking at it.
       image_number: 10
     - image_path: /img/STPete/luxury10.jpg
       image_name: Luxury
-      text:  "Fresh Air"
+      text:  There are examples of extravagant lifestyles of the Russian richest families, high society with all the concert and dinner halls, but alongside the nobles’ places, lets face it, we all know that the working classes laboured in poverty and I honestly can’t understand how is it possible that this side of story is so rarely told to the tourists enjoying the beauties of the scenery. I felt personally insulted by looking at it.
       image_number: 11
     - image_path: /img/STPete/luxury11.jpg
       image_name: Luxury
-      text: Mao Zedong everywhere.
+      text: There are examples of extravagant lifestyles of the Russian richest families, high society with all the concert and dinner halls, but alongside the nobles’ places, lets face it, we all know that the working classes laboured in poverty and I honestly can’t understand how is it possible that this side of story is so rarely told to the tourists enjoying the beauties of the scenery. I felt personally insulted by looking at it.
       image_number: 12
     - image_path: /img/STPete/luxury12.jpg
       image_name: Luxury
-      text: Why is this chicken crossing the road? Anyway, there is a huga amount of farm animals inside of the city. If you don't mind being woken up by a cock from the restaurant nearby then you should definitely visit China. 
+      text: The rise of the Russian Orthodox Church:/ President Vladimir Putin, a former KGB agent of the atheist Soviet Union, now embraces his Orthodox Christianity. The Russian leader is often shown on national television broadcasts attending church services and paying respect to the church leadership. The most dazzling places are of course - Churches. 
       image_number: 13
     - image_path: /img/STPete/luxury13.jpg
       image_name: Luxury
