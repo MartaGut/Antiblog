@@ -39,7 +39,7 @@ images:
       image_number: 7
     - image_path: /img/STPete/luxury7.jpg
       image_name: Luxury
-      text: These vending machines everywhere. 
+      text: There are examples of extravagant lifestyles of the Russian richest families, high society with all the concert and dinner halls, but alongside the nobles’ places, lets face it, we all know that the working classes laboured in poverty and I honestly can’t understand how is it possible that this side of story is so rarely told to the tourists enjoying the beauties of the scenery. I felt personally insulted by looking at it.  
       image_number: 8
     - image_path: /img/STPete/luxury8.jpg
       image_name: Luxury
@@ -55,139 +55,139 @@ images:
       image_number: 11
     - image_path: /img/STPete/luxury11.jpg
       image_name: Luxury
-      text: There are examples of extravagant lifestyles of the Russian richest families, high society with all the concert and dinner halls, but alongside the nobles’ places, lets face it, we all know that the working classes laboured in poverty and I honestly can’t understand how is it possible that this side of story is so rarely told to the tourists enjoying the beauties of the scenery. I felt personally insulted by looking at it.
+      text: The rise of the Russian Orthodox Church:/ President Vladimir Putin, a former KGB agent of the atheist Soviet Union, now embraces his Orthodox Christianity. The Russian leader is often shown on national television broadcasts attending church services and paying respect to the church leadership. The most dazzling places are of course - Churches. 
       image_number: 12
     - image_path: /img/STPete/luxury12.jpg
       image_name: Luxury
-      text: The rise of the Russian Orthodox Church:/ President Vladimir Putin, a former KGB agent of the atheist Soviet Union, now embraces his Orthodox Christianity. The Russian leader is often shown on national television broadcasts attending church services and paying respect to the church leadership. The most dazzling places are of course - Churches. 
+      text: Poor minecrafted trees. 
       image_number: 13
     - image_path: /img/STPete/luxury13.jpg
       image_name: Luxury
-      text: These things you find in the street. They are not from a doggo.  
+      text: There are examples of extravagant lifestyles of the Russian richest families, high society with all the concert and dinner halls, but alongside the nobles’ places, lets face it, we all know that the working classes laboured in poverty and I honestly can’t understand how is it possible that this side of story is so rarely told to the tourists enjoying the beauties of the scenery. I felt personally insulted by looking at it.
       image_number: 14
     - image_path: /img/STPete/luxury14.jpg
       image_name: Luxury
-      text: Naive art in their kindergartens. 
+      text: There are examples of extravagant lifestyles of the Russian richest families, high society with all the concert and dinner halls, but alongside the nobles’ places, lets face it, we all know that the working classes laboured in poverty and I honestly can’t understand how is it possible that this side of story is so rarely told to the tourists enjoying the beauties of the scenery. I felt personally insulted by looking at it.
       image_number: 15
     - image_path: /img/STPete/luxury15.jpg
       image_name: Luxury
-      text: You get a bowl of rice even with a KFC vegetarian hamburger. 
+      text: The rise of the Russian Orthodox Church:/ President Vladimir Putin, a former KGB agent of the atheist Soviet Union, now embraces his Orthodox Christianity. The Russian leader is often shown on national television broadcasts attending church services and paying respect to the church leadership. The most dazzling places are of course - Churches. 
       image_number: 16
     - image_path: /img/STPete/luxury16.jpg
       image_name: Luxury
-      text: Chinese aesthetic - the flashier colors the better. 
+      text: There are examples of extravagant lifestyles of the Russian richest families, high society with all the concert and dinner halls, but alongside the nobles’ places, lets face it, we all know that the working classes laboured in poverty and I honestly can’t understand how is it possible that this side of story is so rarely told to the tourists enjoying the beauties of the scenery. I felt personally insulted by looking at it.
       image_number: 17
     - image_path: /img/STPete/luxury17.jpg
       image_name: Luxury
-      text: Naive art in their kindergartens. 
+      text: There are examples of extravagant lifestyles of the Russian richest families, high society with all the concert and dinner halls, but alongside the nobles’ places, lets face it, we all know that the working classes laboured in poverty and I honestly can’t understand how is it possible that this side of story is so rarely told to the tourists enjoying the beauties of the scenery. I felt personally insulted by looking at it.
       image_number: 18
     - image_path: /img/STPete/luxury18.jpg
       image_name: Luxury
-      text: Book about butts?! Weird things they children read in the kindergarten.
+      text: There are examples of extravagant lifestyles of the Russian richest families, high society with all the concert and dinner halls, but alongside the nobles’ places, lets face it, we all know that the working classes laboured in poverty and I honestly can’t understand how is it possible that this side of story is so rarely told to the tourists enjoying the beauties of the scenery. I felt personally insulted by looking at it.
       image_number: 19
     - image_path: /img/STPete/luxury19.jpg
       image_name: Luxury
-      text: Book about butts?! Weird things they children read in the kindergarten.
+      text: There are examples of extravagant lifestyles of the Russian richest families, high society with all the concert and dinner halls, but alongside the nobles’ places, lets face it, we all know that the working classes laboured in poverty and I honestly can’t understand how is it possible that this side of story is so rarely told to the tourists enjoying the beauties of the scenery. I felt personally insulted by looking at it.
       image_number: 20
     - image_path: /img/STPete/luxury20.jpg
       image_name: Luxury
-      text: Book about butts?! Weird things they children read in the kindergarten.
+      text: The rise of the Russian Orthodox Church:/ President Vladimir Putin, a former KGB agent of the atheist Soviet Union, now embraces his Orthodox Christianity. The Russian leader is often shown on national television broadcasts attending church services and paying respect to the church leadership. The most dazzling places are of course - Churches. 
       image_number: 21
     - image_path: /img/STPete/luxury21.jpg
       image_name: Luxury
-      text: Book about butts?! Weird things they children read in the kindergarten.
+      text: There are examples of extravagant lifestyles of the Russian richest families, high society with all the concert and dinner halls, but alongside the nobles’ places, lets face it, we all know that the working classes laboured in poverty and I honestly can’t understand how is it possible that this side of story is so rarely told to the tourists enjoying the beauties of the scenery. I felt personally insulted by looking at it.
       image_number: 22
     - image_path: /img/STPete/luxury22.jpg
       image_name: Luxury
-      text: Book about butts?! Weird things they children read in the kindergarten.
+      text: There are examples of extravagant lifestyles of the Russian richest families, high society with all the concert and dinner halls, but alongside the nobles’ places, lets face it, we all know that the working classes laboured in poverty and I honestly can’t understand how is it possible that this side of story is so rarely told to the tourists enjoying the beauties of the scenery. I felt personally insulted by looking at it.
       image_number: 23
     - image_path: /img/STPete/luxury23.jpg
       image_name: Luxury
-      text: Book about butts?! Weird things they children read in the kindergarten.
+      text: There are examples of extravagant lifestyles of the Russian richest families, high society with all the concert and dinner halls, but alongside the nobles’ places, lets face it, we all know that the working classes laboured in poverty and I honestly can’t understand how is it possible that this side of story is so rarely told to the tourists enjoying the beauties of the scenery. I felt personally insulted by looking at it.
       image_number: 24
     - image_path: /img/STPete/luxury24.jpg
       image_name: Luxury
-      text: Book about butts?! Weird things they children read in the kindergarten.
+      text: There are examples of extravagant lifestyles of the Russian richest families, high society with all the concert and dinner halls, but alongside the nobles’ places, lets face it, we all know that the working classes laboured in poverty and I honestly can’t understand how is it possible that this side of story is so rarely told to the tourists enjoying the beauties of the scenery. I felt personally insulted by looking at it.
       image_number: 25
     - image_path: /img/STPete/luxury25.jpg
       image_name: Luxury
-      text: Book about butts?! Weird things they children read in the kindergarten.
+      text: There are examples of extravagant lifestyles of the Russian richest families, high society with all the concert and dinner halls, but alongside the nobles’ places, lets face it, we all know that the working classes laboured in poverty and I honestly can’t understand how is it possible that this side of story is so rarely told to the tourists enjoying the beauties of the scenery. I felt personally insulted by looking at it.
       image_number: 26
     - image_path: /img/STPete/luxury26.jpg
       image_name: Luxury
-      text: These actors are hired so that you can take a picture with them, but they ask to have a picture with me instead because I am white. 
+      text: There are examples of extravagant lifestyles of the Russian richest families, high society with all the concert and dinner halls, but alongside the nobles’ places, lets face it, we all know that the working classes laboured in poverty and I honestly can’t understand how is it possible that this side of story is so rarely told to the tourists enjoying the beauties of the scenery. I felt personally insulted by looking at it.
       image_number: 27
     - image_path: /img/STPete/luxury27.jpg
       image_name: Luxury 
-      text: Jinglish - Chinese English, also known as Engrish. 
+      text: There are examples of extravagant lifestyles of the Russian richest families, high society with all the concert and dinner halls, but alongside the nobles’ places, lets face it, we all know that the working classes laboured in poverty and I honestly can’t understand how is it possible that this side of story is so rarely told to the tourists enjoying the beauties of the scenery. I felt personally insulted by looking at it.
       image_number: 28
     - image_path: /img/STPete/luxury28.jpg
       image_name: Luxury 
-      text: Jinglish - Chinese English, also known as Engrish. 
+      text: There are examples of extravagant lifestyles of the Russian richest families, high society with all the concert and dinner halls, but alongside the nobles’ places, lets face it, we all know that the working classes laboured in poverty and I honestly can’t understand how is it possible that this side of story is so rarely told to the tourists enjoying the beauties of the scenery. I felt personally insulted by looking at it.
       image_number: 29
     - image_path: /img/STPete/luxury29.jpg
       image_name: Luxury 
-      text: Jinglish - Chinese English, also known as Engrish. 
+      text: There are examples of extravagant lifestyles of the Russian richest families, high society with all the concert and dinner halls, but alongside the nobles’ places, lets face it, we all know that the working classes laboured in poverty and I honestly can’t understand how is it possible that this side of story is so rarely told to the tourists enjoying the beauties of the scenery. I felt personally insulted by looking at it.
       image_number: 30
     - image_path: /img/STPete/luxury30.jpg
       image_name: Luxury 
-      text: Jinglish - Chinese English, also known as Engrish. 
+      text: There are examples of extravagant lifestyles of the Russian richest families, high society with all the concert and dinner halls, but alongside the nobles’ places, lets face it, we all know that the working classes laboured in poverty and I honestly can’t understand how is it possible that this side of story is so rarely told to the tourists enjoying the beauties of the scenery. I felt personally insulted by looking at it.
       image_number: 31
     - image_path: /img/STPete/luxury31.jpg
       image_name: Luxury 
-      text: Jinglish - Chinese English, also known as Engrish. 
+      text: Me, more dazzling than any of their exaggeratedly bombastic church.
       image_number: 32
     - image_path: /img/STPete/luxury32.jpg
       image_name: Luxury 
-      text: Jinglish - Chinese English, also known as Engrish. 
+      text: Dark colored cathedral - NICE!
       image_number: 33
     - image_path: /img/STPete/luxury33.jpg
       image_name: Luxury 
-      text: Jinglish - Chinese English, also known as Engrish. 
+      text: Those poor horses. Could never understand how can people enjoy these rides.  
       image_number: 34
     - image_path: /img/STPete/luxury34.jpg
       image_name: Luxury 
-      text: Jinglish - Chinese English, also known as Engrish. 
+      text: There are examples of extravagant lifestyles of the Russian richest families, high society with all the concert and dinner halls, but alongside the nobles’ places, lets face it, we all know that the working classes laboured in poverty and I honestly can’t understand how is it possible that this side of story is so rarely told to the tourists enjoying the beauties of the scenery. I felt personally insulted by looking at it.
       image_number: 35
     - image_path: /img/STPete/luxury35.jpg
       image_name: Luxury
-      text: Jinglish - Chinese English, also known as Engrish. 
+      text: There are examples of extravagant lifestyles of the Russian richest families, high society with all the concert and dinner halls, but alongside the nobles’ places, lets face it, we all know that the working classes laboured in poverty and I honestly can’t understand how is it possible that this side of story is so rarely told to the tourists enjoying the beauties of the scenery. I felt personally insulted by looking at it.
       image_number: 36
     - image_path: /img/STPete/luxury36.jpg
       image_name: Luxury 
-      text: Jinglish - Chinese English, also known as Engrish. 
+      text: The rise of the Russian Orthodox Church:/ President Vladimir Putin, a former KGB agent of the atheist Soviet Union, now embraces his Orthodox Christianity. The Russian leader is often shown on national television broadcasts attending church services and paying respect to the church leadership. The most dazzling places are of course - Churches. 
       image_number: 37
     - image_path: /img/STPete/luxury37.jpg
       image_name: Luxury
-      text: Jinglish - Chinese English, also known as Engrish. 
+      text: There are examples of extravagant lifestyles of the Russian richest families, high society with all the concert and dinner halls, but alongside the nobles’ places, lets face it, we all know that the working classes laboured in poverty and I honestly can’t understand how is it possible that this side of story is so rarely told to the tourists enjoying the beauties of the scenery. I felt personally insulted by looking at it.
       image_number: 38
     - image_path: /img/STPete/luxury38.jpg
       image_name: Luxury 
-      text: Jinglish - Chinese English, also known as Engrish. 
+      text: The rise of the Russian Orthodox Church:/ President Vladimir Putin, a former KGB agent of the atheist Soviet Union, now embraces his Orthodox Christianity. The Russian leader is often shown on national television broadcasts attending church services and paying respect to the church leadership. The most dazzling places are of course - Churches. 
       image_number: 39
     - image_path: /img/STPete/luxury39.jpg
       image_name: Luxury
-      text: Jinglish - Chinese English, also known as Engrish. 
+      text: The rise of the Russian Orthodox Church:/ President Vladimir Putin, a former KGB agent of the atheist Soviet Union, now embraces his Orthodox Christianity. The Russian leader is often shown on national television broadcasts attending church services and paying respect to the church leadership. The most dazzling places are of course - Churches. 
       image_number: 40
     - image_path: /img/STPete/luxury40.jpg
       image_name: Luxury
-      text: Jinglish - Chinese English, also known as Engrish. 
+      text: The rise of the Russian Orthodox Church:/ President Vladimir Putin, a former KGB agent of the atheist Soviet Union, now embraces his Orthodox Christianity. The Russian leader is often shown on national television broadcasts attending church services and paying respect to the church leadership. The most dazzling places are of course - Churches. 
       image_number: 41
     - image_path: /img/STPete/luxury41.jpg
       image_name: Luxury 
-      text: Jinglish - Chinese English, also known as Engrish. 
+      text: The rise of the Russian Orthodox Church:/ President Vladimir Putin, a former KGB agent of the atheist Soviet Union, now embraces his Orthodox Christianity. The Russian leader is often shown on national television broadcasts attending church services and paying respect to the church leadership. The most dazzling places are of course - Churches. 
       image_number: 42
     - image_path: /img/STPete/luxury42.jpg
       image_name: Luxury 
-      text: Jinglish - Chinese English, also known as Engrish. 
+      text: The rise of the Russian Orthodox Church:/ President Vladimir Putin, a former KGB agent of the atheist Soviet Union, now embraces his Orthodox Christianity. The Russian leader is often shown on national television broadcasts attending church services and paying respect to the church leadership. The most dazzling places are of course - Churches. 
       image_number: 43
     - image_path: /img/STPete/luxury43.jpg
       image_name: Luxury 
-      text: Jinglish - Chinese English, also known as Engrish. 
+      text: The rise of the Russian Orthodox Church:/ President Vladimir Putin, a former KGB agent of the atheist Soviet Union, now embraces his Orthodox Christianity. The Russian leader is often shown on national television broadcasts attending church services and paying respect to the church leadership. The most dazzling places are of course - Churches. 
       image_number: 44
     - image_path: /img/STPete/luxury44.jpg
       image_name: Luxury 
-      text: Jinglish - Chinese English, also known as Engrish. 
+      text: The rise of the Russian Orthodox Church:/ President Vladimir Putin, a former KGB agent of the atheist Soviet Union, now embraces his Orthodox Christianity. The Russian leader is often shown on national television broadcasts attending church services and paying respect to the church leadership. The most dazzling places are of course - Churches. 
       image_number: 45
 
 
