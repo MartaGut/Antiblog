@@ -189,6 +189,41 @@ images:
       image_name: Luxury 
       text: The rise of the Russian Orthodox Church:/ President Vladimir Putin, a former KGB agent of the atheist Soviet Union, now embraces his Orthodox Christianity. The Russian leader is often shown on national television broadcasts attending church services and paying respect to the church leadership. The most dazzling places are of course - Churches. 
       image_number: 45
+    - image_path: /img/STPete/cemetery1.jpg
+      image_name: Tikhvinskoe
+      text: Tikhvinskoe Cemetery. During the 19th century a large number of famous scientists and artists were buried here, among them poets Vasily Zhukovsky and Nikolay Gnedich; writers Fyodor Dostoevsky and Ivan Krylov; composers Modest Mussorgsky, Alexander Borodin, and Pyotr Tchaikovsky. 
+      image_number: 46
+    - image_path: /img/STPete/cemetery.jpg
+      image_name: Tikhvinskoe
+      text: Tikhvinskoe Cemetery. During the 19th century a large number of famous scientists and artists were buried here, among them poets Vasily Zhukovsky and Nikolay Gnedich; writers Fyodor Dostoevsky and Ivan Krylov; composers Modest Mussorgsky, Alexander Borodin, and Pyotr Tchaikovsky. 
+      image_number: 47
+    - image_path: /img/STPete/dostoevsky.jpg
+      image_name: Tikhvinskoe
+      text:  Tikhvinskoe Cemetery. During the 19th century a large number of famous scientists and artists were buried here, among them poets Vasily Zhukovsky and Nikolay Gnedich; writers Fyodor Dostoevsky and Ivan Krylov; composers Modest Mussorgsky, Alexander Borodin, and Pyotr Tchaikovsky. 
+      image_number: 48
+    - image_path: /img/STPete/mikolai.jpg
+      image_name: Tikhvinskoe
+      text: Tikhvinskoe Cemetery. During the 19th century a large number of famous scientists and artists were buried here, among them poets Vasily Zhukovsky and Nikolay Gnedich; writers Fyodor Dostoevsky and Ivan Krylov; composers Modest Mussorgsky, Alexander Borodin, and Pyotr Tchaikovsky. 
+      image_number: 49
+    - image_path: /img/STPete/tchaikovsky.jpg
+      image_name: Tikhvinskoe
+      text: Probably the least depressing place, The Hermitage, you can actually enjoy some nice art.
+      image_number: 50
+    - image_path: /img/STPete/political.jpg
+      image_name: Memorial to Victims of Political Repression. The skulls of the sphinxes face across the river to Kresty, the notorious holding prison that processed many thousands of Leningrad citizens on their way to the horrors of the Gulag.
+      image_number: 51
+    - image_path: /img/STPete/political1.jpg
+      image_name: Memorial to Victims of Political Repression
+      text: Memorial to Victims of Political Repression. The skulls of the sphinxes face across the river to Kresty, the notorious holding prison that processed many thousands of Leningrad citizens on their way to the horrors of the Gulag.
+      image_number: 52
+    - image_path: /img/STPete/outside.jpg
+      image_name: Outside
+      text: Outside St. Petersburg
+      image_number: 53
+     - image_path: /img/STPete/fitIn.jpg
+      image_name: Fitting in.
+      text: Me, desperately trying to fit in. 
+      image_number: 53
 
 
 
@@ -206,3 +241,5 @@ images:
 For tourist that visit Saint Petersburg it is breath-taking, fairy-tale like city, but leaving the city would probably made them consider their first impression. 
 
 >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;On the other hand, I ate really well – there is cabbage and beetroot in everything, sour cream is a must, but all the others from my group got some kind of stomach flu so it made my plans to dominate on the course easier. 
+
+>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The other group of pictures are at my favourite place – cemetery. The weather was cloudy, heavy and cold – a perfect day for a visit. 
