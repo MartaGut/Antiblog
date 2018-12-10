@@ -207,9 +207,9 @@ body { font-family: Verdana, sans-serif; margin: 0; }
 .goUp { -webkit-animation-name: goUp; -webkit-animation-duration: 1.5s; animation-name: goUp; animation-duration: 1.5s; }
 
 @keyframes goUp { from { top: 99%; opacity: 0; }
-  to { top: 70%; opacity: 1; } }
+  to { top: 60%; opacity: 1; } }
 @-webkit-keyframes goUp { from { top: 99%; opacity: 0; }
-  to { top: 70%; opacity: 1; } }
+  to { top: 60%; opacity: 1; } }
 .oneRow { display: flex; flex-direction: row; flex-wrap: wrap; justify-content: space-around; border: 2px solid  #565e6c; border-radius: 15px; margin: 2%; }
 
 .columnPic { padding: 5px; }

@@ -220,7 +220,7 @@ images:
       image_name: Outside
       text: Outside St. Petersburg
       image_number: 53
-     - image_path: /img/STPete/fitIn.jpg
+    - image_path: /img/STPete/fitIn.jpg
       image_name: Fitting in.
       text: Me, desperately trying to fit in. 
       image_number: 53
