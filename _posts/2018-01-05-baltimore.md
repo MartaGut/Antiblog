@@ -22,15 +22,16 @@ images:
       text: The centre was all about some weird sport we do not play in Europe but at least I found my lucku number. 
       image_number: 3
     - image_path: /img/Baltimore/poe.jpg
-      image_name: It was gloomy and rainy, a perfect day to visit Poe's tombstone. It took me a while to find it since none of the locals are actually aware that such a gem is in there. 
+      image_name: Poe
+      text: It was gloomy and rainy, a perfect day to visit Poe's tombstone. It took me a while to find it since none of the locals are actually aware that such a gem is in there. 
       image_number: 4
     - image_path: /img/Baltimore/poe1.jpg
-      image_name: Eating breakfast in the morning
+      image_name: Poe
       text: It was gloomy and rainy, a perfect day to visit Poe's tombstone. It took me a while to find it since none of the locals are actually aware that such a gem is in there. 
       image_number: 5
     - image_path: /img/Baltimore/creepy.jpg
-      image_name: Camels
-      text: This was on the way back, since I did not want to ride, the Berber's let  me lead the camels, they said I'm a natural talent. 
+      image_name: Creepy
+      text: These things really creeped me out. 
       image_number: 6
 ---
 
