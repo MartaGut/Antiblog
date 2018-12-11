@@ -73,7 +73,7 @@
 	<ul>
 	 {% for post in site.posts %}
 		 {% if post.tags contains tag %}
-		 <li style="color:black;" class="category-box"><h3 class="whiteBox smallCategBlog"><a style="color:black;" href="{{ post.url }}">
+		 <li style="color:black;" class="category-box"><h3 class="whiteBox smallCategBlog"><a style="color:black;" href="{{site.baseurl}}{{ post.url }}">
 		 {{ post.title }}
 		 <small class="light">{{ post.date | date_to_string }}</small>
 		 </a></h3></li>
