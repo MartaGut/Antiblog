@@ -38,14 +38,20 @@ images:
 >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Baltimore, I have to admit, was one of the creepiest places I have ever been to. Naive as I am, a born explorer, I did not do my research so I had no idea what I was getting myself into. 
 
 >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I arrived to the bus station from Washington DC and google-mapped where my motel is. It was a cheap Motel 6 on 110 West North Avenue. There was a bus going from the but station to the West North Avenue. How great I thought to myself. The bus had arrived and I was tracking my position on the map so I would not miss my stop. But as it happens, there was a constant lag probably due to the poor connection so I just decide to ask someone to tell me where to get off. 
+
 >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Is there going to be someone waiting for you there? - they asked. 
 >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- No, why? - I asked. 
+
 >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- No?! Well this is not a place for a young girl like you to be all alone. – to my surprise the whole bus was looking at me and started dealing with the problem I had and I was the only one not aware of it. 
+
 >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Let’s take you to the nearest police station and they will find you an accommodation for tonight. – another man said. 
 The whole bus started persuading me that this is a good idea. 
+
 >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-	You are the only white girl in this bus. - one man said. Holly shit it was true. It was fun as an experience but I did not understand the real reason why was it so important for that man to  make sure that I understand this fact. I said no, I did not see the reason not to go to my motel but now I was really traumatized. 
+
 >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-	Do you have any ideas what things are going on there? – one man asked. 
 At that moment, a beautiful thing happened. One man, obviously upset, stood up and said: 
+
 >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-	You know what things are going on there? A lot of nice things are also going on right there. 
 This man is absolutely my hero. After him, one lady said: “there is an art academy opposite the motel and you can visit their gallery.” and so on, the panic had stopped. 
 
