@@ -53,6 +53,6 @@ permalink: pretty
 
 highlighter: rouge
 
-site_title: Antiblog
+title: Antiblog
 
-title-img: /path/to/image
+title-img: /img/plane.png

@@ -10,23 +10,23 @@ title: Baltimore
 
 images:
     - image_path: /img/Baltimore/baltimore1.jpg
-      image_name: Bonfire
-      text: After dinner we gathered around the fire. 
+      image_name: The rest of Baltimore
+      text: Beside the nice and clean centre, this is what the rest of Baltimore looks like. 
       image_number: 1
     - image_path: /img/Baltimore/justice.jpg
-      image_name: Beds
-      text: This is where we slept during the night. It was warm and cozy.  
+      image_name: Black lives
+      text: Was happy to see that people are fighting for their rights.
       image_number: 2
     - image_path: /img/Baltimore/luckyNumber.jpg
-      image_name: The Soup
-      text: First thing on the menu was the Berber's soup, a thick chickpea and vegetable soup. 
+      image_name: Lucky number
+      text: The centre was all about some weird sport we do not play in Europe but at least I found my lucku number. 
       image_number: 3
     - image_path: /img/Baltimore/poe.jpg
-      image_name: Bonfire
+      image_name: It was gloomy and rainy, a perfect day to visit Poe's tombstone. It took me a while to find it since none of the locals are actually aware that such a gem is in there. 
       image_number: 4
     - image_path: /img/Baltimore/poe1.jpg
       image_name: Eating breakfast in the morning
-      text: Breakfast was really simple and westernized - Moroccan bread bun, butter and jam, coffee, milk or tea. 
+      text: It was gloomy and rainy, a perfect day to visit Poe's tombstone. It took me a while to find it since none of the locals are actually aware that such a gem is in there. 
       image_number: 5
     - image_path: /img/Baltimore/creepy.jpg
       image_name: Camels
@@ -40,7 +40,7 @@ images:
 >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I arrived to the bus station from Washington DC and google-mapped where my motel is. It was a cheap Motel 6 on 110 West North Avenue. There was a bus going from the but station to the West North Avenue. How great I thought to myself. The bus had arrived and I was tracking my position on the map so I would not miss my stop. But as it happens, there was a constant lag probably due to the poor connection so I just decide to ask someone to tell me where to get off. 
 
 >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Is there going to be someone waiting for you there? - they asked.
- 
+
 >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- No, why? - I asked. 
 
 >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- No?! Well this is not a place for a young girl like you to be all alone. – to my surprise the whole bus was looking at me and started dealing with the problem I had and I was the only one not aware of it. 
