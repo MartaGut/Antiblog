@@ -44,9 +44,15 @@ defaults:
       type: category
     values:
       layout: "category"
+      comments: true  # add comments to all blog posts
+      social-share: true # add social media sharing buttons to all blog posts
 
 highlighter: true
 markdown: kramdown
 permalink: pretty
 
 highlighter: rouge
+
+title: Antiblog
+
+title-img: /path/to/image
