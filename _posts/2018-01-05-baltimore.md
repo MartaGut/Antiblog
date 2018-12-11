@@ -39,7 +39,8 @@ images:
 
 >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I arrived to the bus station from Washington DC and google-mapped where my motel is. It was a cheap Motel 6 on 110 West North Avenue. There was a bus going from the but station to the West North Avenue. How great I thought to myself. The bus had arrived and I was tracking my position on the map so I would not miss my stop. But as it happens, there was a constant lag probably due to the poor connection so I just decide to ask someone to tell me where to get off. 
 
->&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Is there going to be someone waiting for you there? - they asked. 
+>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Is there going to be someone waiting for you there? - they asked.
+ 
 >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- No, why? - I asked. 
 
 >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- No?! Well this is not a place for a young girl like you to be all alone. – to my surprise the whole bus was looking at me and started dealing with the problem I had and I was the only one not aware of it. 
