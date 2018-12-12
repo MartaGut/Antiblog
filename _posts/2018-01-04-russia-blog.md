@@ -9,6 +9,122 @@ tags: [Russia, TEFL]
 title: TEFL in Saint Petersburg
 
 images:
+    - image_path: /img/STPete/NicePeople.jpg
+      image_name: Nice People
+      text: First thing you see when you arrive at the airport. Somehow doesn't sound very persuasive. 
+      image_number: 1
+    - image_path: /img/STPete/luxury1.jpg
+      image_name: Luxury
+      text: How high were the taxes so that the Royal family could live here? 
+      image_number: 2
+    - image_path: /img/STPete/luxury2.jpg
+      image_name: Luxury
+      text:  There are examples of extravagant lifestyles of the Russian richest families, high society with all the concert and dinner halls, but alongside the nobles’ places, lets face it, we all know that the working classes laboured in poverty and I honestly can’t understand how is it possible that this side of story is so rarely told to the tourists enjoying the beauties of the scenery. I felt personally insulted by looking at it.
+      image_number: 3
+    - image_path: /img/STPete/luxury3.jpg
+      image_name: Luxury
+      text: There are examples of extravagant lifestyles of the Russian richest families, high society with all the concert and dinner halls, but alongside the nobles’ places, lets face it, we all know that the working classes laboured in poverty and I honestly can’t understand how is it possible that this side of story is so rarely told to the tourists enjoying the beauties of the scenery. I felt personally insulted by looking at it.
+      image_number: 4
+    - image_path: /img/STPete/luxury4.jpg
+      image_name: Luxury
+      text: Probably the least depressing place, The Hermitage, you can actually enjoy some nice art.
+      image_number: 5
+    - image_path: /img/STPete/luxury5.jpg
+      image_name: Luxury
+      text: There are examples of extravagant lifestyles of the Russian richest families, high society with all the concert and dinner halls, but alongside the nobles’ places, lets face it, we all know that the working classes laboured in poverty and I honestly can’t understand how is it possible that this side of story is so rarely told to the tourists enjoying the beauties of the scenery. I felt personally insulted by looking at it.
+      image_number: 6
+    - image_path: /img/STPete/luxury6.jpg
+      image_name: Luxury
+      text: The rise of the Russian Orthodox Church:/ President Vladimir Putin, a former KGB agent of the atheist Soviet Union, now embraces his Orthodox Christianity. The Russian leader is often shown on national television broadcasts attending church services and paying respect to the church leadership. The most dazzling places are of course - Churches. 
+      image_number: 7
+    - image_path: /img/STPete/luxury7.jpg
+      image_name: Luxury
+      text: There are examples of extravagant lifestyles of the Russian richest families, high society with all the concert and dinner halls, but alongside the nobles’ places, lets face it, we all know that the working classes laboured in poverty and I honestly can’t understand how is it possible that this side of story is so rarely told to the tourists enjoying the beauties of the scenery. I felt personally insulted by looking at it.  
+      image_number: 8
+    - image_path: /img/STPete/luxury8.jpg
+      image_name: Luxury
+      text: There are examples of extravagant lifestyles of the Russian richest families, high society with all the concert and dinner halls, but alongside the nobles’ places, lets face it, we all know that the working classes laboured in poverty and I honestly can’t understand how is it possible that this side of story is so rarely told to the tourists enjoying the beauties of the scenery. I felt personally insulted by looking at it. 
+      image_number: 9
+    - image_path: /img/STPete/luxury9.jpg
+      image_name: Luxury
+      text: There are examples of extravagant lifestyles of the Russian richest families, high society with all the concert and dinner halls, but alongside the nobles’ places, lets face it, we all know that the working classes laboured in poverty and I honestly can’t understand how is it possible that this side of story is so rarely told to the tourists enjoying the beauties of the scenery. I felt personally insulted by looking at it.
+      image_number: 10
+    - image_path: /img/STPete/luxury10.jpg
+      image_name: Luxury
+      text:  There are examples of extravagant lifestyles of the Russian richest families, high society with all the concert and dinner halls, but alongside the nobles’ places, lets face it, we all know that the working classes laboured in poverty and I honestly can’t understand how is it possible that this side of story is so rarely told to the tourists enjoying the beauties of the scenery. I felt personally insulted by looking at it.
+      image_number: 11
+    - image_path: /img/STPete/luxury11.jpg
+      image_name: Luxury
+      text: The rise of the Russian Orthodox Church:/ President Vladimir Putin, a former KGB agent of the atheist Soviet Union, now embraces his Orthodox Christianity. The Russian leader is often shown on national television broadcasts attending church services and paying respect to the church leadership. The most dazzling places are of course - Churches. 
+      image_number: 12
+    - image_path: /img/STPete/luxury12.jpg
+      image_name: Luxury
+      text: Poor minecrafted trees. 
+      image_number: 13
+    - image_path: /img/STPete/luxury13.jpg
+      image_name: Luxury
+      text: There are examples of extravagant lifestyles of the Russian richest families, high society with all the concert and dinner halls, but alongside the nobles’ places, lets face it, we all know that the working classes laboured in poverty and I honestly can’t understand how is it possible that this side of story is so rarely told to the tourists enjoying the beauties of the scenery. I felt personally insulted by looking at it.
+      image_number: 14
+    - image_path: /img/STPete/luxury14.jpg
+      image_name: Luxury
+      text: There are examples of extravagant lifestyles of the Russian richest families, high society with all the concert and dinner halls, but alongside the nobles’ places, lets face it, we all know that the working classes laboured in poverty and I honestly can’t understand how is it possible that this side of story is so rarely told to the tourists enjoying the beauties of the scenery. I felt personally insulted by looking at it.
+      image_number: 15
+    - image_path: /img/STPete/luxury15.jpg
+      image_name: Luxury
+      text: The rise of the Russian Orthodox Church:/ President Vladimir Putin, a former KGB agent of the atheist Soviet Union, now embraces his Orthodox Christianity. The Russian leader is often shown on national television broadcasts attending church services and paying respect to the church leadership. The most dazzling places are of course - Churches. 
+      image_number: 16
+    - image_path: /img/STPete/luxury16.jpg
+      image_name: Luxury
+      text: There are examples of extravagant lifestyles of the Russian richest families, high society with all the concert and dinner halls, but alongside the nobles’ places, lets face it, we all know that the working classes laboured in poverty and I honestly can’t understand how is it possible that this side of story is so rarely told to the tourists enjoying the beauties of the scenery. I felt personally insulted by looking at it.
+      image_number: 17
+    - image_path: /img/STPete/luxury17.jpg
+      image_name: Luxury
+      text: There are examples of extravagant lifestyles of the Russian richest families, high society with all the concert and dinner halls, but alongside the nobles’ places, lets face it, we all know that the working classes laboured in poverty and I honestly can’t understand how is it possible that this side of story is so rarely told to the tourists enjoying the beauties of the scenery. I felt personally insulted by looking at it.
+      image_number: 18
+    - image_path: /img/STPete/luxury18.jpg
+      image_name: Luxury
+      text: There are examples of extravagant lifestyles of the Russian richest families, high society with all the concert and dinner halls, but alongside the nobles’ places, lets face it, we all know that the working classes laboured in poverty and I honestly can’t understand how is it possible that this side of story is so rarely told to the tourists enjoying the beauties of the scenery. I felt personally insulted by looking at it.
+      image_number: 19
+    - image_path: /img/STPete/luxury19.jpg
+      image_name: Luxury
+      text: There are examples of extravagant lifestyles of the Russian richest families, high society with all the concert and dinner halls, but alongside the nobles’ places, lets face it, we all know that the working classes laboured in poverty and I honestly can’t understand how is it possible that this side of story is so rarely told to the tourists enjoying the beauties of the scenery. I felt personally insulted by looking at it.
+      image_number: 20
+    - image_path: /img/STPete/luxury20.jpg
+      image_name: Luxury
+      text: The rise of the Russian Orthodox Church:/ President Vladimir Putin, a former KGB agent of the atheist Soviet Union, now embraces his Orthodox Christianity. The Russian leader is often shown on national television broadcasts attending church services and paying respect to the church leadership. The most dazzling places are of course - Churches. 
+      image_number: 21
+    - image_path: /img/STPete/luxury21.jpg
+      image_name: Luxury
+      text: There are examples of extravagant lifestyles of the Russian richest families, high society with all the concert and dinner halls, but alongside the nobles’ places, lets face it, we all know that the working classes laboured in poverty and I honestly can’t understand how is it possible that this side of story is so rarely told to the tourists enjoying the beauties of the scenery. I felt personally insulted by looking at it.
+      image_number: 22
+    - image_path: /img/STPete/luxury22.jpg
+      image_name: Luxury
+      text: There are examples of extravagant lifestyles of the Russian richest families, high society with all the concert and dinner halls, but alongside the nobles’ places, lets face it, we all know that the working classes laboured in poverty and I honestly can’t understand how is it possible that this side of story is so rarely told to the tourists enjoying the beauties of the scenery. I felt personally insulted by looking at it.
+      image_number: 23
+    - image_path: /img/STPete/luxury23.jpg
+      image_name: Luxury
+      text: There are examples of extravagant lifestyles of the Russian richest families, high society with all the concert and dinner halls, but alongside the nobles’ places, lets face it, we all know that the working classes laboured in poverty and I honestly can’t understand how is it possible that this side of story is so rarely told to the tourists enjoying the beauties of the scenery. I felt personally insulted by looking at it.
+      image_number: 24
+    - image_path: /img/STPete/luxury24.jpg
+      image_name: Luxury
+      text: There are examples of extravagant lifestyles of the Russian richest families, high society with all the concert and dinner halls, but alongside the nobles’ places, lets face it, we all know that the working classes laboured in poverty and I honestly can’t understand how is it possible that this side of story is so rarely told to the tourists enjoying the beauties of the scenery. I felt personally insulted by looking at it.
+      image_number: 25
+    - image_path: /img/STPete/luxury25.jpg
+      image_name: Luxury
+      text: There are examples of extravagant lifestyles of the Russian richest families, high society with all the concert and dinner halls, but alongside the nobles’ places, lets face it, we all know that the working classes laboured in poverty and I honestly can’t understand how is it possible that this side of story is so rarely told to the tourists enjoying the beauties of the scenery. I felt personally insulted by looking at it.
+      image_number: 26
+    - image_path: /img/STPete/luxury26.jpg
+      image_name: Luxury
+      text: There are examples of extravagant lifestyles of the Russian richest families, high society with all the concert and dinner halls, but alongside the nobles’ places, lets face it, we all know that the working classes laboured in poverty and I honestly can’t understand how is it possible that this side of story is so rarely told to the tourists enjoying the beauties of the scenery. I felt personally insulted by looking at it.
+      image_number: 27
+    - image_path: /img/STPete/luxury27.jpg
+      image_name: Luxury 
+      text: There are examples of extravagant lifestyles of the Russian richest families, high society with all the concert and dinner halls, but alongside the nobles’ places, lets face it, we all know that the working classes laboured in poverty and I honestly can’t understand how is it possible that this side of story is so rarely told to the tourists enjoying the beauties of the scenery. I felt personally insulted by looking at it.
+      image_number: 28
+    - image_path: /img/STPete/luxury28.jpg
+      image_name: Luxury 
+      text: There are examples of extravagant lifestyles of the Russian richest families, high society with all the concert and dinner halls, but alongside the nobles’ places, lets face it, we all know that the working classes laboured in poverty and I honestly can’t understand how is it possible that this side of story is so rarely told to the tourists enjoying the beauties of the scenery. I felt personally insulted by looking at it.
+      image_number: 29
    
 
     
