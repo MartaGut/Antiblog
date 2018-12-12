@@ -1,0 +1,915 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<link rel="stylesheet" href="https://martagut.github.io/Antiblog//assets/css/main.css">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style src="js/post.js"></style>
+</head>
+<body>
+
+<div class="postHeading">
+    <div>
+        <!-- Nav bar with social medias -->
+        <div class="navBar"> 
+          <a href="https://martagut.github.io/Antiblog/" class="home socMed" ><svg xmlns="http://www.w3.org/2000/svg" style="width:2.5vw; height:2.5vw;" aria-hidden="true" data-prefix="fas" data-icon="home" class="svg-inline--fa fa-home fa-w-18" role="img" viewBox="0 0 576 512"><path fill="black" d="M488 312.7V456c0 13.3-10.7 24-24 24H348c-6.6 0-12-5.4-12-12V356c0-6.6-5.4-12-12-12h-72c-6.6 0-12 5.4-12 12v112c0 6.6-5.4 12-12 12H112c-13.3 0-24-10.7-24-24V312.7c0-3.6 1.6-7 4.4-9.3l188-154.8c4.4-3.6 10.8-3.6 15.3 0l188 154.8c2.7 2.3 4.3 5.7 4.3 9.3zm83.6-60.9L488 182.9V44.4c0-6.6-5.4-12-12-12h-56c-6.6 0-12 5.4-12 12V117l-89.5-73.7c-17.7-14.6-43.3-14.6-61 0L4.4 251.8c-5.1 4.2-5.8 11.8-1.6 16.9l25.5 31c4.2 5.1 11.8 5.8 16.9 1.6l235.2-193.7c4.4-3.6 10.8-3.6 15.3 0l235.2 193.7c5.1 4.2 12.7 3.5 16.9-1.6l25.5-31c4.2-5.2 3.4-12.7-1.7-16.9z"/></svg>
+
+<style>
+@media   (min-width : 480px) {
+    .fa-home{   
+            width: 15vw;
+            height: 15vw;
+    }
+}
+        </style></a>      
+          <a href="https://www.facebook.com/mali.princ2" target="_blank" class="socMed" ><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.0" x="0px" y="0px" width="2vw" height="2vw" viewBox="0 0 50 50" style="null" class="icon icons8-Facebook-Filled" >  
+      <path d="M40,0H10C4.486,0,0,4.486,0,10v30c0,5.514,4.486,10,10,10h30c5.514,0,10-4.486,10-10V10C50,4.486,45.514,0,40,0z M39,17h-3 c-2.145,0-3,0.504-3,2v3h6l-1,6h-5v20h-7V28h-3v-6h3v-3c0-4.677,1.581-8,7-8c2.902,0,6,1,6,1V17z"></path></svg>
+</a>
+          <a href="https://www.instagram.com/marljiva_marta/" target="_blank" class="socMed" ><svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="2vw" height="2vw" viewBox="0 0 512 512">
+    <title></title>
+    <g id="icomoon-ignore">
+    </g>
+    <path d="M256 46.1c68.4 0 76.5 0.3 103.4 1.5 25 1.1 38.5 5.3 47.5 8.8 11.9 4.6 20.5 10.2 29.4 19.1 9 9 14.5 17.5 19.2 29.4 3.5 9 7.7 22.6 8.8 47.5 1.2 27 1.5 35.1 1.5 103.4s-0.3 76.5-1.5 103.4c-1.1 25-5.3 38.5-8.8 47.5-4.6 11.9-10.2 20.5-19.1 29.4-9 9-17.5 14.5-29.4 19.2-9 3.5-22.6 7.7-47.5 8.8-27 1.2-35.1 1.5-103.4 1.5s-76.5-0.3-103.4-1.5c-25-1.1-38.5-5.3-47.5-8.8-11.9-4.6-20.5-10.2-29.4-19.1-9-9-14.5-17.5-19.2-29.4-3.5-9-7.7-22.6-8.8-47.5-1.2-27-1.5-35.1-1.5-103.4s0.3-76.5 1.5-103.4c1.1-25 5.3-38.5 8.8-47.5 4.6-11.9 10.2-20.5 19.1-29.4 9-9 17.5-14.5 29.4-19.2 9-3.5 22.6-7.7 47.5-8.8 26.9-1.2 35-1.5 103.4-1.5zM256 0c-69.5 0-78.2 0.3-105.5 1.5-27.2 1.2-45.9 5.6-62.1 11.9-16.9 6.6-31.2 15.3-45.4 29.6-14.3 14.2-23 28.5-29.6 45.3-6.3 16.3-10.7 34.9-11.9 62.1-1.2 27.4-1.5 36.1-1.5 105.6s0.3 78.2 1.5 105.5c1.2 27.2 5.6 45.9 11.9 62.1 6.6 16.9 15.3 31.2 29.6 45.4 14.2 14.2 28.5 23 45.3 29.5 16.3 6.3 34.9 10.7 62.1 11.9 27.3 1.2 36 1.5 105.5 1.5s78.2-0.3 105.5-1.5c27.2-1.2 45.9-5.6 62.1-11.9 16.8-6.5 31.1-15.3 45.3-29.5s23-28.5 29.5-45.3c6.3-16.3 10.7-34.9 11.9-62.1 1.2-27.3 1.5-36 1.5-105.5s-0.3-78.2-1.5-105.5c-1.2-27.2-5.6-45.9-11.9-62.1-6.3-17-15-31.3-29.3-45.5-14.2-14.2-28.5-23-45.3-29.5-16.3-6.3-34.9-10.7-62.1-11.9-27.4-1.3-36.1-1.6-105.6-1.6v0z"></path>
+    <path d="M256 124.5c-72.6 0-131.5 58.9-131.5 131.5s58.9 131.5 131.5 131.5 131.5-58.9 131.5-131.5c0-72.6-58.9-131.5-131.5-131.5zM256 341.3c-47.1 0-85.3-38.2-85.3-85.3s38.2-85.3 85.3-85.3c47.1 0 85.3 38.2 85.3 85.3s-38.2 85.3-85.3 85.3z"></path>
+    <path d="M423.4 119.3c0 16.955-13.745 30.7-30.7 30.7s-30.7-13.745-30.7-30.7c0-16.955 13.745-30.7 30.7-30.7s30.7 13.745 30.7 30.7z"></path>
+    </svg></a>
+          <a href="https://twitter.com/Marta_Guth" target="_blank" class="socMed" ><svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="2vw" height="2vw" viewBox="0 0 512 512">
+    <title></title>
+    <g id="icomoon-ignore">
+    </g>
+    <path d="M512 113.2c-18.8 8.4-39.1 14-60.3 16.5 21.7-13 38.3-33.6 46.2-58.1-20.3 12-42.8 20.8-66.7 25.5-19.2-20.4-46.5-33.1-76.7-33.1-58 0-105 47-105 105 0 8.2 0.9 16.2 2.7 23.9-87.3-4.4-164.7-46.2-216.5-109.8-9 15.5-14.2 33.6-14.2 52.8 0 36.4 18.5 68.6 46.7 87.4-17.2-0.5-33.4-5.3-47.6-13.1 0 0.4 0 0.9 0 1.3 0 50.9 36.2 93.4 84.3 103-8.8 2.4-18.1 3.7-27.7 3.7-6.8 0-13.3-0.7-19.8-1.9 13.4 41.7 52.2 72.1 98.1 73-36 28.2-81.2 45-130.5 45-8.5 0-16.8-0.5-25.1-1.5 46.6 29.9 101.8 47.2 161.1 47.2 193.2 0 298.9-160.1 298.9-298.9 0-4.6-0.1-9.1-0.3-13.6 20.5-14.7 38.3-33.2 52.4-54.3z"></path>
+    </svg>
+    
+</a>
+          <a href="https://www.linkedin.com/feed/?trk=" target="_blank" class="socMed" ><svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="2vw" height="2vw" viewBox="0 0 512 512">
+    <title></title>
+    <g id="icomoon-ignore">
+    </g>
+    <path d="M464 0h-416c-26.4 0-48 21.6-48 48v416c0 26.4 21.6 48 48 48h416c26.4 0 48-21.6 48-48v-416c0-26.4-21.6-48-48-48zM192 416h-64v-224h64v224zM160 160c-17.7 0-32-14.3-32-32s14.3-32 32-32c17.7 0 32 14.3 32 32s-14.3 32-32 32zM416 416h-64v-128c0-17.7-14.3-32-32-32s-32 14.3-32 32v128h-64v-224h64v39.7c13.2-18.1 33.4-39.7 56-39.7 39.8 0 72 35.8 72 80v144z"></path>
+    </svg>
+    
+    <style>
+    @media   (max-width : 480px) {
+        svg{   
+                width: 4vw;
+                height: 4vw;
+        }
+    }
+            </style></a> 
+        </div>
+      </div>
+        <!-- end of Nav bar with social medias -->
+    
+  <h1 class="postTitle">TEFL in Saint Petersburg</h1>
+  <div>
+      <img class="bigPostImage" src="https://martagut.github.io/Antiblog/img/borsch.jpg" alt="Picture">
+    </div>
+</div>  
+
+<div class="postText">
+<blockquote>
+  <p>      Well in all fairness Saint Petersburg was definitely the less depressing place I have ever visited. I almost forgot about my depression. I was attending the TEFL course which is supposed to prepare you how to teach people English (like anything can prepare you for that horror). But it was nice how I totally dominated over native speakers on that course while they were like ‘grammar, what is that?’</p>
+</blockquote>
+
+<blockquote>
+  <p>      Another great thing is that I had the best host ever! Her name was poetic, Ema Fyedorovna, like a real melancholic lady from one of the Dostoyevsky’s novels. She was in her 70’s, and the best part was she was not married nor had any children and she couldn’t care less about it. She was also unfortunately ill, she told me her back hurts really bad so she was on pain medication. The more her back hurt the happier she was, I thought this was strange until I found a bottle of Valium on the kitchen table. Best friend I have ever met during my travels. Dear Ema, I miss you and I’m sorry we are not writing letters to each other anymore. When people ask me how I see myself in the future, I lie of course but this is exactly how I picture myself: living in a century old stylish apartment is Saint Petersburg enjoying happy pills and hosting exchange students. We did not have a common language, but boy did we understand each other.</p>
+</blockquote>
+
+<blockquote>
+  <p>      Anyways, the first group of images are showing the luxury of Saint Petersburg. The question is where did it come from? Many stories about the history of Saint Petersburg are full of trumpeting and achievement while others (Including the ones from Dostoevsky and Pushkin) are telling the stories of thousands of convicts and prisoners of wars that gave their lives to erect the city on a swampy ground where snow is present from September till May. As a result, Saint Petersburg is also known as the ‘city built on bones’.</p>
+</blockquote>
+
+<blockquote>
+  <p>      There are examples of extravagant lifestyles of the Russian richest families, high society with all the concert and dinner halls, but alongside the nobles’ places, lets face it, we all know that the working classes laboured in poverty and I honestly can’t understand how is it possible that this side of story is so rarely told to the tourists enjoying the beauties of the scenery. I felt personally insulted by looking at it.</p>
+</blockquote>
+
+<blockquote>
+  <p>      There is an evidence of a low-income apartments behind the street view flats, some parts are made as a huge standardise blocks of identical flats for around 10,000 people or more, something we call ‘social infrastructure’ in Serbia. 
+For tourist that visit Saint Petersburg it is breath-taking, fairy-tale like city, but leaving the city would probably made them consider their first impression.</p>
+</blockquote>
+
+<blockquote>
+  <p>      On the other hand, I ate really well – there is cabbage and beetroot in everything, sour cream is a must, but all the others from my group got some kind of stomach flu so it made my plans to dominate on the course easier.</p>
+</blockquote>
+
+<blockquote>
+  <p>      The other group of pictures are at my favourite place – cemetery. The weather was cloudy, heavy and cold – a perfect day for a visit.</p>
+</blockquote>
+
+</div>
+
+<div class="greyPost">
+  <h2>Gallery</h2>
+</div>
+
+<div class="flex-container">
+  
+  <div class="left">
+  <!-- Slideshow -->
+    <div class="slideshowContainer">
+      
+        <div class="slideshowPic fade">
+          <div class="picNumber">1</div>
+          <img src="https://martagut.github.io/Antiblog//img/STPete/NicePeople.jpg" class="oneImage" alt="">
+          <div class="captionDiv goUp"><p class="captionText">First thing you see when you arrive at the airport. Somehow doesn't sound very persuasive.</p></div>
+        </div>
+      
+        <div class="slideshowPic fade">
+          <div class="picNumber">2</div>
+          <img src="https://martagut.github.io/Antiblog//img/STPete/luxury1.jpg" class="oneImage" alt="">
+          <div class="captionDiv goUp"><p class="captionText">How high were the taxes so that the Royal family could live here?</p></div>
+        </div>
+      
+        <div class="slideshowPic fade">
+          <div class="picNumber">3</div>
+          <img src="https://martagut.github.io/Antiblog//img/STPete/luxury2.jpg" class="oneImage" alt="">
+          <div class="captionDiv goUp"><p class="captionText">There are examples of extravagant lifestyles of the Russian richest families, high society with all the concert and dinner halls, but alongside the nobles’ places, lets face it, we all know that the working classes laboured in poverty and I honestly can’t understand how is it possible that this side of story is so rarely told to the tourists enjoying the beauties of the scenery. I felt personally insulted by looking at it.</p></div>
+        </div>
+      
+        <div class="slideshowPic fade">
+          <div class="picNumber">4</div>
+          <img src="https://martagut.github.io/Antiblog//img/STPete/luxury3.jpg" class="oneImage" alt="">
+          <div class="captionDiv goUp"><p class="captionText">Luxury</p></div>
+        </div>
+      
+        <div class="slideshowPic fade">
+          <div class="picNumber">5</div>
+          <img src="https://martagut.github.io/Antiblog//img/STPete/luxury4.jpg" class="oneImage" alt="">
+          <div class="captionDiv goUp"><p class="captionText">Probably the least depressing place, The Hermitage, you can actually enjoy some nice art.</p></div>
+        </div>
+      
+        <div class="slideshowPic fade">
+          <div class="picNumber">6</div>
+          <img src="https://martagut.github.io/Antiblog//img/STPete/luxury5.jpg" class="oneImage" alt="">
+          <div class="captionDiv goUp"><p class="captionText">Luxury</p></div>
+        </div>
+      
+        <div class="slideshowPic fade">
+          <div class="picNumber">7</div>
+          <img src="https://martagut.github.io/Antiblog//img/STPete/luxury6.jpg" class="oneImage" alt="">
+          <div class="captionDiv goUp"><p class="captionText">The rise of the Russian Orthodox Church:/ President Vladimir Putin, a former KGB agent of the atheist Soviet Union, now embraces his Orthodox Christianity. The Russian leader is often shown on national television broadcasts attending church services and paying respect to the church leadership. The most dazzling places are of course - Churches.</p></div>
+        </div>
+      
+        <div class="slideshowPic fade">
+          <div class="picNumber">8</div>
+          <img src="https://martagut.github.io/Antiblog//img/STPete/luxury7.jpg" class="oneImage" alt="">
+          <div class="captionDiv goUp"><p class="captionText">Luxury</p></div>
+        </div>
+      
+        <div class="slideshowPic fade">
+          <div class="picNumber">9</div>
+          <img src="https://martagut.github.io/Antiblog//img/STPete/luxury8.jpg" class="oneImage" alt="">
+          <div class="captionDiv goUp"><p class="captionText">Luxury</p></div>
+        </div>
+      
+        <div class="slideshowPic fade">
+          <div class="picNumber">10</div>
+          <img src="https://martagut.github.io/Antiblog//img/STPete/luxury9.jpg" class="oneImage" alt="">
+          <div class="captionDiv goUp"><p class="captionText">Luxury</p></div>
+        </div>
+      
+        <div class="slideshowPic fade">
+          <div class="picNumber">11</div>
+          <img src="https://martagut.github.io/Antiblog//img/STPete/luxury10.jpg" class="oneImage" alt="">
+          <div class="captionDiv goUp"><p class="captionText">Luxury</p></div>
+        </div>
+      
+        <div class="slideshowPic fade">
+          <div class="picNumber">12</div>
+          <img src="https://martagut.github.io/Antiblog//img/STPete/luxury11.jpg" class="oneImage" alt="">
+          <div class="captionDiv goUp"><p class="captionText">Luxury</p></div>
+        </div>
+      
+        <div class="slideshowPic fade">
+          <div class="picNumber">13</div>
+          <img src="https://martagut.github.io/Antiblog//img/STPete/luxury12.jpg" class="oneImage" alt="">
+          <div class="captionDiv goUp"><p class="captionText">Poor minecrafted trees.</p></div>
+        </div>
+      
+        <div class="slideshowPic fade">
+          <div class="picNumber">14</div>
+          <img src="https://martagut.github.io/Antiblog//img/STPete/luxury13.jpg" class="oneImage" alt="">
+          <div class="captionDiv goUp"><p class="captionText">Luxury</p></div>
+        </div>
+      
+        <div class="slideshowPic fade">
+          <div class="picNumber">15</div>
+          <img src="https://martagut.github.io/Antiblog//img/STPete/luxury14.jpg" class="oneImage" alt="">
+          <div class="captionDiv goUp"><p class="captionText">Luxury</p></div>
+        </div>
+      
+        <div class="slideshowPic fade">
+          <div class="picNumber">16</div>
+          <img src="https://martagut.github.io/Antiblog//img/STPete/luxury15.jpg" class="oneImage" alt="">
+          <div class="captionDiv goUp"><p class="captionText">Another dazzling Church.</p></div>
+        </div>
+      
+        <div class="slideshowPic fade">
+          <div class="picNumber">17</div>
+          <img src="https://martagut.github.io/Antiblog//img/STPete/luxury16.jpg" class="oneImage" alt="">
+          <div class="captionDiv goUp"><p class="captionText">Luxury</p></div>
+        </div>
+      
+        <div class="slideshowPic fade">
+          <div class="picNumber">18</div>
+          <img src="https://martagut.github.io/Antiblog//img/STPete/luxury17.jpg" class="oneImage" alt="">
+          <div class="captionDiv goUp"><p class="captionText">Luxury</p></div>
+        </div>
+      
+        <div class="slideshowPic fade">
+          <div class="picNumber">19</div>
+          <img src="https://martagut.github.io/Antiblog//img/STPete/luxury18.jpg" class="oneImage" alt="">
+          <div class="captionDiv goUp"><p class="captionText">Luxury</p></div>
+        </div>
+      
+        <div class="slideshowPic fade">
+          <div class="picNumber">20</div>
+          <img src="https://martagut.github.io/Antiblog//img/STPete/luxury19.jpg" class="oneImage" alt="">
+          <div class="captionDiv goUp"><p class="captionText">Luxury</p></div>
+        </div>
+      
+        <div class="slideshowPic fade">
+          <div class="picNumber">21</div>
+          <img src="https://martagut.github.io/Antiblog//img/STPete/luxury20.jpg" class="oneImage" alt="">
+          <div class="captionDiv goUp"><p class="captionText">Luxury</p></div>
+        </div>
+      
+        <div class="slideshowPic fade">
+          <div class="picNumber">22</div>
+          <img src="https://martagut.github.io/Antiblog//img/STPete/luxury21.jpg" class="oneImage" alt="">
+          <div class="captionDiv goUp"><p class="captionText">Luxury</p></div>
+        </div>
+      
+        <div class="slideshowPic fade">
+          <div class="picNumber">23</div>
+          <img src="https://martagut.github.io/Antiblog//img/STPete/luxury22.jpg" class="oneImage" alt="">
+          <div class="captionDiv goUp"><p class="captionText">Luxury</p></div>
+        </div>
+      
+        <div class="slideshowPic fade">
+          <div class="picNumber">24</div>
+          <img src="https://martagut.github.io/Antiblog//img/STPete/luxury23.jpg" class="oneImage" alt="">
+          <div class="captionDiv goUp"><p class="captionText">Luxury</p></div>
+        </div>
+      
+        <div class="slideshowPic fade">
+          <div class="picNumber">25</div>
+          <img src="https://martagut.github.io/Antiblog//img/STPete/luxury24.jpg" class="oneImage" alt="">
+          <div class="captionDiv goUp"><p class="captionText">Luxury</p></div>
+        </div>
+      
+        <div class="slideshowPic fade">
+          <div class="picNumber">26</div>
+          <img src="https://martagut.github.io/Antiblog//img/STPete/luxury25.jpg" class="oneImage" alt="">
+          <div class="captionDiv goUp"><p class="captionText">Luxury</p></div>
+        </div>
+      
+        <div class="slideshowPic fade">
+          <div class="picNumber">27</div>
+          <img src="https://martagut.github.io/Antiblog//img/STPete/luxury26.jpg" class="oneImage" alt="">
+          <div class="captionDiv goUp"><p class="captionText">Luxury</p></div>
+        </div>
+      
+        <div class="slideshowPic fade">
+          <div class="picNumber">28</div>
+          <img src="https://martagut.github.io/Antiblog//img/STPete/luxury27.jpg" class="oneImage" alt="">
+          <div class="captionDiv goUp"><p class="captionText">Luxury</p></div>
+        </div>
+      
+        <div class="slideshowPic fade">
+          <div class="picNumber">29</div>
+          <img src="https://martagut.github.io/Antiblog//img/STPete/luxury28.jpg" class="oneImage" alt="">
+          <div class="captionDiv goUp"><p class="captionText">Luxury</p></div>
+        </div>
+      
+        <div class="slideshowPic fade">
+          <div class="picNumber">30</div>
+          <img src="https://martagut.github.io/Antiblog//img/STPete/luxury29.jpg" class="oneImage" alt="">
+          <div class="captionDiv goUp"><p class="captionText">Luxury</p></div>
+        </div>
+      
+        <div class="slideshowPic fade">
+          <div class="picNumber">31</div>
+          <img src="https://martagut.github.io/Antiblog//img/STPete/luxury30.jpg" class="oneImage" alt="">
+          <div class="captionDiv goUp"><p class="captionText">Luxury</p></div>
+        </div>
+      
+        <div class="slideshowPic fade">
+          <div class="picNumber">32</div>
+          <img src="https://martagut.github.io/Antiblog//img/STPete/luxury31.jpg" class="oneImage" alt="">
+          <div class="captionDiv goUp"><p class="captionText">Me, more dazzling than any of their exaggeratedly bombastic church.</p></div>
+        </div>
+      
+        <div class="slideshowPic fade">
+          <div class="picNumber">33</div>
+          <img src="https://martagut.github.io/Antiblog//img/STPete/luxury32.jpg" class="oneImage" alt="">
+          <div class="captionDiv goUp"><p class="captionText">Dark colored cathedral - NICE!</p></div>
+        </div>
+      
+        <div class="slideshowPic fade">
+          <div class="picNumber">34</div>
+          <img src="https://martagut.github.io/Antiblog//img/STPete/luxury33.jpg" class="oneImage" alt="">
+          <div class="captionDiv goUp"><p class="captionText">Those poor horses. Could never understand how can people enjoy these rides.</p></div>
+        </div>
+      
+        <div class="slideshowPic fade">
+          <div class="picNumber">35</div>
+          <img src="https://martagut.github.io/Antiblog//img/STPete/luxury34.jpg" class="oneImage" alt="">
+          <div class="captionDiv goUp"><p class="captionText">Luxury</p></div>
+        </div>
+      
+        <div class="slideshowPic fade">
+          <div class="picNumber">36</div>
+          <img src="https://martagut.github.io/Antiblog//img/STPete/luxury35.jpg" class="oneImage" alt="">
+          <div class="captionDiv goUp"><p class="captionText">Luxury</p></div>
+        </div>
+      
+        <div class="slideshowPic fade">
+          <div class="picNumber">37</div>
+          <img src="https://martagut.github.io/Antiblog//img/STPete/luxury36.jpg" class="oneImage" alt="">
+          <div class="captionDiv goUp"><p class="captionText">Another dazzling Church.</p></div>
+        </div>
+      
+        <div class="slideshowPic fade">
+          <div class="picNumber">38</div>
+          <img src="https://martagut.github.io/Antiblog//img/STPete/luxury37.jpg" class="oneImage" alt="">
+          <div class="captionDiv goUp"><p class="captionText">Luxury</p></div>
+        </div>
+      
+        <div class="slideshowPic fade">
+          <div class="picNumber">39</div>
+          <img src="https://martagut.github.io/Antiblog//img/STPete/luxury38.jpg" class="oneImage" alt="">
+          <div class="captionDiv goUp"><p class="captionText">Another dazzling Church.</p></div>
+        </div>
+      
+        <div class="slideshowPic fade">
+          <div class="picNumber">40</div>
+          <img src="https://martagut.github.io/Antiblog//img/STPete/luxury39.jpg" class="oneImage" alt="">
+          <div class="captionDiv goUp"><p class="captionText">Another dazzling Church.</p></div>
+        </div>
+      
+        <div class="slideshowPic fade">
+          <div class="picNumber">41</div>
+          <img src="https://martagut.github.io/Antiblog//img/STPete/luxury40.jpg" class="oneImage" alt="">
+          <div class="captionDiv goUp"><p class="captionText">Another dazzling Church.</p></div>
+        </div>
+      
+        <div class="slideshowPic fade">
+          <div class="picNumber">42</div>
+          <img src="https://martagut.github.io/Antiblog//img/STPete/luxury41.jpg" class="oneImage" alt="">
+          <div class="captionDiv goUp"><p class="captionText">Another dazzling Church.</p></div>
+        </div>
+      
+        <div class="slideshowPic fade">
+          <div class="picNumber">43</div>
+          <img src="https://martagut.github.io/Antiblog//img/STPete/luxury42.jpg" class="oneImage" alt="">
+          <div class="captionDiv goUp"><p class="captionText">Another dazzling Church.</p></div>
+        </div>
+      
+        <div class="slideshowPic fade">
+          <div class="picNumber">44</div>
+          <img src="https://martagut.github.io/Antiblog//img/STPete/luxury43.jpg" class="oneImage" alt="">
+          <div class="captionDiv goUp"><p class="captionText">Another dazzling Church.</p></div>
+        </div>
+      
+        <div class="slideshowPic fade">
+          <div class="picNumber">45</div>
+          <img src="https://martagut.github.io/Antiblog//img/STPete/luxury44.jpg" class="oneImage" alt="">
+          <div class="captionDiv goUp"><p class="captionText">Another dazzling Church.</p></div>
+        </div>
+      
+        <div class="slideshowPic fade">
+          <div class="picNumber">46</div>
+          <img src="https://martagut.github.io/Antiblog//img/STPete/cemetery1.jpg" class="oneImage" alt="">
+          <div class="captionDiv goUp"><p class="captionText">Tikhvinskoe Cemetery. During the 19th century a large number of famous scientists and artists were buried here, among them poets Vasily Zhukovsky and Nikolay Gnedich; writers Fyodor Dostoevsky and Ivan Krylov; composers Modest Mussorgsky, Alexander Borodin, and Pyotr Tchaikovsky.</p></div>
+        </div>
+      
+        <div class="slideshowPic fade">
+          <div class="picNumber">47</div>
+          <img src="https://martagut.github.io/Antiblog//img/STPete/cemetery.jpg" class="oneImage" alt="">
+          <div class="captionDiv goUp"><p class="captionText">Tikhvinskoe Cemetery. During the 19th century a large number of famous scientists and artists were buried here, among them poets Vasily Zhukovsky and Nikolay Gnedich; writers Fyodor Dostoevsky and Ivan Krylov; composers Modest Mussorgsky, Alexander Borodin, and Pyotr Tchaikovsky.</p></div>
+        </div>
+      
+        <div class="slideshowPic fade">
+          <div class="picNumber">48</div>
+          <img src="https://martagut.github.io/Antiblog//img/STPete/dostoevsky.jpg" class="oneImage" alt="">
+          <div class="captionDiv goUp"><p class="captionText">Tikhvinskoe Cemetery. During the 19th century a large number of famous scientists and artists were buried here, among them poets Vasily Zhukovsky and Nikolay Gnedich; writers Fyodor Dostoevsky and Ivan Krylov; composers Modest Mussorgsky, Alexander Borodin, and Pyotr Tchaikovsky.</p></div>
+        </div>
+      
+        <div class="slideshowPic fade">
+          <div class="picNumber">49</div>
+          <img src="https://martagut.github.io/Antiblog//img/STPete/mikolai.jpg" class="oneImage" alt="">
+          <div class="captionDiv goUp"><p class="captionText">Tikhvinskoe Cemetery. During the 19th century a large number of famous scientists and artists were buried here, among them poets Vasily Zhukovsky and Nikolay Gnedich; writers Fyodor Dostoevsky and Ivan Krylov; composers Modest Mussorgsky, Alexander Borodin, and Pyotr Tchaikovsky.</p></div>
+        </div>
+      
+        <div class="slideshowPic fade">
+          <div class="picNumber">50</div>
+          <img src="https://martagut.github.io/Antiblog//img/STPete/tchaikovsky.jpg" class="oneImage" alt="">
+          <div class="captionDiv goUp"><p class="captionText">Probably the least depressing place, The Hermitage, you can actually enjoy some nice art.</p></div>
+        </div>
+      
+        <div class="slideshowPic fade">
+          <div class="picNumber">51</div>
+          <img src="https://martagut.github.io/Antiblog//img/STPete/political.jpg" class="oneImage" alt="">
+          <div class="captionDiv goUp"><p class="captionText"></p></div>
+        </div>
+      
+        <div class="slideshowPic fade">
+          <div class="picNumber">52</div>
+          <img src="https://martagut.github.io/Antiblog//img/STPete/political1.jpg" class="oneImage" alt="">
+          <div class="captionDiv goUp"><p class="captionText">Memorial to Victims of Political Repression. The skulls of the sphinxes face across the river to Kresty, the notorious holding prison that processed many thousands of Leningrad citizens on their way to the horrors of the Gulag.</p></div>
+        </div>
+      
+        <div class="slideshowPic fade">
+          <div class="picNumber">53</div>
+          <img src="https://martagut.github.io/Antiblog//img/STPete/outside.jpg" class="oneImage" alt="">
+          <div class="captionDiv goUp"><p class="captionText">Outside St. Petersburg</p></div>
+        </div>
+      
+        <div class="slideshowPic fade">
+          <div class="picNumber">53</div>
+          <img src="https://martagut.github.io/Antiblog//img/STPete/fitIn.jpg" class="oneImage" alt="">
+          <div class="captionDiv goUp"><p class="captionText">Me, desperately trying to fit in.</p></div>
+        </div>
+      
+  
+      <a class="previous" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+      <div class="dots" id="dots">
+          
+          <span class="dot"  onclick="currentSlide(1)"></span>
+          
+          <span class="dot"  onclick="currentSlide(2)"></span>
+          
+          <span class="dot"  onclick="currentSlide(3)"></span>
+          
+          <span class="dot"  onclick="currentSlide(4)"></span>
+          
+          <span class="dot"  onclick="currentSlide(5)"></span>
+          
+      </div>
+    </div>
+  </div>
+
+  <div class="right">
+    <div class="oneRow">
+        
+        <div class="columnPic cursor">
+          <img class="sidePic" onclick="currentSlide(1)" src="https://martagut.github.io/Antiblog//img/STPete/NicePeople.jpg"  alt="Jinin">
+         </div>
+        
+        <div class="columnPic cursor">
+          <img class="sidePic" onclick="currentSlide(2)" src="https://martagut.github.io/Antiblog//img/STPete/luxury1.jpg"  alt="Jinin">
+         </div>
+        
+        <div class="columnPic cursor">
+          <img class="sidePic" onclick="currentSlide(3)" src="https://martagut.github.io/Antiblog//img/STPete/luxury2.jpg"  alt="Jinin">
+         </div>
+        
+        <div class="columnPic cursor">
+          <img class="sidePic" onclick="currentSlide(4)" src="https://martagut.github.io/Antiblog//img/STPete/luxury3.jpg"  alt="Jinin">
+         </div>
+        
+        <div class="columnPic cursor">
+          <img class="sidePic" onclick="currentSlide(5)" src="https://martagut.github.io/Antiblog//img/STPete/luxury4.jpg"  alt="Jinin">
+         </div>
+        
+        <div class="columnPic cursor">
+          <img class="sidePic" onclick="currentSlide(6)" src="https://martagut.github.io/Antiblog//img/STPete/luxury5.jpg"  alt="Jinin">
+         </div>
+        
+        <div class="columnPic cursor">
+          <img class="sidePic" onclick="currentSlide(7)" src="https://martagut.github.io/Antiblog//img/STPete/luxury6.jpg"  alt="Jinin">
+         </div>
+        
+        <div class="columnPic cursor">
+          <img class="sidePic" onclick="currentSlide(8)" src="https://martagut.github.io/Antiblog//img/STPete/luxury7.jpg"  alt="Jinin">
+         </div>
+        
+        <div class="columnPic cursor">
+          <img class="sidePic" onclick="currentSlide(9)" src="https://martagut.github.io/Antiblog//img/STPete/luxury8.jpg"  alt="Jinin">
+         </div>
+        
+        <div class="columnPic cursor">
+          <img class="sidePic" onclick="currentSlide(10)" src="https://martagut.github.io/Antiblog//img/STPete/luxury9.jpg"  alt="Jinin">
+         </div>
+        
+        <div class="columnPic cursor">
+          <img class="sidePic" onclick="currentSlide(11)" src="https://martagut.github.io/Antiblog//img/STPete/luxury10.jpg"  alt="Jinin">
+         </div>
+        
+        <div class="columnPic cursor">
+          <img class="sidePic" onclick="currentSlide(12)" src="https://martagut.github.io/Antiblog//img/STPete/luxury11.jpg"  alt="Jinin">
+         </div>
+        
+        <div class="columnPic cursor">
+          <img class="sidePic" onclick="currentSlide(13)" src="https://martagut.github.io/Antiblog//img/STPete/luxury12.jpg"  alt="Jinin">
+         </div>
+        
+        <div class="columnPic cursor">
+          <img class="sidePic" onclick="currentSlide(14)" src="https://martagut.github.io/Antiblog//img/STPete/luxury13.jpg"  alt="Jinin">
+         </div>
+        
+        <div class="columnPic cursor">
+          <img class="sidePic" onclick="currentSlide(15)" src="https://martagut.github.io/Antiblog//img/STPete/luxury14.jpg"  alt="Jinin">
+         </div>
+        
+        <div class="columnPic cursor">
+          <img class="sidePic" onclick="currentSlide(16)" src="https://martagut.github.io/Antiblog//img/STPete/luxury15.jpg"  alt="Jinin">
+         </div>
+        
+        <div class="columnPic cursor">
+          <img class="sidePic" onclick="currentSlide(17)" src="https://martagut.github.io/Antiblog//img/STPete/luxury16.jpg"  alt="Jinin">
+         </div>
+        
+        <div class="columnPic cursor">
+          <img class="sidePic" onclick="currentSlide(18)" src="https://martagut.github.io/Antiblog//img/STPete/luxury17.jpg"  alt="Jinin">
+         </div>
+        
+        <div class="columnPic cursor">
+          <img class="sidePic" onclick="currentSlide(19)" src="https://martagut.github.io/Antiblog//img/STPete/luxury18.jpg"  alt="Jinin">
+         </div>
+        
+        <div class="columnPic cursor">
+          <img class="sidePic" onclick="currentSlide(20)" src="https://martagut.github.io/Antiblog//img/STPete/luxury19.jpg"  alt="Jinin">
+         </div>
+        
+        <div class="columnPic cursor">
+          <img class="sidePic" onclick="currentSlide(21)" src="https://martagut.github.io/Antiblog//img/STPete/luxury20.jpg"  alt="Jinin">
+         </div>
+        
+        <div class="columnPic cursor">
+          <img class="sidePic" onclick="currentSlide(22)" src="https://martagut.github.io/Antiblog//img/STPete/luxury21.jpg"  alt="Jinin">
+         </div>
+        
+        <div class="columnPic cursor">
+          <img class="sidePic" onclick="currentSlide(23)" src="https://martagut.github.io/Antiblog//img/STPete/luxury22.jpg"  alt="Jinin">
+         </div>
+        
+        <div class="columnPic cursor">
+          <img class="sidePic" onclick="currentSlide(24)" src="https://martagut.github.io/Antiblog//img/STPete/luxury23.jpg"  alt="Jinin">
+         </div>
+        
+        <div class="columnPic cursor">
+          <img class="sidePic" onclick="currentSlide(25)" src="https://martagut.github.io/Antiblog//img/STPete/luxury24.jpg"  alt="Jinin">
+         </div>
+        
+        <div class="columnPic cursor">
+          <img class="sidePic" onclick="currentSlide(26)" src="https://martagut.github.io/Antiblog//img/STPete/luxury25.jpg"  alt="Jinin">
+         </div>
+        
+        <div class="columnPic cursor">
+          <img class="sidePic" onclick="currentSlide(27)" src="https://martagut.github.io/Antiblog//img/STPete/luxury26.jpg"  alt="Jinin">
+         </div>
+        
+        <div class="columnPic cursor">
+          <img class="sidePic" onclick="currentSlide(28)" src="https://martagut.github.io/Antiblog//img/STPete/luxury27.jpg"  alt="Jinin">
+         </div>
+        
+        <div class="columnPic cursor">
+          <img class="sidePic" onclick="currentSlide(29)" src="https://martagut.github.io/Antiblog//img/STPete/luxury28.jpg"  alt="Jinin">
+         </div>
+        
+        <div class="columnPic cursor">
+          <img class="sidePic" onclick="currentSlide(30)" src="https://martagut.github.io/Antiblog//img/STPete/luxury29.jpg"  alt="Jinin">
+         </div>
+        
+        <div class="columnPic cursor">
+          <img class="sidePic" onclick="currentSlide(31)" src="https://martagut.github.io/Antiblog//img/STPete/luxury30.jpg"  alt="Jinin">
+         </div>
+        
+        <div class="columnPic cursor">
+          <img class="sidePic" onclick="currentSlide(32)" src="https://martagut.github.io/Antiblog//img/STPete/luxury31.jpg"  alt="Jinin">
+         </div>
+        
+        <div class="columnPic cursor">
+          <img class="sidePic" onclick="currentSlide(33)" src="https://martagut.github.io/Antiblog//img/STPete/luxury32.jpg"  alt="Jinin">
+         </div>
+        
+        <div class="columnPic cursor">
+          <img class="sidePic" onclick="currentSlide(34)" src="https://martagut.github.io/Antiblog//img/STPete/luxury33.jpg"  alt="Jinin">
+         </div>
+        
+        <div class="columnPic cursor">
+          <img class="sidePic" onclick="currentSlide(35)" src="https://martagut.github.io/Antiblog//img/STPete/luxury34.jpg"  alt="Jinin">
+         </div>
+        
+        <div class="columnPic cursor">
+          <img class="sidePic" onclick="currentSlide(36)" src="https://martagut.github.io/Antiblog//img/STPete/luxury35.jpg"  alt="Jinin">
+         </div>
+        
+        <div class="columnPic cursor">
+          <img class="sidePic" onclick="currentSlide(37)" src="https://martagut.github.io/Antiblog//img/STPete/luxury36.jpg"  alt="Jinin">
+         </div>
+        
+        <div class="columnPic cursor">
+          <img class="sidePic" onclick="currentSlide(38)" src="https://martagut.github.io/Antiblog//img/STPete/luxury37.jpg"  alt="Jinin">
+         </div>
+        
+        <div class="columnPic cursor">
+          <img class="sidePic" onclick="currentSlide(39)" src="https://martagut.github.io/Antiblog//img/STPete/luxury38.jpg"  alt="Jinin">
+         </div>
+        
+        <div class="columnPic cursor">
+          <img class="sidePic" onclick="currentSlide(40)" src="https://martagut.github.io/Antiblog//img/STPete/luxury39.jpg"  alt="Jinin">
+         </div>
+        
+        <div class="columnPic cursor">
+          <img class="sidePic" onclick="currentSlide(41)" src="https://martagut.github.io/Antiblog//img/STPete/luxury40.jpg"  alt="Jinin">
+         </div>
+        
+        <div class="columnPic cursor">
+          <img class="sidePic" onclick="currentSlide(42)" src="https://martagut.github.io/Antiblog//img/STPete/luxury41.jpg"  alt="Jinin">
+         </div>
+        
+        <div class="columnPic cursor">
+          <img class="sidePic" onclick="currentSlide(43)" src="https://martagut.github.io/Antiblog//img/STPete/luxury42.jpg"  alt="Jinin">
+         </div>
+        
+        <div class="columnPic cursor">
+          <img class="sidePic" onclick="currentSlide(44)" src="https://martagut.github.io/Antiblog//img/STPete/luxury43.jpg"  alt="Jinin">
+         </div>
+        
+        <div class="columnPic cursor">
+          <img class="sidePic" onclick="currentSlide(45)" src="https://martagut.github.io/Antiblog//img/STPete/luxury44.jpg"  alt="Jinin">
+         </div>
+        
+        <div class="columnPic cursor">
+          <img class="sidePic" onclick="currentSlide(46)" src="https://martagut.github.io/Antiblog//img/STPete/cemetery1.jpg"  alt="Jinin">
+         </div>
+        
+        <div class="columnPic cursor">
+          <img class="sidePic" onclick="currentSlide(47)" src="https://martagut.github.io/Antiblog//img/STPete/cemetery.jpg"  alt="Jinin">
+         </div>
+        
+        <div class="columnPic cursor">
+          <img class="sidePic" onclick="currentSlide(48)" src="https://martagut.github.io/Antiblog//img/STPete/dostoevsky.jpg"  alt="Jinin">
+         </div>
+        
+        <div class="columnPic cursor">
+          <img class="sidePic" onclick="currentSlide(49)" src="https://martagut.github.io/Antiblog//img/STPete/mikolai.jpg"  alt="Jinin">
+         </div>
+        
+        <div class="columnPic cursor">
+          <img class="sidePic" onclick="currentSlide(50)" src="https://martagut.github.io/Antiblog//img/STPete/tchaikovsky.jpg"  alt="Jinin">
+         </div>
+        
+        <div class="columnPic cursor">
+          <img class="sidePic" onclick="currentSlide(51)" src="https://martagut.github.io/Antiblog//img/STPete/political.jpg"  alt="Jinin">
+         </div>
+        
+        <div class="columnPic cursor">
+          <img class="sidePic" onclick="currentSlide(52)" src="https://martagut.github.io/Antiblog//img/STPete/political1.jpg"  alt="Jinin">
+         </div>
+        
+        <div class="columnPic cursor">
+          <img class="sidePic" onclick="currentSlide(53)" src="https://martagut.github.io/Antiblog//img/STPete/outside.jpg"  alt="Jinin">
+         </div>
+        
+        <div class="columnPic cursor">
+          <img class="sidePic" onclick="currentSlide(53)" src="https://martagut.github.io/Antiblog//img/STPete/fitIn.jpg"  alt="Jinin">
+         </div>
+        
+      
+  </div>
+  </div>
+</div>
+
+<hr>
+
+<div class="flex-container">
+
+    <div class="comments" style="padding-right: 2%">
+        <div class="greyPost">
+          <h3>Comments</h3>
+        </div>
+        
+        <div class="fb-comments" data-href="http://localhost:4000" data-numposts="10" data-width="400px"> </div>
+        
+        <div id="fb-root"></div>
+        </div>
+
+
+<div class="pageNavigation">
+    <div class="greyPost" style="padding-left: 2%">
+        <h3>Read More</h3>
+      </div>
+    
+      <a class="prevBlog" href="https://martagut.github.io/Antiblog//china/2018/01/03/WeirdThings/">
+      <div class="whiteBox smallBlog">
+              <h4>&laquo; Read Previous Blog</h4>
+              <img  class="postImg" src="https://martagut.github.io/Antiblog/img/SquareDance.JPG" alt="beijing">
+              <div class="smallBlogText">Weird Things That Only Happen in China
+              <span class="postDate">Jan 3, 2018 </span></div>
+      </div>
+      </a>
+    
+    
+      <a class="nextBlog" href="https://martagut.github.io/Antiblog//usa/baltimore/2018/01/05/baltimore/">
+      <div class="whiteBox smallBlog">
+              <h4>Read Next Blog &raquo;</h4>
+              <img  class="postImg" src="https://martagut.github.io/Antiblog/img/baltimore.jpg" alt="beijing">
+              <div class="smallBlogText">Baltimore
+              <span class="postDate">Jan 5, 2018 </span></div>
+      </div>
+      </a>
+    
+  
+
+  <div class="readMoreCategory">
+      
+
+  </div>
+</div>
+
+</div>
+
+
+<!-- Footer -->
+<div>
+<footer> 
+    <div class="plane" onclick="toTop()" id="toTop">  
+    <a href="#"><svg class="svg" style="width:40px;height:40px;padding: 10px;" version="1.1" viewBox="0 0 28 32" xmlns="http://www.w3.org/2000/svg">
+    <title>hotairballoon</title>
+    <path d="M28 9.401c0-6.326-4.579-9.401-14-9.401s-14 3.075-14 9.401c0 7.275 13.173 15.668 13.733 16.021 0.001 0.001 0.003 0 0.005 0.001 0.011 0.007 0.023 0.007 0.035 0.013 0.072 0.038 0.148 0.064 0.227 0.064s0.155-0.026 0.227-0.063c0.011-0.006 0.024-0.006 0.035-0.013 0.001-0.001 0.003 0 0.005-0.001 0.56-0.354 13.733-8.746 13.733-16.022zM18 9.401c0 5.56-2.876 12.121-4 14.473-1.124-2.351-4-8.909-4-14.473 0-7.53 2.283-8.401 4-8.401s4 0.871 4 8.401zM9 9.401c0 4.797 1.979 10.141 3.331 13.236-2.742-2.897-7.331-8.456-7.331-13.236 0-4.69 1.918-7.327 5.977-8.132-1.324 1.448-1.977 4.142-1.977 8.132zM19 9.401c0-3.99-0.652-6.684-1.977-8.132 4.059 0.805 5.977 3.443 5.977 8.132 0 4.78-4.589 10.338-7.331 13.236 1.352-3.094 3.331-8.439 3.331-13.236zM1 9.401c0-3.971 1.987-6.47 6.156-7.632-2.114 1.532-3.156 4.064-3.156 7.632 0 4.203 3.135 8.792 5.838 11.973-3.858-3.068-8.838-7.83-8.838-11.973zM18.162 21.374c2.703-3.181 5.838-7.769 5.838-11.973 0-3.568-1.042-6.101-3.156-7.632 4.169 1.162 6.156 3.661 6.156 7.632 0 4.143-4.98 8.905-8.838 11.973zM11.5 27c-0.276 0-0.5 0.224-0.5 0.5v3c0 0.841 0.659 1.5 1.5 1.5h3c0.841 0 1.5-0.659 1.5-1.5v-3c0-0.276-0.224-0.5-0.5-0.5h-5zM16 30.5c0 0.294-0.206 0.5-0.5 0.5h-3c-0.294 0-0.5-0.206-0.5-0.5v-2.5h4v2.5z"></path>
+    </svg>
+    
+    <style>
+        .svg{
+            fill: rgba(86,94,108,0.7);
+        }
+        .svg:hover{
+            fill: #f6dba4;
+        }
+    </style></a>
+    </div>
+    <div class="greyFoot flex-container">
+        <div class="motivation">
+            <p class="wisdom fade">I have panicked unnecessarily in all four corners of the globe. – Jon Ronson</p>
+            <p class="wisdom fade">He didn’t really like travel, of course. He liked the idea of travel, and the memory of travel, but not travel itself. – Julian Barnes</p>
+            <p class="wisdom fade">Modern traveling is not traveling at all; it is merely being sent to a place, and very little different from becoming a parcel. – John Ruskin</p>
+            <p class="wisdom fade">The gentle reader will never, never know what a consummate ass he can become until he goes abroad. I speak now, of course, in the supposition that the gentle reader has not been abroad, and therefore is not already a consummate ass. – Mark Twain</p>
+            <p class="wisdom fade">In some peculiar way, indeed, the rules were now beginning to seem quite logical.<br> It was then I knew that I had been in India long enough.<br> – Tahir Shah</p>
+            <p class="wisdom fade">Adventure, yeah. I guess that’s what you call it when everybody comes back alive.<br> – Mercedes Lackey</p>
+            <p class="wisdom fade">Statuettes of drunken sailors, velvet pictures of island maidens, <br>plastic seashell lamps made in Taiwan.<br> What contempt the people who think up souvenirs have for other people.<br> – Diane Johnson</p>
+            <p class="wisdom fade">Sometimes the road less traveled is less traveled for a reason. – Jerry Seinfeld</p>
+            <p class="wisdom fade">It can hardly be a coincidence that no language on earth has ever produced the expression,<br> ‘As pretty as an airport’. – Douglas Adams</p>
+            <p class="wisdom fade">He has a passport,” my classmates would whisper. “Quick, let’s run before he judges us! – David Sedaris</p>
+            <p class="wisdom fade">It is the right of a traveler to vent their frustration at every minor inconvenience by writing of it to their friends. – Susanna Clarke</p>
+            <p class="wisdom fade">Boy, those French. They have a different word for everything. – Steve Martin</p>
+            <p class="wisdom fade">There are two kinds of travel: first class and with children. – Robert Benchley</p>
+            <p class="wisdom fade">Airline travel is hours of boredom interrupted by moments of stark terror. – Al Boliska</p>
+            <p class="wisdom fade"> Airplane travel is nature’s way of making you look like your passport photo. – Al Gore</p>
+            <p class="wisdom fade">You define a good flight by negatives: you didn’t get hijacked, you didn’t crash, you didn’t throw up, you weren’t late, you weren’t nauseated by the food. So you are grateful. – Paul Theroux</p>
+            <p class="wisdom fade">The worst thing about being a tourist is having other tourists recognize you as a tourist.” –Russell Baker</p>
+            <p class="wisdom fade"> One senses that, in these conditions, no amount of wet-wiping could bring true hygiene. – Tahir Shah</p>
+        </div>
+        <a class="previousWise" id="prev" onclick="plusWises(-1)">&#10094;</a>
+        <a class="nextWise" id="next" onclick="plusWises(1)">&#10095;</a>
+    </div>
+</footer>
+<!-- End of Footer -->
+</div>
+<!-- End of Content div -->
+
+<script>
+ 
+ if (window.innerWidth < 700) {
+    var old = document.getElementById("prev");
+    old.innerHTML = "&#x2303;";
+    var old = document.getElementById("next");
+    old.innerHTML = "&#8964;";
+}
+
+  $(document).ready(function(){ 
+    $(window).scroll(function(){ 
+        if ($(this).scrollTop() > 100) { 
+            $('.plane').fadeIn(); 
+        } else { 
+            $('.plane').fadeOut(); 
+        } 
+    }); 
+    $('.plane').click(function(){ 
+        $('html, body').animate({ scrollTop: 0 }, 800); 
+        return false; 
+    }); 
+});
+
+// slide index is the position of the picture in the array of pictures
+var slideIndex = 1;
+// show the first image by default when loading the page
+showWises(slideIndex);
+
+var wises;
+
+ //var myTimer = null;
+ var myTimer = setTimeout(plusWises(1), 0);
+
+function plusWises(n) {
+    clearInterval(myTimer);
+    this.showWises(slideIndex += n);
+    if (n = -1){
+        myTimer = setInterval(() => {this.plusWises(n+2);}, 7000);
+    } else {
+        myTimer = setInterval(() => {this.plusWises(n+1);}, 7000);
+    }
+ }
+
+    function showWises(n) {
+  var i;
+  var wises = document.getElementsByClassName("wisdom fade");
+  if (n > wises.length) {slideIndex = 1} 
+  if (n < 1) {slideIndex = wises.length}
+  for (i = 0; i < wises.length; i++) {
+      wises[i].style.display = "none"; 
+  }
+  wises[slideIndex-1].style.display = "block";
+}
+
+
+    function mount() {
+        this.showWises(slideIndex);
+        myTimer = setInterval(() => {this.plusWises(1);}, 7000);
+    }
+
+
+   /*  window.onscroll = function() {scrollFunction()};
+    
+    function scrollFunction() {
+        if (document.body.scrollTop > 20 
+        || document.documentElement.scrollTop > 20) {
+            document.getElementById("toTop").style.display = "block";
+        }
+        else {document.getElementById("toTop").style.display = "none";
+        }
+    };
+
+    function toTop() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+    }
+    */
+
+</script>
+<script>
+
+ 
+ if (window.innerWidth < 700) {
+    var dots = document.getElementById("dots");
+    dots.style.display = "none";
+}
+
+
+
+  // slide index is the position of the picture in the array of pictures
+var slideIndex = 1;
+// show the first image by default when loading the page
+showSlides(slideIndex);
+
+// Next/previous controls
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+// Thumbnail image controls
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("slideshowPic");
+  var dots = document.getElementsByClassName("dot");
+  var sidePicture = document.getElementsByClassName("sidePic");
+  if (n > slides.length) {slideIndex = 1} 
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none"; 
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  for (i = 0; i < sidePicture.length; i++) {
+      sidePicture[i].className = sidePicture[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block"; 
+  dots[slideIndex-1].className += " active";
+  sidePicture[slideIndex-1].className += " active";
+}
+
+ $(function(){
+$('.captionDiv').animate({'top': '70%'}, 1000);
+});
+</script>
+
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = 'https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.12';
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+</body>
+</html>

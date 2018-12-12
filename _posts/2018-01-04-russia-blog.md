@@ -125,7 +125,7 @@ images:
       image_name: Luxury 
       text: Luxury
       image_number: 29
-      - image_path: /img/STPete/luxury29.jpg
+    - image_path: /img/STPete/luxury29.jpg
       image_name: Luxury 
       text: Luxury 
       image_number: 30
@@ -179,7 +179,7 @@ images:
       image_number: 42
     - image_path: /img/STPete/luxury42.jpg
       image_name: Luxury 
-      text:Another dazzling Church.
+      text: Another dazzling Church.
       image_number: 43
     - image_path: /img/STPete/luxury43.jpg
       image_name: Luxury 
