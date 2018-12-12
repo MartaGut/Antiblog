@@ -43,7 +43,7 @@ images:
       image_number: 8
     - image_path: /img/STPete/luxury8.jpg
       image_name: Luxury
-      text:Luxury
+      text: Luxury
       image_number: 9
     - image_path: /img/STPete/luxury9.jpg
       image_name: Luxury
@@ -95,7 +95,7 @@ images:
       image_number: 21
     - image_path: /img/STPete/luxury21.jpg
       image_name: Luxury
-      text:Luxury
+      text: Luxury
       image_number: 22
     - image_path: /img/STPete/luxury22.jpg
       image_name: Luxury
