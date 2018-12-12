@@ -81,22 +81,10 @@ images:
       image_name: Luxury
       text: Luxury
       image_number: 18
-    - image_path: /img/STPete/luxury18.jpg
-      image_name: Luxury
-      text: Luxury
-      image_number: 19
-    - image_path: /img/STPete/luxury19.jpg
-      image_name: Luxury
-      text: Luxury
-      image_number: 20
     - image_path: /img/STPete/luxury20.jpg
       image_name: Luxury
       text: Luxury
       image_number: 21
-    - image_path: /img/STPete/luxury21.jpg
-      image_name: Luxury
-      text: Luxury
-      image_number: 22
     - image_path: /img/STPete/luxury22.jpg
       image_name: Luxury
       text: Luxury
