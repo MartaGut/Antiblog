@@ -81,10 +81,22 @@ images:
       image_name: Luxury
       text: Luxury
       image_number: 18
+    - image_path: /img/STPete/luxury18.jpg
+      image_name: Luxury
+      text: Luxury
+      image_number: 19
+    - image_path: /img/STPete/luxury19.jpg
+      image_name: Luxury
+      text: Luxury
+      image_number: 20
     - image_path: /img/STPete/luxury20.jpg
       image_name: Luxury
       text: Luxury
       image_number: 21
+    - image_path: /img/STPete/luxury21.jpg
+      image_name: Luxury
+      text: Luxury
+      image_number: 22
     - image_path: /img/STPete/luxury22.jpg
       image_name: Luxury
       text: Luxury
@@ -183,15 +195,15 @@ images:
       image_number: 46
     - image_path: /img/STPete/cemetery.jpg
       image_name: Tikhvinskoe
-      text: Tikhvinskoe Cemetery. During the 19th century a large number of famous scientists and artists were buried here, among them poets Vasily Zhukovsky and Nikolay Gnedich; writers Fyodor Dostoevsky and Ivan Krylov; composers Modest Mussorgsky, Alexander Borodin, and Pyotr Tchaikovsky. 
+      text: Tikhvinskoe Cemetery.  
       image_number: 47
     - image_path: /img/STPete/dostoevsky.jpg
       image_name: Tikhvinskoe
-      text:  Tikhvinskoe Cemetery. During the 19th century a large number of famous scientists and artists were buried here, among them poets Vasily Zhukovsky and Nikolay Gnedich; writers Fyodor Dostoevsky and Ivan Krylov; composers Modest Mussorgsky, Alexander Borodin, and Pyotr Tchaikovsky. 
+      text:  Tikhvinskoe Cemetery.  
       image_number: 48
     - image_path: /img/STPete/mikolai.jpg
       image_name: Tikhvinskoe
-      text: Tikhvinskoe Cemetery. During the 19th century a large number of famous scientists and artists were buried here, among them poets Vasily Zhukovsky and Nikolay Gnedich; writers Fyodor Dostoevsky and Ivan Krylov; composers Modest Mussorgsky, Alexander Borodin, and Pyotr Tchaikovsky. 
+      text: Tikhvinskoe Cemetery. 
       image_number: 49
     - image_path: /img/STPete/tchaikovsky.jpg
       image_name: Tikhvinskoe
@@ -202,7 +214,7 @@ images:
       image_number: 51
     - image_path: /img/STPete/political1.jpg
       image_name: Memorial to Victims of Political Repression
-      text: Memorial to Victims of Political Repression. The skulls of the sphinxes face across the river to Kresty, the notorious holding prison that processed many thousands of Leningrad citizens on their way to the horrors of the Gulag.
+      text: Memorial to Victims of Political Repression.
       image_number: 52
     - image_path: /img/STPete/outside.jpg
       image_name: Outside
