@@ -13,3 +13,5 @@ branches:
     - gh-pages
 rvm:
  - 2.4
+ exclude: 
+  -_posts\2018-01-04-russia-blog.md
