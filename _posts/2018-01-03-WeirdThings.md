@@ -132,3 +132,13 @@ images:
 
     
 ---
+
+>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;People always ask me ‘Why have you returned?’ I ask them ‘How much time you got?’
+
+>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I wouldn’t even know where to start. Accidentally I ended up in a really small place in China. First morning I went to the supermarket to buy some bread and something to spread on it. To my surprise they had no bread and naturally nothing that would go with that bread. I wouldn’t know what to buy that I could actually prepare myself at home, nothing but instant noodles. There was a food court and I pointed at what I want to get. The person working there started pouring me the wrong meal and I started gesturing ‘no, no, that one’. To my surprise, with the corner of my eyes I noticed a strange thing. There was a circle of people forming around me and it was becoming smaller and smaller. They all stared at me with interest, like a child would look at the animals in the zoo. They started taking their phones out and taking tons of pictures of me. This is when I realized what a mistake I made. This became my reality for the next nine months. 
+
+>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Privacy? Forget about privacy in China. Everyone feels free to take your photo, film you, sit at the table with you, and the creepiest thing is that old ladies feel entitled to touch your hair in the streets. 
+
+>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Ok now, about the hygiene. God, this is something even after two years I’m still not ready to talk about. Some other time, look at the pictures, maybe they will tell you something. 
+
+>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I feel the best way to experience the weirdness of China is to go through images, because they say speak louder than words. Enjoy! 
