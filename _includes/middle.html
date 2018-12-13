@@ -237,7 +237,7 @@
 
 <script>
     if (window.innerWidth < 700) {
-    $('.blogContainer').update("{{ post.excerpt | truncatewords:15 }}")
+    $('.blogContainer').innerHTML("{{ post.excerpt | truncatewords:15 }}")
 }
 
 </script>
