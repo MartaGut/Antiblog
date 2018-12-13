@@ -223,6 +223,8 @@ label {
     .category-box{
         margin: 0;
     }
+    .Twoflex-container{
+        flex-direction: column;
 }
 @media (max-width: 300px){
     .bigger, .smaller {   
