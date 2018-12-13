@@ -92,7 +92,7 @@
             <div>
                 <img class="bigPostImage" src="{{ post.one_path }}" alt="{{post.title_description}}">
                 <div>
-                    <div class="blogContainer"> 
+                    <div class="blogContainer" id="blogContainer"> 
                      {{ post.excerpt }}
                     </div>
                     <a href="{{site.baseurl}}{{post.url}}"  class="readMore">Read more...</a>
@@ -234,3 +234,11 @@
 </div>
 </div>
 </div>
+
+<script>
+    if (window.innerWidth < 700) {
+    var excerpt = document.getElementById("blogContainer");
+    excerpt.innerHTML = "{{ excerpt | truncatewords:15 }}";
+    
+}
+</script>
