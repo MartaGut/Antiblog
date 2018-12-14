@@ -238,9 +238,9 @@
 <script>
     if (window.innerWidth < 700) {
     var excerpt = document.getElementById("blogContainer");
-    excerpt.replace('{{ post.excerpt }}', '{{ post.excerpt | truncatewords:15 }}');
+    excerpt.innerHTML = "{{ post.excerpt | truncatewords:15 }}";
     
-    //$('.blogContainer').html("{{ post.excerpt | truncatewords:15 }}")
+   //$('.blogContainer').html("{{ post.excerpt | truncatewords:15 }}")
 }
 
 </script>
