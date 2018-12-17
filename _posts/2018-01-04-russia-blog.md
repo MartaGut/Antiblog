@@ -223,7 +223,7 @@ images:
     - image_path: /img/STPete/fitIn.jpg
       image_name: Fitting in.
       text: Me, desperately trying to fit in. 
-      image_number: 53
+      image_number: 54
 
 
    
