@@ -35,7 +35,7 @@ images:
       image_number: 6
     - image_path: /img/STPete/luxury6.jpg
       image_name: Luxury
-      text: The rise of the Russian Orthodox Church:\ President Vladimir Putin, a former KGB agent of the atheist Soviet Union, now embraces his Orthodox Christianity. The Russian leader is often shown on national television broadcasts attending church services and paying respect to the church leadership. The most dazzling places are of course - Churches. 
+      text: The rise of the Russian Orthodox Church - President Vladimir Putin, a former KGB agent of the atheist Soviet Union, now embraces his Orthodox Christianity. The Russian leader is often shown on national television broadcasts attending church services and paying respect to the church leadership. The most dazzling places are of course - Churches. 
       image_number: 7
     - image_path: /img/STPete/luxury7.jpg
       image_name: Luxury
