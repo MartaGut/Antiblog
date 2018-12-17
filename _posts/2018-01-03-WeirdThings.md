@@ -83,35 +83,35 @@ images:
       image_number: 18
     - image_path: /img/WeirdThings/Butt1.jpg
       image_name: Book
-      text: Book about butts?! Weird things they children read in the kindergarten.
+      text: Book about butts?! Weird things the children read in the kindergarten.
       image_number: 19
     - image_path: /img/WeirdThings/Butt2.jpg
       image_name: Book
-      text: Book about butts?! Weird things they children read in the kindergarten.
+      text: Book about butts?! Weird things the children read in the kindergarten.
       image_number: 20
     - image_path: /img/WeirdThings/Butt3.jpg
       image_name: Book
-      text: Book about butts?! Weird things they children read in the kindergarten.
+      text: Book about butts?! Weird things the children read in the kindergarten.
       image_number: 21
     - image_path: /img/WeirdThings/Butt4.jpg
       image_name: Book
-      text: Book about butts?! Weird things they children read in the kindergarten.
+      text: Book about butts?! Weird things the children read in the kindergarten.
       image_number: 22
     - image_path: /img/WeirdThings/Butt5.jpg
       image_name: Book
-      text: Book about butts?! Weird things they children read in the kindergarten.
+      text: Book about butts?! Weird things the children read in the kindergarten.
       image_number: 23
     - image_path: /img/WeirdThings/Butt6.jpg
       image_name: Book
-      text: Book about butts?! Weird things they children read in the kindergarten.
+      text: Book about butts?! Weird things the children read in the kindergarten.
       image_number: 24
     - image_path: /img/WeirdThings/Butt7.jpg
       image_name: Book
-      text: Book about butts?! Weird things they children read in the kindergarten.
+      text: Book about butts?! Weird things the children read in the kindergarten.
       image_number: 25
     - image_path: /img/WeirdThings/Butt7.jpg
       image_name: Book
-      text: Book about butts?! Weird things they children read in the kindergarten.
+      text: Book about butts?! Weird things the children read in the kindergarten.
       image_number: 26
     - image_path: /img/WeirdThings/Actors.jpg
       image_name: Actors
