@@ -179,7 +179,7 @@ images:
       image_number: 42
     - image_path: /img/STPete/luxury42.jpg
       image_name: Luxury 
-      text: Another dazzling Church.
+      text: Luxury.
       image_number: 43
     - image_path: /img/STPete/luxury43.jpg
       image_name: Luxury 
@@ -187,13 +187,13 @@ images:
       image_number: 44
     - image_path: /img/STPete/luxury44.jpg
       image_name: Luxury 
-      text: Another dazzling Church.
+      text: Luxury.
       image_number: 45
     - image_path: /img/STPete/cemetery1.jpg
       image_name: Tikhvinskoe
       text: Tikhvinskoe Cemetery. During the 19th century a large number of famous scientists and artists were buried here, among them poets Vasily Zhukovsky and Nikolay Gnedich; writers Fyodor Dostoevsky and Ivan Krylov; composers Modest Mussorgsky, Alexander Borodin, and Pyotr Tchaikovsky. 
       image_number: 46
-    - image_path: /img/STPete/cemetery.jpg
+    - image_path: /img/STPete/Cemetery.jpg
       image_name: Tikhvinskoe
       text: Tikhvinskoe Cemetery.  
       image_number: 47
@@ -201,7 +201,7 @@ images:
       image_name: Tikhvinskoe
       text:  Tikhvinskoe Cemetery.  
       image_number: 48
-    - image_path: /img/STPete/mikolai.jpg
+    - image_path: /img/STPete/nikolai.jpg
       image_name: Tikhvinskoe
       text: Tikhvinskoe Cemetery. 
       image_number: 49
