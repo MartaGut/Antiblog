@@ -19,7 +19,7 @@ images:
       image_number: 2
     - image_path: /img/Baltimore/luckyNumber.jpg
       image_name: Lucky number
-      text: The centre was all about some weird sport we do not play in Europe but at least I found my lucku number. 
+      text: The centre was all about some weird sport we do not play in Europe but at least I found my lucky number. 
       image_number: 3
     - image_path: /img/Baltimore/poe.jpg
       image_name: Poe
@@ -38,7 +38,7 @@ images:
 
 >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Baltimore, I have to admit, was one of the creepiest places I have ever been to. Naive as I am, a born explorer, I did not do my research so I had no idea what I was getting myself into. 
 
->&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I arrived to the bus station from Washington DC and google-mapped where my motel is. It was a cheap Motel 6 on 110 West North Avenue. There was a bus going from the but station to the West North Avenue. How great I thought to myself. The bus had arrived and I was tracking my position on the map so I would not miss my stop. But as it happens, there was a constant lag probably due to the poor connection so I just decide to ask someone to tell me where to get off. 
+>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I arrived to the bus station from Washington DC and google-mapped where my motel is. It was a cheap Motel 6 on 110 West North Avenue. There was a bus going from the bus station to the West North Avenue. How great I thought to myself. The bus had arrived and I was tracking my position on the map so I would not miss my stop. But as it happens, there was a constant lag probably due to the poor connection so I just decide to ask someone to tell me where to get off. 
 
 >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Is there going to be someone waiting for you there? - they asked.
 
@@ -55,10 +55,10 @@ The whole bus started persuading me that this is a good idea.
 At that moment, a beautiful thing happened. One man, obviously upset, stood up and said: 
 
 >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-	You know what things are going on there? A lot of nice things are also going on right there. 
-This man is absolutely my hero. After him, one lady said: “there is an art academy opposite the motel and you can visit their gallery.” and so on, the panic had stopped. 
+This man is absolutely my hero. After him, one lady said: “There is an art academy opposite the motel and you can visit their gallery.” and so on, the panic had stopped. 
 
 >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;When I arrived there, I went straight to bed. The next day I was still under the bitter impression of what had happened in the bus. So, when I was walking the streets of Baltimore, I had a constant feeling that something bad is about to happen. It did not help to see signs everywhere: ‘You are being monitored’ ‘Report any suspicious behaviour’ etc.
 And yes, I was the only white person in the streets and I wish the man in the bus did not plant the feeling of awkwardness in my head because of this. I remembered it was the same the other day in Denver, I asked for directions but the person I asked did not want to acknowledge my presence at all. I thought there was something wrong with him, so I moved on but this was the answer I got from other people as well. I was totally creeped out. 
 
->&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Anyways, I did visit the gallery and everything there is to be visited, and all in all it was great, not very disappointing. I meet a whole bunch of people that told me not to pay attention to those Americans spreading panic. This is somewhat true since all the people on my previous workplace were totally shocked that I am going to travel across USA all by myself. Their reaction was not much different from the people in the bus. Of course, you should not walk in dark alleys in the middle of the night in an unknown city but if you are going to stay in one place out of fear that something bad is about to happen, then you might as well just kill yourself. To this day, I still have no idea were all these people panicking unnecessarily or was I really in danger and had what someone would say a crazy luck. 
+>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Anyways, I did visit the gallery and everything there is to be visited, and all in all it was great, not very disappointing. I met a whole bunch of people that told me not to pay attention to those Americans spreading panic. This is somewhat true since all the people on my previous workplace were totally shocked that I am going to travel across USA all by myself. Their reaction was not much different from the people in the bus. Of course, you should not walk in dark alleys in the middle of the night in an unknown city but if you are going to stay in one place out of fear that something bad is about to happen, then you might as well just kill yourself. To this day, I still have no idea were all these people panicking unnecessarily or was I really in danger and had what someone would say a crazy luck. 
 
