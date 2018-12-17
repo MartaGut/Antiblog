@@ -207,10 +207,11 @@ images:
       image_number: 49
     - image_path: /img/STPete/tchaikovsky.jpg
       image_name: Tikhvinskoe
-      text: Probably the least depressing place, The Hermitage, you can actually enjoy some nice art.
+      text: Tikhvinskoe Cemetery. 
       image_number: 50
     - image_path: /img/STPete/political.jpg
-      image_name: Memorial to Victims of Political Repression. The skulls of the sphinxes face across the river to Kresty, the notorious holding prison that processed many thousands of Leningrad citizens on their way to the horrors of the Gulag.
+      image_name: Memorial to Victims of Political Repression
+      text:  Memorial to Victims of Political Repression. The skulls of the sphinxes face across the river to Kresty, the notorious holding prison that processed many thousands of Leningrad citizens on their way to the horrors of the Gulag.
       image_number: 51
     - image_path: /img/STPete/political1.jpg
       image_name: Memorial to Victims of Political Repression
