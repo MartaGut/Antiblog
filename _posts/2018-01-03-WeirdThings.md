@@ -59,7 +59,7 @@ images:
       image_number: 12
     - image_path: /img/WeirdThings/ChickRoad.jpg
       image_name: Chick crossing the road
-      text: Why is this chicken crossing the road? Anyway, there is a huga amount of farm animals inside of the city. If you don't mind being woken up by a cock from the restaurant nearby then you should definitely visit China. 
+      text: Why is this chicken crossing the road? Anyway, there is a huge amount of farm animals inside of the city. If you don't mind being woken up by a cock from the restaurant nearby then you should definitely visit China. 
       image_number: 13
     - image_path: /img/WeirdThings/NotAdog.JPG
       image_name: Not a dog
@@ -141,4 +141,4 @@ images:
 
 >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Ok now, about the hygiene. God, this is something even after two years I’m still not ready to talk about. Some other time, look at the pictures, maybe they will tell you something. 
 
->&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I feel the best way to experience the weirdness of China is to go through images, because they say speak louder than words. Enjoy! 
+>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I feel the best way to experience the weirdness of China is to go through images because they speak louder than words. Enjoy! 
