@@ -15,10 +15,10 @@ body {font-family: Verdana, sans-serif; margin:0}
 }
 
 .postHeading{
-    background: white; 
-    text-align: center;
-    color: #565e6c;
-    font-size: 2vw;
+  background: white; 
+  text-align: center;
+  color: #565e6c;
+  font-size: 2vw;
 }
 .postText{
   padding: 2%;
@@ -44,25 +44,25 @@ body {font-family: Verdana, sans-serif; margin:0}
 }
 
 .right{
-   flex: 25%;
-   overflow-y: auto;
-   max-height: 600px;
+  flex: 25%;
+  overflow-y: auto;
+  max-height: 600px;
 }
 
 .slideshowContainer{
-    max-width: 1000px;
-    margin: auto;
-    height: 100%;
-    padding-top: 10px;
-    padding-bottom: 10px;
+  max-width: 1000px;
+  margin: auto;
+  height: 100%;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 .slideshowPic{
-    display: none;
-    height: 500px;
-    width: auto;
-    margin-top: auto;
-    margin-bottom: auto;
+  display: none;
+  height: 500px;
+  width: auto;
+  margin-top: auto;
+  margin-bottom: auto;
     
 }
 .oneImage{
@@ -207,10 +207,12 @@ body {font-family: Verdana, sans-serif; margin:0}
   max-width: 100%;
   height: 200px;
 }
+
 .sidePic:hover, .active{
   opacity: 1;
   transition: opacity 0.5s ease;
 }
+
 @media (max-width : 768px) {
   .oneImage{
     max-width: 450px;
@@ -241,11 +243,12 @@ body {font-family: Verdana, sans-serif; margin:0}
     max-width: 350px;
     max-height: 300px;
 
+  }
+  .sidePic {
+    height: 70px;
+  }
 }
-.sidePic {
-  height: 70px;
-}
-}
+
 .pageNavigation{
   flex: 1 1 45%;
   width: auto;

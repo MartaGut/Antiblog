@@ -6,11 +6,11 @@
     margin: auto;
     padding-bottom: 2%;
   }
-  footer{
+footer{
       bottom: 0px;
       clear: both;
   }
-  .plane{
+.plane{
       width: 65px;
       height: 65px;
       margin: 10px;
@@ -23,13 +23,13 @@
       background-color: rgba(255,255,255,0.4);
   }
 
-  .flex-container{
+.flex-container{
     display: flex;
     flex-direction: row;
     justify-content: space-between; 
   }
 
-  .previousWise, .nextWise{
+.previousWise, .nextWise{
     cursor: pointer;
     width: auto;
     color: white;
@@ -41,21 +41,21 @@
     padding: 20px;
   }
   
-  .nextWise{
+.nextWise{
     right:0;
     order: 3;
   }
-  .previousWise{
+.previousWise{
     left: 0px;
     order: 1;
   }
   
-  .previousWise:hover, .nextWise:hover{
+.previousWise:hover, .nextWise:hover{
     background-color: rgba(0, 0, 0, 0.4);
     font-size: 5vw;
   }
 
-  .motivation{
+.motivation{
       text-align: center;
       margin: auto;
       padding-top: 25px;
@@ -65,32 +65,32 @@
       color: white;
   }
 
-  .fade {
+.fade {
     -webkit-animation-name: fade;
     -webkit-animation-duration: 1.5s;
     animation-name: fade;
     animation-duration: 1.5s;
   }
-  @-webkit-keyframes fade{
+@-webkit-keyframes fade{
     from {opacity: 0.4}
     to {opacity: 1}
   }
   
-  @keyframes fade{
+@keyframes fade{
     from {opacity: 0.4}
     to {opacity: 1}
   }
 
-  @media (max-width: 700px) {
-   .flex-container{
+@media (max-width: 700px) {
+  .flex-container{
      flex-direction: column;
    }
-   .previousWise, .nextWise{
+  .previousWise, .nextWise{
     margin: auto;
     padding: 20px;
   }
-  }
- @media (max-width: 400px) {
+}
+@media (max-width: 400px) {
         .flex-container{
           flex-direction: column;
         }
@@ -102,7 +102,7 @@
           width: 90%;
           color: white;
         }
-      }
+}
   
 
   

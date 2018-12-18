@@ -192,7 +192,7 @@ label {
     display: block;
 }
 
-/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+
 @media (max-width: 550px) {
     .bigger, .smaller {   
       //  flex-direction: column;
@@ -237,28 +237,24 @@ label {
     .bigger {
         margin: 0;
         padding: 0;
-}
-.bigger{
-    padding:0;
-    margin: 0px;
-}
-.category-box{
-    margin: 0;
-}
-.Twoflex-container{
-    flex-direction: column;
-}
+    }
+    .category-box{
+        margin: 0;
+    }
+    .Twoflex-container{
+        flex-direction: column;
+    }
 
-blockquote {
-    display: block;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0;
-    margin-inline-end: 0;
-}
-.whiteBox{
-    padding:0px;
-    margin:0px;
+    blockquote {
+        display: block;
+        margin-block-start: 1em;
+        margin-block-end: 1em;
+        margin-inline-start: 0;
+        margin-inline-end: 0;
+    }
+    .whiteBox{
+        padding:0px;
+        margin:0px;
 
 }
 .tagSearch{
