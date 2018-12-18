@@ -87,7 +87,7 @@ images:
       image_number: 19
     - image_path: /img/TeachingChina/ReadingFl.JPG
       image_name: Reading FLashcards
-      text: This game is played in two teams, each representative gets three paper balls they try to throw them so that it would land on one of the flashcards. If they can read that flashcard, their team gets a point.  
+      text: This game is played in two teams, each representative gets three paper balls and they try to throw them so that it would land on one of the flashcards. If they can read that flashcard, their team gets a point.  
       image_number: 20
     - image_path: /img/TeachingChina/ReadingFlashcards.JPG
       image_name: Reading Flashcards
