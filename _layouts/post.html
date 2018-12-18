@@ -95,7 +95,7 @@
       <a class="prevBlog" href="{{site.baseurl}}{{page.previous.url}}">
       <div class="whiteBox smallBlog">
               <h4>&laquo; Read Previous Blog</h4>
-              <img  class="postImg" src="{{site.baseurl}}{{ page.previous.one_path }}" alt="beijing">
+              <img  class="postImg" src="{{site.baseurl}}{{ page.previous.one_path }}" alt="{{site.baseurl}}{{ page.blog_title }}">
               <div class="smallBlogText">{{ page.previous.blog_title }}
               <span class="postDate">{{ page.previous.url | date: "%b %-d, %Y" }} </span></div>
       </div>
@@ -105,7 +105,7 @@
       <a class="nextBlog" href="{{site.baseurl}}{{page.next.url}}">
       <div class="whiteBox smallBlog">
               <h4>Read Next Blog &raquo;</h4>
-              <img  class="postImg" src="{{site.baseurl}}{{ page.next.one_path }}" alt="beijing">
+              <img  class="postImg" src="{{site.baseurl}}{{ page.next.one_path }}" alt="{{site.baseurl}}{{ page.blog_title }}">
               <div class="smallBlogText">{{ page.next.blog_title }}
               <span class="postDate">{{ page.next.url | date: "%b %-d, %Y" }} </span></div>
       </div>
@@ -126,7 +126,7 @@
               {% unless post.title == page.title %}
               <div class="whiteBox smallBlog">
                   <a  href="{{site.baseurl}}{{ post.url }}">
-                      <img  class="postImg" src="{{site.baseurl}}{{ post.one_path }}" alt="beijing">
+                      <img  class="postImg" src="{{site.baseurl}}{{ post.one_path }}" alt="{{site.baseurl}}{{ page.blog_title }}">
                       <div class="smallBlogText">{{ post.blog_title }}
                       <span class="postDate">{{ post.url | date: "%b %-d, %Y" }} </span></div>
                   </a>
