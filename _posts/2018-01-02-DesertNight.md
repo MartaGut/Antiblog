@@ -23,6 +23,7 @@ images:
       image_number: 3
     - image_path: /img/DesertNight/Bonfire2.JPG
       image_name: Bonfire
+      text: Bonfire. 
       image_number: 4
     - image_path: /img/DesertNight/Breakfast.JPG
       image_name: Eating breakfast in the morning
@@ -82,16 +83,16 @@ images:
       image_number: 18
     - image_path: /img/DesertNight/Tents.JPG
       image_name: The camp 
-      text: The tents in which we slept.
+      text: The tents.
       image_number: 19
     - image_path: /img/DesertNight/Tents2.JPG
       image_name: The camp
-      text: The tents in which we slept.
+      text: The tents.
       image_number: 20
     - image_path: /img/DesertNight/Camels.JPG
       image_name: Arriving
       text: This is where our van drop us off, there was an hour of ride ahead of us. 
-      image_number: 20
+      image_number: 21
     
 ---
 
