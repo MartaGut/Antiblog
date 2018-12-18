@@ -55,7 +55,7 @@ images:
       image_number: 11
     - image_path: /img/TeachingChina/Fingerplay2.JPG
       image_name: Finger Play
-      text: Fingerplay is a short song and a choreography we used to perform at the begining of the class, the point was to prepare the student for the class. 
+      text: Story time.
       image_number: 12
     - image_path: /img/TeachingChina/Graduates3.JPG
       image_name: My little graduates. 
@@ -69,11 +69,11 @@ images:
       image_name: My little graduates. 
       text: My little graduates. 
       image_number: 15
-    - image_path: /img/TeachingChina/NewTeacher.JPG
+    - image_path: /img/TeachingChina/NewTeacher.jpg
       image_name: New Teacher. 
       text: Expecting the new teacher. 
       image_number: 16
-    - image_path: /img/TeachingChina/ParkClass.jpg
+    - image_path: /img/TeachingChina/ParkClass.JPG
       image_name: Having classes in the park
       text: During the weekends I worked in a private English school, the weather was nice so we decided to have a class in the nearby park. 
       image_number: 17
