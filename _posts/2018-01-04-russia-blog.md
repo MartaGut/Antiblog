@@ -5,7 +5,7 @@ blog_title: TEFL in Saint Petersburg
 title_description: Saint Petersburg disappointment
 one_path: img/borsch.jpg
 categories: [Russia, TEFL]  
-tags: [Russia, TEFL]  
+tags: [Russia]  
 title: TEFL in Saint Petersburg
 
 images:
