@@ -6,7 +6,6 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <link rel="stylesheet" href="{{site.baseurl}}/assets/css/main.css">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<style src="js/post.js"></style>
 </head>
 <body>
 
@@ -25,19 +24,19 @@
     
   <h1 class="postTitle">{{ page.blog_title }}</h1>
   <div>
-      <img class="bigPostImage" src="{{site.baseurl}}{{ page.one_path }}" alt="Picture">
+      <img class="bigPostImage" src="{{site.baseurl}}{{ page.one_path }}" alt="{{ page.blog_title }}">
     </div>
 </div>  
 
-<div class="postText">
-{{ content }}
-</div>
+  <div class="postText">
+    {{ content }}
+  </div>
 
-<div class="greyPost">
+ <div class="greyPost">
   <h2>Gallery</h2>
-</div>
+ </div>
 
-<div class="flex-container">
+ <div class="flex-container">
   
   <div class="left">
   <!-- Slideshow -->
@@ -65,7 +64,7 @@
     <div class="oneRow">
         {% for image in page.images %}
         <div class="columnPic cursor">
-          <img class="sidePic" onclick="currentSlide({{image.image_number}})" src="{{site.baseurl}}{{image.image_path}}"  alt="Jinin">
+          <img class="sidePic" onclick="currentSlide({{image.image_number}})" src="{{site.baseurl}}{{image.image_path}}"  alt="{{site.baseurl}}{{ page.blog_title }}">
          </div>
         {% endfor %}
       
