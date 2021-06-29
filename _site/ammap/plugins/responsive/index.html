@@ -230,7 +230,7 @@ that. (see further down this file for instructions)</p>
   <li>Include the minified version of file of this plugin. I.e.:</li>
 </ol>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;script src="amcharts/plugins/responsive/responsive.min.js" type="text/javascript"&gt;&lt;/script&gt;
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;script src="amcharts/plugins/responsive/responsive.min.js" type="text/javascript"&gt;&lt;/script&gt;
 </code></pre></div></div>
 
 <p>(this needs to go after all the other amCharts includes)</p>
@@ -239,7 +239,7 @@ that. (see further down this file for instructions)</p>
   <li>Add the following setting to your chart configuration:</li>
 </ol>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>AmCharts.makeChart( "chartdiv", {
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>AmCharts.makeChart( "chartdiv", {
   ...,
   "responsive": {
     "enabled": true
@@ -249,7 +249,7 @@ that. (see further down this file for instructions)</p>
 
 <p>Or if you are using non-JSON setup:</p>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>chart.responsive = {
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>chart.responsive = {
   "enabled": true
 };
 </code></pre></div></div>
@@ -277,7 +277,7 @@ forward. Each rule has two things:</p>
 
 <p>A rule is an object, for example:</p>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>{
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>{
   "minWidth": 200,
   "maxWidth": 400,
   "maxHeight": 400,
@@ -303,7 +303,7 @@ least one.</p>
 <p>So for example to make the rule apply to all charts with width 400px or lower,
 you would do something like this:</p>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>{
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>{
   "maxWidth": 400,
   "overrides": {
     "precision": 2,
@@ -341,7 +341,7 @@ types like object, or array.</p>
 <p>To override a property of a child object, such as “legend”, you would simply go
 with JSON representation of the properties you need to override. I.e.:</p>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>"legend": {
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>"legend": {
   "enabled": false
 }
 </code></pre></div></div>
@@ -358,7 +358,7 @@ with JSON representation of the properties you need to override. I.e.:</p>
 <p>To override properties for ALL objects in the array, you would provide an
 override instruction as an object. I.e.:</p>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>"graphs": {
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>"graphs": {
   "bullet": "round",
   "lineThickness": 5
 }
@@ -376,7 +376,7 @@ b) Apply using the same index.</p>
 <p>To individually apply property overrides, you will need to supply override
 instructions as an array:</p>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>"graphs": [
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>"graphs": [
   {
     "id": "g1",
     "bullet": "round",
@@ -394,7 +394,7 @@ the “id” property set so this plugin can target it.</p>
 <p>Or you can omit the “id” and just apply overrides in the same order as you have
 them defined. I.e.:</p>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>"graphs": [
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>"graphs": [
   {
     "bullet": "round"
   },
@@ -417,7 +417,7 @@ are defined.</p>
 
 <p>Consider this rule set:</p>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>"responsive": {
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>"responsive": {
   "enabled": true,
   "rules": [
     // at 400px wide, we hide legend
@@ -464,7 +464,7 @@ are defined.</p>
 <p>In case you want to go pure and set only your own responsive rules, you can set
 property “addDefaultRules” to false. I.e.:</p>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>"responsive": {
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>"responsive": {
   "enabled": true,
   "addDefaultRules": false,
   "rules": [
@@ -539,7 +539,7 @@ own versions or completely different products out of it.</p>
 
 <h3 id="104">1.0.4</h3>
 <ul>
-  <li>Fixed errors when legend was <code class="highlighter-rouge">null</code> (thanks Hasan Akgün)</li>
+  <li>Fixed errors when legend was <code class="language-plaintext highlighter-rouge">null</code> (thanks Hasan Akgün)</li>
 </ul>
 
 <h3 id="103">1.0.3</h3>

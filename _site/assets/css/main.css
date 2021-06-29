@@ -6,6 +6,8 @@ body { background-color: #f6f5f3; }
 
 .socMed { padding: 2%; display: inline-block; }
 
+svg { width: 2vw; }
+
 .socMed:hover { background-color: #f6f5f3; }
 
 .mainrow { display: block; margin: 0; padding: 0; }
